@@ -15,7 +15,9 @@ Reading material for things you probably want to know before an incident occurs.
 
 * [What is an Incident?](before/what_is_an_incident.md) - _Before we can talk about incident response, we need to define what an incident actually is._
 * [Severity Levels](before/severity_levels.md) - _Information on our severity level classification. What constitutes a SEV-3 vs SEV-1? What response do they get?_
+* [Confidentiality Levels](before/confidentiality_levels.md) - _Information on confidentiality level classification. How to handle information? With who you can speak about it?_
 * [Different Roles for Incidents](before/different_roles.md) - _Information on the roles during an incident; Incident Commander, Scribe, etc._
+* [Communication channels](before/communication_channels.md) - _What tool to use to exchange about incident?_
 * [Incident Call Etiquette](before/call_etiquette.md) - _Our etiquette guidelines for incident calls, before you find yourself in one._
 * [Complex Incidents](before/complex_incidents.md) - _Our guide for handling larger, more complex incidents._
 
@@ -33,6 +35,7 @@ Our followup processes, how we make sure we don't repeat mistakes and are always
 * [After an Incident](after/after_an_incident.md) - _Information on what to do after an incident is resolved._
 * [Post-Mortem Process](after/post_mortem_process.md) - _Information on our post-mortem process; what's involved and how to write or run a post-mortem._
 * [Post-Mortem Template](after/post_mortem_template.md) - _The template we use for writing our post-mortems for major incidents._
+* [Incidents metrics](after/metrics.md)
 
 ## Training
 
@@ -44,6 +47,9 @@ So, you want to learn about incident response? You've come to the right place.
 * [Scribe Training](training/scribe.md) - _A guide to scribing._
 * [Subject Matter Expert Training](training/subject_matter_expert.md) - _A guide on responsibilities and behavior for all participants in a major incident._
 * [Customer Liaison Training](training/customer_liaison.md) - _A guide on how to act as our public representative during an incident._
+* [Security incidents training](training/security_incidents.md) - _How to manage security incidents training_
+
+
 * [Glossary of Incident Response Terms](training/glossary.md) - _A collection of terms that you may hear being used, along with their definition._
 
 ## Additional Reading

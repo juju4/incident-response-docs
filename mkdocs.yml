@@ -7,7 +7,7 @@ site_url: https://response.pagerduty.com
 
 # Repository
 repo_name: 'GitHub'
-repo_url: https://github.com/pagerduty/incident-response-docs
+repo_url: https://github.com/juju4/incident-response-docs
 
 # Copyright
 copyright: 'Copyright &copy; PagerDuty, Inc.'
@@ -37,17 +37,27 @@ pages:
     - Alerting Principles: 'oncall/alerting_principles.md'
   - Before an Incident:
     - What is an Incident?: 'before/what_is_an_incident.md'
+    - Confidentiality Levels: 'before/confidentiality_levels.md'
     - Severity Levels: 'before/severity_levels.md'
     - Different Roles: 'before/different_roles.md'
     - Call Etiquette: 'before/call_etiquette.md'
+    - Communication Channels: 'before/communication_channels.md'
     - Complex Incidents: 'before/complex_incidents.md'
+    - Resources: 'before/resources.md'
   - During an Incident:
     - During an Incident: 'during/during_an_incident.md'
     - Security Incident: 'during/security_incident_response.md'
+    - Security - BGP Hijacking: 'during/bgp_hijacking.md'
+    - Security - DDoS: 'during/ddos.md'
+    - Security - DNS Cache Poisoning: 'during/dns_poisoning.md'
+    - Security - Phishing: 'during/phishing.md'
+    - Security - Social Engineering: 'during/social_engineering.md'
+    - Security - Suspicious System: 'during/suspicious_system.md'
   - After an Incident:
     - After an Incident: 'after/after_an_incident.md'
     - Post-Mortem Process: 'after/post_mortem_process.md'
     - Post-Mortem Template: 'after/post_mortem_template.md'
+    - Metrics: 'after/metrics.md'
   - Training:
     - Overview: 'training/overview.md'
     - Incident Commander: 'training/incident_commander.md'
@@ -55,11 +65,12 @@ pages:
     - Scribe: 'training/scribe.md'
     - Subject Matter Expert: 'training/subject_matter_expert.md'
     - Customer Liaison: 'training/customer_liaison.md'
+    - Security incidents: 'training/security_incidents.md'
     - Glossary: 'training/glossary.md'
   - About: 'about.md'
 
 # Analytics
-google_analytics: ['UA-8759953-1', 'auto']
+google_analytics: ['UA-XXX-X', 'auto']
 
 # Extensions
 markdown_extensions:

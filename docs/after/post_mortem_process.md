@@ -76,6 +76,15 @@ A general agenda for the meeting would be something like,
 1. Discuss customer impact. Any comments from customers, etc.
 1. Review action items that have been created, discuss if appropriate, or if more are needed, etc.
 
+## And after
+To learn better from post-mortem, they should be shared and reviewed regularly.
+For example, Google mentions in SRE book
+
+* Postmortem of the month in monthly organization newsletter
+* Postmortem group on internal social system
+* Postmortem reading clubs
+* Wheel of misfortune exercise based on post-mortem
+
 ## Examples
 Here are some examples of post-mortems from other companies as a reference,
 
@@ -92,3 +101,5 @@ Here are some examples of post-mortems from other companies as a reference,
 
 * [Advanced PostMortem Fu and Human Error 101 (Velocity 2011)](http://www.slideshare.net/jallspaw/advanced-postmortem-fu-and-human-error-101-velocity-2011)
 * [Blame. Language. Sharing.](http://fractio.nl/2015/10/30/blame-language-sharing/)
+* [Postmortem Culture: Learning from Failure](https://landing.google.com/sre/book/chapters/postmortem-culture.html)
+* [Morgue, a postmortem tracker by Etsy](https://github.com/etsy/morgue)

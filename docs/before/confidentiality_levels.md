@@ -2,6 +2,9 @@
 
 Most common framework is the Trafic Light Protocol aka TLP
 
+!!! note "Tools!"
+    Having an information classification policy is great but if you don't offer tools to manage those physical or electronic informations, you are missing a critical piece. For example, TLP:Amber data should be encrypted at rest or in transit. TLP:RED papers should always be stored in double envelop, second one marked confidential and destroyed with approved shredder or destruction container when finished.
+
 ## Traffic Light Protocol
 
 * TLP:RED = Not for disclosure, restricted to participants only.

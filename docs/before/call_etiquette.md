@@ -12,6 +12,7 @@ You've just joined an incident call, and you've never been on one before. You ha
 * Speak up and speak clearly.
 * Be direct and factual.
 * Keep conversations/discussions short and to the point.
+* Provide technical details on Slack to avoid misunderstanding or long spelling.
 * Bring any concerns to the Incident Commander (IC) on the call.
 * Respect time constraints given by the Incident Commander.
 

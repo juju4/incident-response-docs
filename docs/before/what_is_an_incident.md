@@ -30,3 +30,15 @@ We trigger on any unplanned disruption or degradation of service to which any Pa
 Our [severity definitions](/before/severity_levels.md) determine how severe we _think_ an incident is, based on some pre-defined guidelines. The intent is to guide responders on the type of response they can provide. For example, the higher the severity, the riskier the decisions you can take to return the system to normal.
 
 Severities are useful to quickly determine whether something requires a more complex response, or whether it requires a co-ordinated response at all. However, they are not a black and white definition of what constitutes a major incident. If something is not covered by our severity definitions, but you think it requires incident response, then it requires incident response. We only need to know one thing: "Is this a major incident?". The severity level can be determined later, and isn't a requirement of triggering our response process.
+
+## References
+
+### Security incident definitions
+
+* (ITILv2)  An event which is not part of the standard operation of a service and which causes or may cause disruption to or a reduction in the quality of services and Customer productivity.
+* (ISO27000) An information security incident is made up of one or more unwanted or unexpected information security events that could possibly compromise the security of information and weaken or impair business operations.
+* (RFC2828) security incident
+    (I) A security event that involves a security violation
+    (C) In other words, a security-relevant system event in which the system's security policy is disobeyed or otherwise breached.
+    (O) "Any adverse event which compromises some aspect of computer or network security." [R2350]
+

@@ -3,6 +3,20 @@ An essential point of any incident response is communication as most incident re
 !!! note "Backup communication channel too!"
     Missing or losing your communication channel means you are back at shouting in the office which is a sure way to fail your incident response. There is usually too many people to inform and/or involve to work alone or in small group.
 
+## Identified contacts
+
+When an issue is observed, be it production or security, a common issue is how to report it. So make it easy to both internal and external users to report.
+
+* Public web page and Intranet contact form for support and security
+* Dedicated social media account
+* standard email like support@, security@, abuse as explained in [RFC2142](https://tools.ietf.org/html/rfc2142)
+* Include them in network and domain records
+
+!!! note "read inbox"
+    Having single point of contact is great but if no one reads and process them, there is no point.
+
+!!! note "Motivation!"
+    Encourage users to report. While mature organization can have a formalize bug bounty with money compensation, for others, you can offer gift, rebates and reconnaissance. For internal users, extra bonus might be a good incentive especially if they can contribute to remediation.
 
 ## Channels
 
