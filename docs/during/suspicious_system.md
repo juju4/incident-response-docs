@@ -26,7 +26,7 @@ It includes
     * abnormal activity
     * abnormal event (call, found usb key/DVD...)
 * Eventually, collect disk(offline) artifacts
-* Use sandbox to investigate binary and url
+* Use sandbox to investigate binaries and urls
 * Cross-check indicators of compromise and behaviors with your local and shared threat intelligence
     * other systems infected? repeat.
     * attacker communication channels

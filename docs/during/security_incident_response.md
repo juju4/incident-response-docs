@@ -192,11 +192,11 @@ Provide regular updates and if a mistake was done in the report, say it.
 
 ## Additional Reading
 
-* [Computer Security Incident Handling Guide](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) (NIST)
-* [Incident Handler's Handbook](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS): Prepare > Identify > Contain > Remediate > Recover > Aftermath
-* [Responding to IT Security Incidents](https://technet.microsoft.com/en-us/library/cc700825.aspx) (Microsoft)
-* [Defining Incident Management Processes for CSIRTs: A Work in Progress](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
-* [Creating and Managing Computer Security Incident Handling Teams (CSIRTS)](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)
+* [Computer Security Incident Handling Guide - NIST SP800-61](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) (NIST)
+* [Incident Handler's Handbook - SANS ](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS): Prepare > Identify > Contain > Remediate > Recover > Aftermath
+* [Responding to IT Security Incidents - Microsoft](https://technet.microsoft.com/en-us/library/cc700825.aspx) (Microsoft)
+* [Defining Incident Management Processes for CSIRTs: A Work in Progress - CMU CERT/CC](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
+* [Creating and Managing Computer Security Incident Handling Teams (CSIRTS) - First](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)
 * [ENISA CSIRT Setting up](https://www.enisa.europa.eu/publications/csirt-setting-up-guide)
 * Cheatsheets: [SANS](https://digital-forensics.sans.org/community/cheat-sheets), [Lenny Zeltser](https://zeltser.com/cheat-sheets/), [CERT Société Générale](https://cert.societegenerale.com/en/publications.html)...
 * [Incident Response: Taking CSIRT modeling to the next level, Frode Hommedal](http://frodehommedal.no/presentations/first-tc-oslo-2015/#/slide-start)
@@ -204,3 +204,4 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Demisto public playbooks](https://github.com/demisto/content)
 * [Cuckoo's Egg](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg)
 * [Analysis of Competing Hypotheses, CIA](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html) and [Psychology of Intelligence Analysis](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/PsychofIntelNew.pdf)
+* [IR A-Z By: Mary Ellen Kennel](http://aboutdfir.com/incident-response-a-to-z/)

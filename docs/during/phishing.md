@@ -44,3 +44,9 @@ How to do email
 * [About Spam Filters, Mailchimp](http://kb.mailchimp.com/delivery/spam-filters/about-spam-filters)
 * [Best practices for sending person-to-person email, Rackspace](https://support.rackspace.com/how-to/best-practices-for-sending-person-to-person-email/)
 * [Marketing FAQs, SpamHaus](https://www.spamhaus.org/faq/section/Marketing%20FAQs)
+
+Email server recall/removal (test before!!!)
+
+* [Removing specific messages from your Exchange Server, Oct 2010](https://blogs.technet.microsoft.com/exchange/2010/10/27/removing-specific-messages-from-your-exchange-server/)
+* [Office 365 Search and Delete mail using Powershell, Oct 2012](https://www.resdevops.com/2012/10/26/office-365-search-and-delete-mail-using-powershell/)
+* [How To Delete Mails From Or To A Specific Email Address From Your Mail Queue (Postfix)](https://www.howtoforge.com/delete-mails-to-or-from-a-specific-email-address-from-postfix-mail-queue)
