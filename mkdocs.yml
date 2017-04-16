@@ -67,6 +67,9 @@ pages:
     - Customer Liaison: 'training/customer_liaison.md'
     - Security incidents: 'training/security_incidents.md'
     - Glossary: 'training/glossary.md'
+  - Additional Resources:
+    - Reading: 'resources/reading.md'
+    - ChatOps: 'resources/chatops.md'
   - About: 'about.md'
 
 # Analytics
