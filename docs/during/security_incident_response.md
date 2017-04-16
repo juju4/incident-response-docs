@@ -227,6 +227,7 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Incident Response: Taking CSIRT modeling to the next level, Frode Hommedal](http://frodehommedal.no/presentations/first-tc-oslo-2015/#/slide-start)
 * [The Remediation Ballet, Matt Linton, SANS Threat Hunting & Incident Response Summit 2016](files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/The-Remediation-Ballet-Performing-the-Delicate-Dance-of-Clean-Up-Matt-Linton-Google.pdf)
 * [Demisto public playbooks](https://github.com/demisto/content)
+* [IncidentResponse.com playbooks](https://www.incidentresponse.com/playbooks/)
 * [Cuckoo's Egg](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg)
 * [Analysis of Competing Hypotheses, CIA](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html) and [Psychology of Intelligence Analysis](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/PsychofIntelNew.pdf)
 * [IR A-Z By: Mary Ellen Kennel](http://aboutdfir.com/incident-response-a-to-z/)
