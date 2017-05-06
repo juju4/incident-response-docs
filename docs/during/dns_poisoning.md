@@ -26,5 +26,6 @@ In case of incident
 * [DNSSEC Statistics, Internet Society](http://www.internetsociety.org/deploy360/dnssec/statistics/)
 * [How to remove DNS Poisoning, PandaPow](https://pandapow.co/how-to/dns-poisoning/)
 * [Introducing DNSCrypt](https://www.opendns.com/about/innovations/dnscrypt/)
+* [Recursive DNS Server Fingerprint & DNS Hijacking, Apr 2017](https://recdnsfp.github.io/)
 
 * [The WiFi Pineapple - Using Karma and SSLstrip to MiTM secure connections, sep 2013](https://scotthelme.co.uk/wifi-pineapple-karma-sslstrip/)
