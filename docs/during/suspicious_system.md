@@ -44,3 +44,4 @@ It includes
 * [Loki](https://github.com/Neo23x0/Loki)
 * [FastIR](https://github.com/SekoiaLab/FastIR_Collector)
 * [OSX Collector](https://github.com/Yelp/osxcollector)
+* [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
