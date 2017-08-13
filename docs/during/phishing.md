@@ -36,6 +36,9 @@ Tools
 * [Gone Phishing - Malware Triage For Everyone, Mary Ellen Kennel, 2014](https://drive.google.com/file/d/0B0CinYp-Pe4-dmgzMW1VRmtTSVU/view)
 * [PhishReporter: PowerShell Module](https://msadministrator.com/2015/11/05/phishreporter-powershell-module/)
 * [ENGINEERING SECURITY THROUGH UBER’S CUSTOM EMAIL IDS, Dec 2016](https://eng.uber.com/custom-email-ids/)
+* [How to review and mitigate the impact of phishing attacks in Office 365, Mar 2016](https://blogs.technet.microsoft.com/office365security/how-to-review-and-mitigate-the-impact-of-phishing-attacks-in-office-365/)
+* [How to fix a compromised (hacked) Microsoft Office 365 account, Dec 2015](https://blogs.technet.microsoft.com/office365security/how-to-fix-a-compromised-hacked-microsoft-office-365-account/), [O365-InvestigationTooling, Github](https://github.com/OfficeDev/O365-InvestigationTooling/)
+* [Search for and delete email messages in your Office 365 organization - Admin Help](https://support.office.com/en-gb/article/Search-for-and-delete-email-messages-in-your-Office-365-organization-Admin-Help-3526fd06-b45f-445b-aed4-5ebd37b3762a)
 
 How to do email
 
