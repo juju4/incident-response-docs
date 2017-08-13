@@ -66,6 +66,7 @@ pages:
     - Scribe: 'training/scribe.md'
     - Subject Matter Expert: 'training/subject_matter_expert.md'
     - Customer Liaison: 'training/customer_liaison.md'
+    - Internal Liaison: 'training/internal_liaison.md'
     - Security incidents: 'training/security_incidents.md'
     - Glossary: 'training/glossary.md'
   - Additional Resources:

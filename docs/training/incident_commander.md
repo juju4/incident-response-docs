@@ -125,7 +125,7 @@ During a call, you will want to know who is available from the various teams in 
 > Deputy, can you go ahead and page the [X] on-call please.
 
 ### Assigning Tasks
-When you need to give out an assignment or task, give it to a person directly, never say "can someone do..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Instead, all actions should be assigned to a specific person, and time-boxed with a specific number of minutes.
+When you need to give out an assignment or task, give it to a person directly, never say "can someone do..." as this leads to the [bystander effect](https://en.wikipedia.org/wiki/Bystander_effect). Instead, all actions should be assigned to a specific person, and time-boxed with a specific number of minutes. You should also make sure to ask the individual to confirm they've acknowledged and understood the instructions.
 
 > IC: Bob, please investigate the high latency on web app boxes. I'll come back to you for an answer in 3 minutes.
 
@@ -240,7 +240,7 @@ PagerDuty employees have access to all previous incident calls, and can listen t
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gmLgi5mdTVo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XLMDSjCzEx8" frameborder="0" allowfullscreen></iframe>
 Here's a clip from the movie Apollo 13, where Gene Kranz (Flight Director / Incident Commander) shows some great examples of Incident Command. Here are some things to note:
 
 * Walks into the room, and immediately obvious that he's the IC. Calms the noise, and makes sure everyone is paying attention.
@@ -255,7 +255,7 @@ Here's a clip from the movie Apollo 13, where Gene Kranz (Flight Director / Inci
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KhoXFVQsIxw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tid44iy6Rjs" frameborder="0" allowfullscreen></iframe>
 Another clip from Apollo 13. Things to note:
 
 * Summarizes the situation, and states the facts.
