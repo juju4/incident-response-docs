@@ -16,15 +16,13 @@ copyright: 'Copyright &copy; PagerDuty, Inc.'
 theme: 'material'
 theme_dir: 'theme'
 extra_css: ['assets/css/extra.css']
+extra_javascript: ['js/github_forks.js']
 extra:
   logo: 'assets/img/icon.png'
   cover: 'assets/img/cover.png'
   palette:
     primary: 'green'
     accent: 'blue grey'
-  font:
-    text: 'Colfax Regular'
-    code: 'Roboto Mono'
   author:
     github: 'PagerDuty'
     twitter: 'PagerDuty'
@@ -32,8 +30,10 @@ extra:
 # Contents
 pages:
   - Home: 'index.md'
+  - Getting Started: 'getting_started.md'
   - On-Call:
     - Being On-Call: 'oncall/being_oncall.md'
+    - Who's On-Call?: 'oncall/whos_oncall.md'
     - Alerting Principles: 'oncall/alerting_principles.md'
   - Before an Incident:
     - What is an Incident?: 'before/what_is_an_incident.md'
@@ -72,6 +72,7 @@ pages:
   - Additional Resources:
     - Reading: 'resources/reading.md'
     - ChatOps: 'resources/chatops.md'
+    - Anti-Patterns: 'resources/anti_patterns.md'
   - About: 'about.md'
 
 # Analytics

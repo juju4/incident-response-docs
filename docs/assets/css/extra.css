@@ -1,32 +1,62 @@
 /* Colfax Font */
 @font-face {
-  font-family: 'Colfax Regular';
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegular.woff') format('woff');
   font-style: normal;
-  font-weight: 400;
-  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebRegular.woff) format('woff2');
 }
 
 @font-face {
-  font-family: 'Colfax Light';
-  font-style: normal;
-  font-weight: 100;
-  src: local('ColfaxRegular'), url(https://www.pagerduty.com/wp-content/themes/startit-child/fonts/ColfaxWebLight.woff) format('woff2');
+  font-family: 'Colfax';
+  src: url('/fonts/colfax/ColfaxWebRegularItalic.woff') format('woff');
+  font-style: italic;
 }
 
+/* Base icons for the mkdocs material theme. */
+@font-face {
+  font-family: 'Icon';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/assets/fonts/icon.eot');
+  src: url('/assets/fonts/icon.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/icon.woff') format('woff'),
+       url('/assets/fonts/icon.ttf') format('truetype'),
+       url('/assets/fonts/icon.svg#pagerduty') format('svg');
+}
+
+/* The PD icon. */
 @font-face {
   font-family: 'pagerduty';
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/pagerduty.eot');
-  src: url('/fonts/pagerduty.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/pagerduty.woff') format('woff'),
-       url('/fonts/pagerduty.ttf') format('truetype'),
-       url('/fonts/pagerduty.svg#pagerduty') format('svg');
+  src: url('/fonts/icons/pagerduty.eot');
+  src: url('/fonts/icons/pagerduty.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/pagerduty.woff') format('woff'),
+       url('/fonts/icons/pagerduty.ttf') format('truetype'),
+       url('/fonts/icons/pagerduty.svg#pagerduty') format('svg');
+}
+
+/* Extra icons we've added, Fork, Note, etc. */
+@font-face {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/icons/icons.eot');
+  src: url('/fonts/icons/icons.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/icons/icons.woff') format('woff'),
+       url('/fonts/icons/icons.ttf') format('truetype'),
+       url('/fonts/icons/icons.svg#pagerduty') format('svg');
+}
+
+body, input {
+  font-family: 'Colfax', Helvetica, Arial, sans-serif;
+}
+
+pre, code {
+  font-family: 'Courier New', 'Courier', monospace;
 }
 
 /* Defaults */
 body {
-  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -43,13 +73,13 @@ body {
   }
 }
 
-/* background: pd-navy */
+/* background: pd-slate */
 .palette-primary-green,
 .palette-primary-green .footer,
 .palette-primary-green .header,
 .palette-primary-green .results .meta,
 .palette-primary-green .article table th {
-  background: #1f293a;
+  background: #363636;
 }
 
 .palette-primary-green .article table th {
@@ -66,17 +96,62 @@ body {
   color: #25c151;
 }
 
-/* font: pd-navy */
+/* font: pd-slate */
 .palette-primary-green .article a,
 .palette-primary-green .article code,
 .palette-primary-green .article h1,
 .palette-primary-green .article h2 {
-  color: #1f293a;
+  color: #363636;
 }
 
 /* Selected nav section */
 .palette-primary-green .drawer .anchor a {
   border-left: 3px solid #25c151;
+}
+
+/* Hide the repository info under normal conditions, since we can just link to it in button. */
+div.repo_header {
+  display: none;
+}
+
+/* Adjust repo buttons */
+ul.repo {
+  margin-top: 0em;
+  margin-right: 1em;
+}
+
+/* Update icon for fork. */
+.icon-code-fork:before {
+  font-family: 'icons';
+  content: "\e900";
+}
+
+/* Fix a small offset on pages with breadcrumbs. */
+.title .path .icon {
+  vertical-align: -1.5px;
+}
+
+/* Fix offsets for mobile layouts. */
+@media only screen and (max-width: 1200px) {
+  ul.repo {
+    margin-top: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  div.repo_header {
+    display: block;
+  }
+
+  ul.repo {
+    margin-top: 24px;
+    margin-right: 0.5em;
+  }
+}
+
+/* Fix icon padding for GitHub. */
+.repo a .icon-github {
+  padding-right: 0.3em;
 }
 
 /* Hide the page title, already in the navbar */
@@ -106,6 +181,7 @@ body {
     content: 'Incident Response';
     border-bottom: 1px solid #ddd;
     margin-bottom: 0.6em;
+    -webkit-print-color-adjust: exact; /* Force to show when printing. Chrome/Safari only :( */
   }
 }
 
@@ -191,11 +267,11 @@ nav div.mainlogo {
 }
 
 nav div.mainlogo a {
-  min-height: 3.5em;
+  min-height: 3.4em;
   margin-bottom: -1.25em;
-  width: 14.5em;
+  width: 14.52em;
 
-  background: url(/assets/img/logo.png) 0em 0.1em no-repeat;
+  background: url(/assets/img/logo.svg) 0em 0.1em no-repeat;
   background-size: contain;
 }
 
@@ -203,20 +279,67 @@ nav div.mainlogo img {
   display: none;
 }
 
-/* Admonition */
+/* Admonitions */
+
+/* Default */
 .admonition {
   background: #25c151;
 }
-.admonition.info {
-  background: #f5a623;
-}
+@media print { .admonition { background: #fff !important; padding: 0px !important; } }
 
+.admonition.warning a {
+  color: #000;
+}
+.admonition.warning a:hover {
+  color: #910000;
+}
+@media print { .admonition.warning, .admonition.warning a { color: #e84e40; } }
+
+/* Tip - green, flag icon (default) */
+.admonition.tip {
+  background: #25c151;
+}
+.admonition.tip a {
+  color: #fff;
+}
+.admonition.tip a:hover {
+  color: #000;
+}
+@media print { .admonition.tip, .admonition.tip a { color: #25c151; } }
+
+
+/* Info - grey, (i) icon */
+.admonition.info {
+  background: #607d8b;
+}
+.admonition.info .admonition-title:before {
+  font-family: 'icons';
+  content: "\e903";
+}
+@media print { .admonition.info, .admonition.info a { color: #607d8b; } }
+
+/* Question - blue, (?) icon */
 .admonition.question {
-  background: #2196F3;
+  background: #2196f3;
 }
 .admonition.question .admonition-title:before {
-  content: "\e609";
+  font-family: 'icons';
+  content: "\e904";
 }
+@media print { .admonition.question, .admonition.question a { color: #2196f3; } }
+
+/* Note - indigo, notepad icon */
+.admonition.note {
+  background: #3f51b5;
+}
+.admonition.note .admonition-title {
+  text-indent: 0.05em;
+}
+.admonition.note .admonition-title:before {
+  font-family: 'icons';
+  content: "\e902";
+}
+@media print { .admonition.note, .admonition.note a { color: #3f51b5; } }
 
 @media print {
   .admonition {
@@ -242,14 +365,36 @@ span.good {
   color: #008800;
 }
 
-span.code,
-code {
+/* Code blocks */
+.article pre {
+  position: relative;
+}
+.article pre:before {
+  font-family: 'icons';
+  content: "\ea80";
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: #888;
+  font-size: 1.2em;
+}
+
+.article span.code,
+.article code {
   font-family: monospace;
-  color: #00f !important;
   border-radius: 2px;
   padding: 0.1em;
   border: 1px solid #eee;
   background: #f4f4f4;
+}
+
+.palette-primary-green .article code {
+  color: #00f;
+}
+
+.article pre code {
+  background: transparent;
+  border: none;
 }
 
 /* Intent of severity levels. */
@@ -287,6 +432,17 @@ p.response {
 }
 
 /* Header images */
+.article h1 + p img {
+  max-width: 110%;
+  margin-left: -2em;
+
+  /* Crop the images to have smaller height, to take up less content space. */
+  /* Want to be sure to crop from center though! */
+  margin-top: -4em;
+  margin-bottom: -2em;
+  clip-path: inset(2em 0px 2em 0px);
+}
+
 .article h1 + p + p img {
   max-width: 110%;
   margin-left: -2em;
@@ -299,7 +455,7 @@ img + em {
   margin-right: -2.3em;
   padding: 0em 1em;
   float: right;
-  margin-top: -2.1em;
+  margin-top: -2em;
   color: #000;
   border-top-left-radius: 3px;
   background: rgba(255, 255, 255, 0.7);
@@ -307,11 +463,11 @@ img + em {
 
 /* Fixes for smaller screen sizes */
 @media only screen and (max-width: 720px) {
-  .article h1 + p + p img {
+  .article h1 + p img {
     max-width: 120%;
   }
 
-  .article h1 + p + p img + em {
+  .article h1 + p img + em {
     margin-right: -1.4em;
     margin-top: -2em;
   }
@@ -319,24 +475,40 @@ img + em {
 
 /* Hack to hide the header images when printing. */
 @media print {
+  .article h1 + p img,
   .article h1 + p + p img {
     display: none;
   }
 
-  .article h1 + p + p img + em {
+  .article h1 + p img + em {
     display: none;
   }
 }
 
 /* Quotes */
 .article blockquote {
-  border-left: 3px solid #555;
-  background: #f9f9f9;
-  padding: 1em;
-  padding-left: 16px;
+  border-left: 4px solid #32689b;
+  background: #f7f7f7;
+  padding: 0.6em;
+  padding-left: 0.8em;
   margin-top: 1em;
-  color: #333;
+  color: #101862;
   font-style: italic;
+  position: relative;
+  margin-left: 3em;
+  width: 93%;
+}
+
+.article blockquote:before {
+  font-family: 'icons';
+  content: "\e901";
+  position: absolute;
+  top: 0.6em;
+  left: -1.5em;
+  color: #32689b;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2em;
 }
 
 .article blockquote p {
@@ -429,6 +601,15 @@ iframe {
 
 #reviewed-dates span {
   padding-left: 1em;
+}
+
+/* Pagination arrow alignment fix. */
+.pagination .button {
+  vertical-align: 0em;
+}
+
+.pagination .button .icon {
+  vertical-align: .25em;
 }
 
 /* Super horrible hack to get the training PDF images correct */
