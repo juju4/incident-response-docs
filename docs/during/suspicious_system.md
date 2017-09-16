@@ -45,3 +45,9 @@ It includes
 * [FastIR](https://github.com/SekoiaLab/FastIR_Collector)
 * [OSX Collector](https://github.com/Yelp/osxcollector)
 * [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
+
+Docker
+* [CSI: Container Edition - forensics in the age of containers, Aug 2017](https://www.stackrox.com/post/2017/08/csi-container-edition---forensics-in-the-age-of-containers/)
+    * ```docker commit $CONTAINER_ID imagename```
+    * memory: ```gcore $PID```, objdump, dd...
+* [Forensicating Docker, Part 1, Mar 2016](https://isc.sans.org/forums/diary/Forensicating+Docker+Part+1/20835)
