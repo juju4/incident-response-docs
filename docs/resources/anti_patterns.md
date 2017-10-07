@@ -14,7 +14,7 @@ As we grew our engineer department, this did not scale well at all, and problems
 1. Paging people has a cost impact. Both in employee health, and in finance. Waking up your entire engineering department at 3am means nothing productive is going to be done the next day, across the entire department.
 1. People who weren't on-call would still get paged.
 
-It's important to maintain an **effective span of control** on any incident response. If you have more than 7 or 8 people directly reporting to the [Incident Commander]() things can quickly get overwhelming. We now will only page the engineers who are on-call for a specific service, rather than the entire team. If more responders are required, then they will be mobilized by the [Internal Liaison]() to join the response. 9 times out of 10 we don't need additional responders, so the rest of the engineer department can get some rest without interference. This results in a happier engineering department and a more streamlined response process.
+It's important to maintain an **effective span of control** on any incident response. If you have more than 7 or 8 people directly reporting to the [Incident Commander]() things can quickly get overwhelming. We now will only page the engineers who are on-call for a specific service, rather than the entire team. If more responders are required, then they will be mobilized by the [Internal Liaison]() to join the response. 9 times out of 10 we don't need additional responders, so the rest of the engineering department can get some rest without interference. This results in a happier engineering department and a more streamlined response process.
 
 ## Forcing everyone to stay on the call.
 
@@ -30,7 +30,7 @@ We've found that providing status updates every 20-30 minutes during a major inc
 
 ## Assuming silence means no progress.
 
-This is an incident, people should be working hard to solve it, if there's no noise on the call then people obviously aren't working. That was sometimes the original thinking when joining a new incident call. But we're not playing a game of "Keep talking and nobody gets fired". If there's silence on the call, it usually means everyone is working on fixing the problem rather than talking and providing updates. The Incident Commander is the one who should be doing most of the talking on a call. They will typically fill silence with a status update if appropriate, but others within the organization need to be trained to know that silence on a call isn't a bad thing, and doesn't mean that progress has stalled. Making sure staff are aware this ahead of time will prevent awkward conversations during an incident call, which would be ultimately distracting from resolving the incident.
+This is an incident, people should be working hard to solve it, if there's no noise on the call then people obviously aren't working. That was sometimes the original thinking when joining a new incident call. But we're not playing a game of "Keep talking and nobody gets fired". If there's silence on the call, it usually means everyone is working on fixing the problem rather than talking and providing updates. The Incident Commander is the one who should be doing most of the talking on a call. They will typically fill silence with a status update if appropriate, but others within the organization need to be trained to know that silence on a call isn't a bad thing, and doesn't mean that progress has stalled. Making sure staff are aware of this ahead of time will prevent awkward conversations during an incident call, which would be ultimately distracting from resolving the incident.
 
 ## Litigating severities during the incident call.
 
@@ -52,11 +52,11 @@ There are occasions where responders don't agree with the incident response poli
 
 ## Neglecting the post-mortem and followup activities.
 
-It's tempting once an incident is resolved to not bother with the post-mortem. Either you feel like the cause is well known, or you don't feel that it's worth it. Don't fall into this trap! A post-mortem is always worthwhile. People got mobilized to respond to an incident, which had a cost associated with it. We want to be sure that we understand why that happened, so we can avoid that cost in future.
+It's tempting once an incident is resolved to not bother with the post-mortem. Either you feel like the cause is well known, or you don't feel that it's worth it. Don't fall into this trap! A post-mortem is always worthwhile. People were mobilized to respond to an incident, which had a cost associated with it. We want to be sure that we understand why that happened, so we can avoid that cost in future.
 
 Don't make the mistake of neglecting a post-mortem after an incident. Without a post-mortem you fail to recognize what you're doing right, where you could improve, and most importantly, how to avoid making the same exact mistakes next time around. A well-designed, blameless post-mortem allows teams to continuously learn, and serves as a way to iteratively improve your infrastructure and incident response process.
 
-If you mobilize responders and determine it's not a "real" incident, you should still conduct a post-mortem. Because the next time you're going to mobilize responders again and waste time. Find out why incident response was triggered when it may not needed to have been, and fix that problem.
+If you mobilize responders and determine it's not a "real" incident, you should still conduct a post-mortem. Because the next time you're going to mobilize responders again and waste time. Find out why incident response was triggered when it may not have been needed, and fix that problem.
 
 ## Being too focussed on the problem in front of you.
 
@@ -74,7 +74,7 @@ In past PagerDuty incidents, we've had instances where the Incident Commander ha
 
 **You cannot take on another role at the same time as being an Incident Commander**. It can be a difficult to be an IC when you want to jump in as an SME, but you must resist the temptation to abandon the role of IC. If you really are the only person able to solve the problem, you should handover to another Incident Commander and then assume the role of SME. This ensures that the response process remains on track with a dedicated Incident Commander.
 
-Remember that the job of an IC also includes preparing backup plans in case the current action doesn't resolve the incident. If you're acting as an SME fixing on particular issue, you're not considering the backup plan.
+Remember that the job of an IC also includes preparing backup plans in case the current action doesn't resolve the incident. If you're acting as an SME fixing on a particular issue, you're not considering the backup plan.
 
 ## Trying to be a hero.
 
@@ -87,3 +87,11 @@ Likewise, if another SME has been assigned a task, don't do the task on their be
 We've fallen into the trap in the past of making policy and process changes by simply updating our internal documentation (i.e. this), assuming everyone would read the documentation before an incident. Which of course, never happens.
 
 **Any policy changes need to be appropriately disseminated to your responders ahead of time** so that there are no surprises during an incident. This can be in the form of an email, or an update into a chat room, but big policy changes should never be a surprise to responders.
+
+## Requiring Incident Commanders to have deep technical knowledge.
+
+This is a trap we fell into in our early days of incident response. We had several strong technical requirements for any new Incident Commanders, aiming to only have IC's with deep technical expertise, the intention being that they could diagnose issues very quickly. When it became apparent that we would need a large selection of IC's in order to maintain an effective on-call rotation, we soon realised that we had artificially restricted our pool of potential IC candidates.
+
+**Incident Commanders can come from all across your organization, and don't need to be technical experts**. Since Incident Commanders only coordinate the response, they don't need deep technical knowledge of the system in order to perform their role. The Subject Matter Experts are the ones who need the deep technical knowledge. The Incident Commanders only require a high-level knowledge of how the system works. Where data flows in, how systems use it, and where data flows out. The technical details can be left to the SMEs, with the IC asking relevant questions.
+
+By dropping our strong technical requirements for Incident Commanders, we've been able to dramatically increase our pool of IC's, maintain a high level of quality and efficiency in our response, and help spread empathy for on-call workload to a larger portion of the company.
