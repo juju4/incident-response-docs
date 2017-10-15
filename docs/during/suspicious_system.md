@@ -46,7 +46,31 @@ It includes
 * [OSX Collector](https://github.com/Yelp/osxcollector)
 * [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
 
+Virtual Machines
+
+* [Vmware](https://github.com/volatilityfoundation/volatility/wiki/VMware-Snapshot-File), Eventually convert to [core memory dump](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2003941).
+```
+esxi$ vim-cmd vmsvc/snapshot.create <VM_ID> <SNAPSHOT_NAME>
+esxi$ vim-cmd vmsvc/snapshot.get <VM_ID>
+workstation$ vmrun snapshot <PATH TO VMX FILE> <SNAPSHOT_NAME>
+workstation$ vmrun listSnapshots <PATH TO VMX FILE>
+```
+Alternatives: [Cmdlet New-Snapshot](https://pubs.vmware.com/vsphere-6-0/index.jsp#com.vmware.powercli.cmdletref.doc/New-Snapshot.html), [vmsnapshot.pl](https://pubs.vmware.com/vsphere-6-0/index.jsp#com.vmware.perlsdk.uaref.doc/vmsnapshot.html)
+* [Virtualbox](https://github.com/volatilityfoundation/volatility/wiki/Virtual-Box-Core-Dump)
+```
+live$ [VBoxManage debugvm](https://www.virtualbox.org/manual/ch08.html#vboxmanage-debugvm) <uuid|vmname> dumpvmcore [--filename=name]
+atstart$ VirtualBox --dbg --startvm <VM name>
+atstart dbg> .pgmphystofile
+```
+* [Parallel](http://kb.parallels.com/en/121323)
+```
+prlctl list -a
+prlctl start {<VM_UID>}
+prlctl internal {<VM_UID>} dbgdump --path /path/to/target/dir/
+```
+
 Docker
+
 * [CSI: Container Edition - forensics in the age of containers, Aug 2017](https://www.stackrox.com/post/2017/08/csi-container-edition---forensics-in-the-age-of-containers/)
     * ```docker commit $CONTAINER_ID imagename```
     * memory: ```gcore $PID```, objdump, dd...
