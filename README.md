@@ -1,4 +1,4 @@
-# PagerDuty Incident Response Documentation [![Build Status](https://travis-ci.com/PagerDuty/incident-response-docs.svg?token=zdc1SxQUyY3TG9TLD3Xz&branch=master)](https://travis-ci.com/PagerDuty/incident-response-docs)
+# PagerDuty Incident Response Documentation [![Build Status](https://circleci.com/gh/PagerDuty/incident-response-docs/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/incident-response-docs)
 This is a public version of the Incident Response process used at PagerDuty. It is also used to prepare new employees for on-call responsibilities, and provides information not only on preparing for an incident, but also what to do during and after. See the [about page](docs/about.md) for more information on what this documentation is and why it exists.
 
 You can view the documentation [directly](/docs/index.md) in this repository, or rendered as a website at https://response.pagerduty.com.
@@ -8,7 +8,7 @@ You can view the documentation [directly](/docs/index.md) in this repository, or
 ## Development
 We use [MkDocs](http://www.mkdocs.org/) to create a static site from this repository. For local development,
 
-1. [Install MkDocs](http://www.mkdocs.org/#installation). `pip install mkdocs`
+1. Install v0.15.3 of [MkDocs](http://www.mkdocs.org/#installation). `pip install mkdocs==0.15.3`
 1. Install v0.2.4 of the [MkDocs Material theme](https://github.com/squidfunk/mkdocs-material). `pip install mkdocs-material==0.2.4`
 1. To test locally, run `mkdocs serve` from the project directory.
 

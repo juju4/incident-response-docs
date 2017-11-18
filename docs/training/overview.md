@@ -23,9 +23,10 @@ If you want to learn more about NIMS, we recommend the [ICS-100](https://trainin
 
 If you're based in the US and interested in taking a more active incident response role in your community, we recommend investigating your local [CERT programs](https://www.fema.gov/community-emergency-response-teams) (Community Emergency Response Teams). Many cities offer CERT training, after which you can volunteer as a CERT contributor within your community. Not only is it an opportunity to get real world experience with disaster response, but the skills you learn can be applied to everyday life too.
 
-Also take a look at the [Additional Reading](/#additional-reading) section on the home page.
+Also take a look at the [Additional Reading](/resources/reading) page.
 
 ## Best practices for incident management
+
 from [Google Site Reliability Engineering](https://landing.google.com/sre/book/chapters/managing-incidents.html), End of Ch.14, p.167
 
 * Prioritize. Stop the bleeding, restore service, and preserve the evidence for root-causing.
