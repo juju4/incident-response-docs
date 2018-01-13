@@ -41,4 +41,7 @@ Severities are useful to quickly determine whether something requires a more com
     (I) A security event that involves a security violation
     (C) In other words, a security-relevant system event in which the system's security policy is disobeyed or otherwise breached.
     (O) "Any adverse event which compromises some aspect of computer or network security." [R2350]
+* (NIST SP800-61)
+    * An event is any observable occurrence in a system or network.
+    * A computer security incident is a violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices.
 
