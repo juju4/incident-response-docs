@@ -232,3 +232,4 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Analysis of Competing Hypotheses, CIA](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html) and [Psychology of Intelligence Analysis](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/PsychofIntelNew.pdf)
 * [IR A-Z By: Mary Ellen Kennel](http://aboutdfir.com/incident-response-a-to-z/)
 * [Incident Response Fundamentals Communication, Sep 2017](https://blogs.cisco.com/security/incident-response-fundamentals-communication)
+* [Incident Response: Writing a Playbook, Apr 2018](https://medium.com/@magoo/incident-response-writing-a-playbook-773e7920f171)
