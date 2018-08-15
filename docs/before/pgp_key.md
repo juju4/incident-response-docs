@@ -10,9 +10,11 @@ It is the standard for CERT/CSIRT community.
 Who has private key and passphrase?
 It will depend on your organization. In some case, it would be the whole team, in others, just part of it.
 
+It's highly recommended to use a password manager with a team vault feature.
+
 ## Creation
 
-If possible, use an offline system and or a livecd like Tails.
+If possible, use an offline system and/or a livecd like Tails.
 Ensure that ~/.gnupg/gpg.conf is configured appropriately and RNG-tools or similar is installed to have enough entropy.
 
 Create master key for certifying and authenticate, subkeys for signing and encryption.

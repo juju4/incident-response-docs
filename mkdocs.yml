@@ -43,6 +43,7 @@ pages:
     - Call Etiquette: 'before/call_etiquette.md'
     - Communication Channels: 'before/communication_channels.md'
     - Complex Incidents: 'before/complex_incidents.md'
+    - PGP/GPG Key Management: 'before/pgp_key.md'
     - Resources: 'before/resources.md'
   - During an Incident:
     - During an Incident: 'during/during_an_incident.md'

@@ -23,6 +23,7 @@ Reading material for things you probably want to know before an incident occurs.
 * [Communication channels](before/communication_channels.md) - _What tool to use to exchange about incident?_
 * [Incident Call Etiquette](before/call_etiquette.md) - _Our etiquette guidelines for incident calls, before you find yourself in one._
 * [Complex Incidents](before/complex_incidents.md) - _Our guide for handling larger, more complex incidents._
+* [PGP/GPG Key Management](before/pgp_key.md) - How to manage your PGP/GPG contact key.
 
 ## During an Incident
 
