@@ -75,3 +75,4 @@ Docker
     * ```docker commit $CONTAINER_ID imagename```
     * memory: ```gcore $PID```, objdump, dd...
 * [Forensicating Docker, Part 1, Mar 2016](https://isc.sans.org/forums/diary/Forensicating+Docker+Part+1/20835)
+* [Docker explorer](https://github.com/google/docker-explorer)

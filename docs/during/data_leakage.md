@@ -28,4 +28,4 @@ If internal staff is suspected of leakage, extra carefulness should occur with L
 * CERT Societe Generale, IRM-11-Information-Leakage
 * GDPR, Data breach notification in 72h
 * [Five data leak nightmares, NetworkWorld, Jan 2008](http://www.networkworld.com/article/2289232/lan-wan/five-data-leak-nightmares.html)
-
+* [Aligning with the GDPR: Data Breach Prevention and Notification, Apr 2018](https://www.trendmicro.com/vinfo/us/security/news/online-privacy/aligning-with-the-gdpr-data-breach-prevention-and-notification)
