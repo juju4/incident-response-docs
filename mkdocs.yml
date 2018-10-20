@@ -18,8 +18,9 @@ theme_dir: 'theme'
 extra_css: ['assets/css/extra.css']
 extra_javascript: ['js/github_forks.js']
 extra:
+  favicon: 'assets/img/icon.png'
   logo: 'assets/img/icon.png'
-  cover: 'assets/img/cover.png'
+  cover: 'assets/img/covers/default.png'
   palette:
     primary: 'green'
     accent: 'blue grey'
@@ -82,6 +83,7 @@ google_analytics: ['UA-XXX-X', 'auto']
 
 # Extensions
 markdown_extensions:
-  - toc(permalink=#)
+  - toc:
+      permalink: '#'
   - sane_lists:
   - admonition:
