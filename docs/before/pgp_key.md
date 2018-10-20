@@ -77,7 +77,7 @@ $ gpg --keyserver hkps.pool.sks-keyservers.net --send-key [your subkey ID]
 ```
 Note that delete-secret-key step is selective on recent gnupg. In that case, you may not need to import secret-subkeys.
 
-Secret master key should be archived.
+Secret master key should be archived, paper and electronic form (eventually with dedicated offline password manager or encrypted image).
 Subkeys and passphrase should be stored in appropriate vault of team password manager.
 
 Note: for individual, it's recommend to use a hardware token like yubikey or smartcard. For team, not manageable.
@@ -122,6 +122,7 @@ Master private key and revocation file should be archived both in electronic for
 * [Configuring YubiKey for GPG and U2F, Apr 2017](https://research.kudelskisecurity.com/2017/04/28/configuring-yubikey-for-gpg-and-u2f/)
 * [Configuring an offline GnuPG master key and subkeys on YubiKey, Sep 2017](https://www.andreagrandi.it/2017/09/30/configuring-offline-gnupg-masterkey-subkeys-on-yubikey/)
 * [OpenPGP - The almost perfect key pair, Oct 2017](https://blog.eleven-labs.com/en/openpgp-almost-perfect-key-pair-part-1/)
+* [GPG Sync is designed to let users always have up-to-date public keys for other members of their organization, First Look Media/TheIntercept](https://github.com/firstlookmedia/gpgsync)
 
 gpg.conf
 ```
@@ -149,3 +150,9 @@ s2k-digest-algo SHA512
 s2k-mode 3
 s2k-count 65011712
 ```
+
+Generate pdf file from cli in Tails (useful to print from usb key when printer doesn't support text file...)
+```
+libreoffice --convert-to pdf file.txt
+```
+Alternative: enscript+ps2pdf, pandoc, text2pdf...
