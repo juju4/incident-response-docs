@@ -41,6 +41,7 @@ Please note that you must know where to announce the route (which router) and to
 * [NANOG 63: BGP Route Hijacks, Andree Toonk, Feb 2015](https://blog.apnic.net/2015/02/11/nanog-63-bgp-route-hijacks/)
 * [An Overview of BGP Hijacking By Zach Julian, Aug 2015](https://www.bishopfox.com/blog/2015/08/an-overview-of-bgp-hijacking/)
 * [Best Practices to Combat Route Leaks and Hijacks, Jan 2017](https://blog.thousandeyes.com/best-practices-combat-route-leaks-hijacks/)
+* [BGP / DNS Hijacks Target Payment Systems, Aug 2018](https://blogs.oracle.com/internetintelligence/bgp-dns-hijacks-target-payment-systems)
 * [BGP Hijacking tag, Krebs on security](https://krebsonsecurity.com/tag/bgp-hijacking/)
 * [BGP Hijack Detection, Tabi](https://github.com/ANSSI-FR/tabi)
 

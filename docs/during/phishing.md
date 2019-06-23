@@ -22,6 +22,7 @@ This document will mostly go through phishing email but it can also be through o
 Report
 
 * [Google Safebrowsing](https://safebrowsing.google.com/safebrowsing/report_phish/)
+* [I would like to report a Gmail user who has sent messages that violate the Gmail Program Policies and/or Terms of Use.](https://support.google.com/mail/contact/abuse?hl=en)
 * [Report Suspected Phishing Sites, Symantec](https://submit.symantec.com/antifraud/phish.cgi)
 * [Phishtank](https://www.phishtank.com/)
 * [Report a Phishing URL, Netcraft](http://toolbar.netcraft.com/report_url)
@@ -30,6 +31,12 @@ Report
 * [Report Phishing Sites, US-CERT](https://www.us-cert.gov/report-phishing)
 * [Report Phishing, APWG](https://apwg.org/report-phishing/)
 * [SIGNALER UN SITE..., PhishingInitiative](https://phishing-initiative.fr/contrib/)
+* [Report unsafe site, Microsoft](https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site)
+* [Easily Report Phishing and Malware, Decent Security](https://decentsecurity.com/malware-web-and-phishing-investigation/)
+
+Takedown
+
+* [InfoSec Guide: Taking Down Fraudulent Domains (Part 2), Mar 2018](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/infosec-guide-taking-down-fraudulent-domains)
 
 Tools
 
