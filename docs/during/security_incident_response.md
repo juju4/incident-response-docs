@@ -241,3 +241,4 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Incident Response Playbooks Wiki, Oct 2018](https://www.peerlyst.com/posts/incident-response-playbooks-wiki-j-geno-j-geno)
 * [CRITICAL LOG REVIEW CHECKLIST FOR SECURITY INCIDENTS, SANS, 2018](https://www.sans.org/brochure/course/log-management-in-depth/6)
 * [The incident response Field Manual, A consolidated guide for the Incident Responder By Sampson T. Chandler, Feb 2019](https://drive.google.com/file/d/1AKPTpb1e2c7vZv0YNcxAz0EwCpyImvOh/view)
+* [Incident management, UK NCSC, Oct 2019](https://www.ncsc.gov.uk/collection/incident-management)
