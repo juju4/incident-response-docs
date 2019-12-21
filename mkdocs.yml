@@ -16,7 +16,9 @@ copyright: 'Copyright &copy; PagerDuty, Inc.'
 theme: 'material'
 theme_dir: 'theme'
 extra_css: ['assets/css/pagerduty.css','assets/css/custom.css']
-extra_javascript: ['js/github_forks.js']
+extra_javascript:
+  - 'js/github_forks.js'
+  - 'js/mermaid.min.js'
 extra:
   favicon: 'assets/img/favicon.png'
   logo: 'assets/img/icon.png'
@@ -56,6 +58,7 @@ pages:
     - Security - Social Engineering: 'during/social_engineering.md'
     - Security - Suspicious System: 'during/suspicious_system.md'
     - Security - Compromised cloud credentials: 'during/cloud_credentials_compromised.md'
+    - Security - 3rd party compromised: 'during/3rdparty_compromised.md'
   - After an Incident:
     - After an Incident: 'after/after_an_incident.md'
     - Post-Mortem Process: 'after/post_mortem_process.md'
@@ -94,3 +97,8 @@ markdown_extensions:
   - pymdownx.extra:
   - pymdownx.mark:
   - pymdownx.tilde:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
