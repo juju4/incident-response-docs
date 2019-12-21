@@ -13,6 +13,8 @@ Amazon, Github are also concerned
     * check impact
 * Do backup of evidence, especially if legal actions are planned
 * Reset all access
+    * password
+    * tokens
 * Eventually, report to provider. Might be required if large impact like billing.
 * Notify affected users (owner or person impacted by abuse)
     * Ensure preventative actions are done (2FA, Awareness, Audit&alerts, watch for leaked secret keys...)

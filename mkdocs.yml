@@ -55,7 +55,7 @@ pages:
     - Security - Phishing: 'during/phishing.md'
     - Security - Social Engineering: 'during/social_engineering.md'
     - Security - Suspicious System: 'during/suspicious_system.md'
-    - Security - Compromised cloud credentials: 'during/cloud_credentials_compromised.yml'
+    - Security - Compromised cloud credentials: 'during/cloud_credentials_compromised.md'
   - After an Incident:
     - After an Incident: 'after/after_an_incident.md'
     - Post-Mortem Process: 'after/post_mortem_process.md'
