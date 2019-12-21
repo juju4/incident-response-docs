@@ -14,6 +14,7 @@ description: Checklist of actions for responding to a security incident at Pager
     Trigger the process anyway. It's better to be safe than sorry. The Incident Commander will make a determination on if response is needed.
 
 ## Checklist
+
 Details for each of these items are available in the next section.
 
 1. Observe
@@ -134,6 +135,9 @@ As in chess or go, you should be able to foresee next attacker steps following y
 #### Attack Mitigation
 Stop the attack as quickly as you can, via any means necessary. Shut down servers, network isolate them, turn off a data center if you have to. Some common things to try,
 
+* Network disconnect
+    * Software: EDR, Windows Firewall (GPO)...
+    * Network: port shutdown or quarantine vlan
 * Shutdown the instance from the provider console (do not delete or terminate if you can help it, as we'll need to do forensics).
 * If you happen to be logged into the box you can try to,
     * Re-instate our default iptables rules to restrict traffic.
