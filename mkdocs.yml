@@ -81,6 +81,7 @@ pages:
     - Reading: 'resources/reading.md'
     - ChatOps: 'resources/chatops.md'
     - Anti-Patterns: 'resources/anti_patterns.md'
+    - Subject Access Request: 'resources/subject_access_request.md'
   - About: 'about.md'
 
 # Analytics
