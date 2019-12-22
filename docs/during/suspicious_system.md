@@ -56,9 +56,9 @@ workstation$ vmrun snapshot <PATH TO VMX FILE> <SNAPSHOT_NAME>
 workstation$ vmrun listSnapshots <PATH TO VMX FILE>
 ```
 Alternatives: [Cmdlet New-Snapshot](https://pubs.vmware.com/vsphere-6-0/index.jsp#com.vmware.powercli.cmdletref.doc/New-Snapshot.html), [vmsnapshot.pl](https://pubs.vmware.com/vsphere-6-0/index.jsp#com.vmware.perlsdk.uaref.doc/vmsnapshot.html)
-* [Virtualbox](https://github.com/volatilityfoundation/volatility/wiki/Virtual-Box-Core-Dump)
+* [Virtualbox](https://github.com/volatilityfoundation/volatility/wiki/Virtual-Box-Core-Dump): [debugvm](https://www.virtualbox.org/manual/ch08.html#vboxmanage-debugvm)
 ```
-live$ [VBoxManage debugvm](https://www.virtualbox.org/manual/ch08.html#vboxmanage-debugvm) <uuid|vmname> dumpvmcore [--filename=name]
+live$ VBoxManage debugvm <uuid|vmname> dumpvmcore [--filename=name]
 atstart$ VirtualBox --dbg --startvm <VM name>
 atstart dbg> .pgmphystofile
 ```
