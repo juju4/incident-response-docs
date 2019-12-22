@@ -81,6 +81,8 @@ pages:
     - Reading: 'resources/reading.md'
     - ChatOps: 'resources/chatops.md'
     - Anti-Patterns: 'resources/anti_patterns.md'
+    - Email Investigation: 'resources/email_investigation.md'
+    - File Investigation: 'resources/file_investigation.md'
     - Subject Access Request: 'resources/subject_access_request.md'
   - About: 'about.md'
 
