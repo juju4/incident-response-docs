@@ -2,13 +2,15 @@ language: python
 python:
   - 2.7
 cache: pip
+before_install:
+  - sudo apt-get install -y python3-pip
 install:
-  - pip install awscli
-  - pip install mkdocs-bootswatch==0.1.0
-  - pip install mkdocs-bootstrap==0.1.1
-  - pip install mkdocs==0.15.3
-  - pip install mkdocs-material==0.2.4
-  - pip install pymdown-extensions
+  - pip3 install awscli
+  - pip3 install mkdocs-bootswatch==0.1.0
+  - pip3 install mkdocs-bootstrap==0.1.1
+  - pip3 install mkdocs==0.15.3
+  - pip3 install mkdocs-material==0.2.4
+  - pip3 install pymdown-extensions
 script:
   - mkdocs build --clean
 deploy:
