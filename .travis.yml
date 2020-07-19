@@ -8,6 +8,6 @@ install:
   - pip install mkdocs-bootstrap==0.1.1
   - pip install mkdocs==0.15.3
   - pip install mkdocs-material==0.2.4
-  - pip install pymdown-extensions==6.3
+  - pip install pymdown-extensions==6.2.1
 script:
   - mkdocs build --clean
