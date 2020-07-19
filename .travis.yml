@@ -5,7 +5,6 @@ cache: pip
 before_install:
   - sudo apt-get install -y python3-pip python3-setuptools
 install:
-  - pip3 install awscli
   - pip3 install mkdocs-bootswatch==0.1.0
   - pip3 install mkdocs-bootstrap==0.1.1
   - pip3 install mkdocs==0.15.3
