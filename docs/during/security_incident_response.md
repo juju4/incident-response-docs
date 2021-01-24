@@ -8,7 +8,7 @@ description: Checklist of actions for responding to a security incident at Pager
 </div>
 
 !!! warning "Incident Commander Required"
-     As with all major incidents at PagerDuty, security ones will also involve an Incident Commander, who will delegate the tasks to relevant resolvers. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
+     As with all major incidents at PagerDuty, security incidents will also involve an Incident Commander who will delegate the tasks to relevant responders. Tasks may be performed in parallel as assigned by the IC. Page one at the earliest possible opportunity `!ic page`.
 
 !!! question "Not Sure it's a Security Incident?"
     Trigger the process anyway. It's better to be safe than sorry. The Incident Commander will make a determination on if response is needed.
@@ -23,8 +23,24 @@ Details for each of these items are available in the next section.
 
 ---
 
+## Attack Mitigation
+Stop the attack as quickly as you can, via any means necessary. Shut down servers, network isolate them, turn off a data center if you have to. Some common things to try,
+
+* Shutdown the instance from the provider console (do not delete or terminate if you can help it, as we'll need to do forensics).
+* If you happen to be logged into the box you can try to,
+    * Reinstate our default iptables rules to restrict traffic.
+    * `kill -9` any active session you think is an attacker.
+    * Change root password and update /etc/shadow to lock out all other users.
+    * `sudo shutdown now`
+
+## Cut Off Attack Vector
+Identify the likely attack vectors and path/fix them so they cannot be re-exploited immediately after stopping the attack.
+
+* If you suspect a third-party provider is compromised, delete all accounts except your own (and those of others who are physically present) and immediately rotate your password and MFA tokens.
+* If you suspect a service application was an attack vector, disable any relevant code paths, or shut down the service entirely.
+
 ## Assemble Response Team
-Identify the key responders for the security incident, and keep them all in the loop. Set up a secure method of communicating all information associated with the incident. Details on the incident (or even the fact that an incident has occurred) should be kept private to the responders until you are confident the attack is not being triggered internally.
+Identify the key responders for the security incident and keep them all in the loop. Set up a secure method of communicating all information associated with the incident. Details on the incident (or even the fact that an incident has occurred) should be kept private to the responders until you are confident the attack is not being triggered internally.
 
 * Page an Incident Commander if not already done so. They will also appoint the usual incident command roles. The incident command team will be responsible for keeping documentation of actions taken, and for notifying internal stakeholders as appropriate.
 * Give the project an innocuous codename that can be used for chats/documents so if anyone overhears they don't realize it's a security incident. (e.g. sapphire-unicorn).
@@ -34,8 +50,8 @@ Identify the key responders for the security incident, and keep them all in the 
     1. The **security team should always be included**.
     1. A representative for any affected services should be included.
     1. Executive stakeholders and legal counsel should be invited at earliest possible opportunity, but prioritize operational responders first.
-* Do not communicate with anyone not on the response team about the incident until forensics has been performed. The attack could be happening internally.
-* Prefix all emails, and chat topics with "Attorney Work Project" or prefer dedicated/restricted tool like separate documents sharing or out of band chat.
+* Do not communicate with anyone not on the response team about the incident until forensics have been performed. The attack could be happening internally.
+* Prefix all emails, and chat topics with "Attorney Work Project".
 
 ## OODA Loop: Observe, Orient, Decide, Act [John Boyd]
 Don't be rash or act too quickly! Security incident is grave concern but with inappropriate action, you might
@@ -104,8 +120,8 @@ Using forensic analysis of log files, time-series graphs, and any other informat
 
 * Identify any data that was compromised during the attack.
     * Was any data exfiltrated from a database?
-    * What keys were on the system that are now considering compromised?
-    * Was the attacker able to identify other components of the system (map out the network, etc).
+    * What keys were on the system that are now considered compromised?
+    * Was the attacker able to identify other components of the system (map out the network, etc)?
 * Find exactly what customer data has been compromised, if any.
 
 #### Disk Forensic Analysis
@@ -120,7 +136,7 @@ Depending on situation, this can happen during or after the incident.
 Based on the data that was compromised, assess the risk to other systems.
 
 * Does the attacker have enough information to find another way in?
-* Were any passwords or keys stored on the host? If so, they should be considered compromised, regardless of how they were stored.
+* Were any passwords or keys stored on the host? If so, they should be considered compromised regardless of how they were stored.
 * Any user accounts that were used in the initial attack should rotate all of their keys and passwords on every other system they have an account.
 
 
@@ -196,13 +212,13 @@ Try to be as accurate as possible, stay factual, have a timeline of events, and 
 You also should include any actions that customers need to take (reset password, MFA...).
 Provide regular updates and if a mistake was done in the report, say it.
 
-* Include the date in the title of any announcement, so that it's never confused for a potential new breach.
-* Don't say "We take security very seriously". It makes everyone cringe when they read it.
+* Include the date in the title of any announcement so that it's never confused for a potential new breach.
+* Don't say "We take security very seriously." It makes everyone cringe when they read it.
 * Be honest, accept responsibility, and present the facts, along with exactly how we plan to prevent such things in future.
 * Be as detailed as possible with the timeline.
-* Be as detailed as possible in what information was compromised, and how it affects customers. If we were storing something we shouldn't have been, be honest about it. It'll come out later and it'll be much worse.
+* Be as detailed as possible in what information was compromised and how it affects customers. If we were storing something we shouldn't have been, be honest about it. It'll come out later and it'll be much worse.
 * Don't name and shame any external parties that might have caused the compromise. It's bad form. (Unless they've already publicly disclosed, in which case we can link to their disclosure).
-* Release the external communication as soon as possible, preferably within a few days of the compromise. The longer we wait, the worse it will be.
+* Release the external communication as soon as possible, preferably within a few days of the compromise. The longer you wait, the worse it will be.
 * If possible, get in touch with customers' internal security teams before the general public notice is sent.
 
 ---
@@ -212,9 +228,9 @@ Provide regular updates and if a mistake was done in the report, say it.
 * Prefer voice call and Slack over any other methods.
 * Avoid email, but if you absolutely need to for some reason,
     * Subject of emails should be "Attorney Work Project" and nothing else.
-    * If email chain has **ANY** contacts **not with the @pagerduty.com domain**, make sure your emails are encrypted.
+    * If the email chain has **ANY** contacts **not with the @pagerduty.com domain**, make sure your emails are encrypted.
 * Do not use SMS to communicate about the incident.
-    * The only exception is to tell someone to move to a more secure channel. e.g. "Please join Slack ASAP".
+    * The only exception is to tell someone to move to a more secure channel. e.g. "Please join Slack ASAP."
 * Do not disseminate anything about the incident to those outside the response team until you have approval to do so.
 
 ---

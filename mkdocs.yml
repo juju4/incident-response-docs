@@ -28,6 +28,9 @@ extra:
     github: 'PagerDuty'
     twitter: 'PagerDuty'
 
+# Dev URL
+dev_addr: '0.0.0.0:8080'
+
 # Contents
 pages:
   - Home: 'index.md'
@@ -61,6 +64,9 @@ pages:
     - Post-Mortem Process: 'after/post_mortem_process.md'
     - Post-Mortem Template: 'after/post_mortem_template.md'
     - Effective Post-Mortems: 'after/effective_post_mortems.md'
+    - Postmortem Process: 'after/post_mortem_process.md'
+    - Postmortem Template: 'after/post_mortem_template.md'
+    - Effective Postmortems: 'after/effective_post_mortems.md'
     - Metrics: 'after/metrics.md'
   - Training:
     - Overview: 'training/overview.md'
