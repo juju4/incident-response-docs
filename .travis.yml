@@ -1,13 +1,13 @@
 language: python
-python:
-  - 2.7
 cache: pip
+before_install:
+  - sudo apt-get install -y python3-pip python3-setuptools
 install:
-  - pip install awscli
-  - pip install mkdocs-bootswatch==0.1.0
-  - pip install mkdocs-bootstrap==0.1.1
-  - pip install mkdocs==0.15.3
-  - pip install mkdocs-material==0.2.4
-  - pip install pymdown-extensions==6.2.1
+  - pip3 install mkdocs-bootswatch
+  - pip3 install mkdocs-bootstrap
+  - pip3 install mkdocs
+  - pip3 install mkdocs-material
+  - pip3 install pymdown-extensions
+  - git clone https://github.com/pagerduty/mkdocs-theme-pagerduty && cd mkdocs-theme-pagerduty && python3 setup.py install
 script:
   - mkdocs build --clean
