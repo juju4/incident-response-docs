@@ -8,5 +8,6 @@ install:
   - pip3 install mkdocs
   - pip3 install mkdocs-material
   - pip3 install pymdown-extensions
+  - git clone https://github.com/pagerduty/mkdocs-theme-pagerduty && cd mkdocs-theme-pagerduty & python3 setup.py install
 script:
   - mkdocs build --clean
