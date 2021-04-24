@@ -1,14 +1,12 @@
 language: python
-python:
-  - 2.7
 cache: pip
 before_install:
-  - sudo apt-get install -y python-pip python-setuptools
+  - sudo apt-get install -y python3-pip python3-setuptools
 install:
-  - pip install mkdocs-bootswatch
-  - pip install mkdocs-bootstrap
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install pymdown-extensions
+  - pip3 install mkdocs-bootswatch
+  - pip3 install mkdocs-bootstrap
+  - pip3 install mkdocs
+  - pip3 install mkdocs-material
+  - pip3 install pymdown-extensions
 script:
   - mkdocs build --clean
