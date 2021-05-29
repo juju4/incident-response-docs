@@ -124,3 +124,8 @@ Depending on your company, you could have SEV1+ incident involving a crisis cell
 
 !!! note "Be Specific"
     These severity descriptions have been changed from the PagerDuty internal definitions to be more generic. For your own documentation, you are encouraged to make your definitions very specific, usually referring to a % of users/accounts affected. You will usually want your severity definitions to be metric driven.
+
+## References
+
+* [CISA Cyber Incident Scoring System](https://us-cert.cisa.gov/CISA-Cyber-Incident-Scoring-System)
+* [SIEM Impact, Pain, Actionability, and Severity](https://socprime.com/blog/siem-impact-pain-actionability-and-severity/)

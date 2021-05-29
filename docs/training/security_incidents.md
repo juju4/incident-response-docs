@@ -26,7 +26,7 @@ Higher level training
 
 National or pan-national exercises
 
-* [Cyber Storm: Securing Cyber Space](https://www.dhs.gov/cyber-storm)
+* [US Cyber Storm: Securing Cyber Space](https://www.dhs.gov/cyber-storm), [Cyber Storm Final Reports](https://www.cisa.gov/publication/cyber-storm-final-reports)
 * [ENISA CyberEurope](https://www.enisa.europa.eu/topics/cyber-exercises/cyber-europe-programme)
 * [CCDCOE Cyber Defence Exercises: Locked Shields](https://ccdcoe.org/event/cyber-defence-exercises.html)
 * [NERC GridEx](http://www.nerc.com/pa/CI/CIPOutreach/Pages/GridEX.aspx)
@@ -35,6 +35,8 @@ National or pan-national exercises
 
 * [Cyber Exercise Playbook, MITRE, jan 2015](https://www.mitre.org/publications/technical-papers/cyber-exercise-playbook)
 * [1] [Postmortem culture, Google Site Reliability Engineering](https://landing.google.com/sre/book/chapters/postmortem-culture.html)
+* [Training Resources, ENISA](https://www.enisa.europa.eu/topics/trainings-for-cybersecurity-specialists/online-training-material)
+* [Free Training, DFIR Diva](https://dfirdiva.com/free-training)
 
 * Sony Incident: [Deadline](https://deadline.com/2014/12/sony-hack-timeline-any-pascal-the-interview-north-korea-1201325501/), [ArsTechnica](https://arstechnica.com/security/2014/12/sony-pictures-malware-tied-to-seoul-shamoon-cyber-attacks/)
 * Aramco incident: [RecordedFuture](https://www.recordedfuture.com/narrative-of-a-cyber-attack-saudi-aramco-and-shamoon/), [Symantec](https://www.symantec.com/connect/blogs/shamoon-attacks)

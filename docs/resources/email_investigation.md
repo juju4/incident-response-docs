@@ -16,6 +16,7 @@ This suppose you have the complete raw email including headers, either as full t
 ### URL
 
 * [Free Online Tools for Looking up Potentially Malicious Websites](https://zeltser.com/lookup-malicious-websites/)
+* [Unfurl](https://dfir.blog/unfurl/)
 
 * Online screenshots
     * https://www.browserstack.com/screenshots
@@ -28,6 +29,7 @@ See [File Investigation](/resources/file_investigation.md)
 ### Email itself
 
 * [E-Mail Header Analyzer](https://github.com/lnxg33k/email-header-analyzer)
+* [EML analyzer](https://github.com/ninoseki/eml_analyzer)
 * [E-Mail Visual Studio code extension](https://marketplace.visualstudio.com/items?itemName=leighlondon.eml)
 * [Email Header Analyzer, Mxtoolbox](https://mxtoolbox.com/EmailHeaders.aspx) <!> OPSEC
 

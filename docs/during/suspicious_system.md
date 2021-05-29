@@ -18,9 +18,9 @@ It includes
     * performance activity
     * logs activity from central logging
 * Collect live artifacts
-    * snapshot if virtualized
-    * memory
-    * extra captures like tcpdump, sysdig...
+    * live snapshot if virtualized (vmware disk+memory, azure disk...)
+    * memory if not previously
+    * extra captures like tcpdump, procmon, sysdig...
     * other live artifacts: MFT, Prefetch, ...
 * Collect user feedback
     * abnormal activity
@@ -39,14 +39,38 @@ It includes
 
 * [If you aren’t performing memory analysis then you are doing your clients & org a disservice, @attrc, jun 2016](https://twitter.com/attrc/status/742399097206771712)
 * [Reqs for effective #DFIR, Why Threat Hunting, Why Memory Forensics, @attrc, nov 2016](https://twitter.com/attrc/status/793875121022832640)
+* [I’m very concerned by the number of people in your mentions who think memory dumps aren’t necessary. My hope is they are mistaking IR for meaning “malware cleanup”. Feb 2021](https://twitter.com/MalwareTechBlog/status/1365358152133185537), [If you're not getting a memory dump, you're leaving evidence on the table. While I understand you can't always get memory because of constraints (e.g. system was powered off before you were involved), you shouldn't be planning to leave evidence behind either. Feb 2021](https://twitter.com/MalwareJake/status/1365362315365912578)
+* [Important #DFIR tip!!!
+Recovering MFT entries from memory does *NOT* just duplicate what is on disk! You also get:
+- Entries of deleted files that are overwritten in $MFT
+- Entries from *previously* attached NTFS-formatted removable media
+- Entries from encrypted stores, Mar 2021](https://twitter.com/attrc/status/1208031451859619840)
+* [Adversaries are looking at how to persist post-exploitation. One of the easiest ways is credential harvesting. There’s plenty of enduring intrusion operations where the focus of the effort is gaining and maintaining access. Patching isn’t enough. Investigate intrusions.👈🏼, Mar 2021](https://twitter.com/anthomsec/status/1368277575655714817)
 * [Volatility](http://www.volatilityfoundation.org/)
 * [Rekall](https://github.com/google/rekall/)
+* [DumpIt - Your favorite Memory Toolkit is back… FOR FREE! Jun 2016](https://blog.comae.io/your-favorite-memory-toolkit-is-back-f97072d33d5c)
 * [Loki](https://github.com/Neo23x0/Loki)
 * [FastIR](https://github.com/SekoiaLab/FastIR_Collector)
 * [OSX Collector](https://github.com/Yelp/osxcollector)
+* [AutoMacTC: Automated Mac Forensic Triage Collector](https://github.com/CrowdStrike/automactc)
+* [Microsoft Safety Scanner](https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download)
+* [Alert (AA21-077A) Detecting Post-Compromise Threat Activity Using the CHIRP IOC Detection Tool, Mar 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-077a)
+* [Forensic Artifact Collection Tool Matrix](https://github.com/swisscom/ArtifactCollectionMatrix)
+* [Scan for HAFNIUM Exploitation Evidence with THOR Lite, Mar 2020](https://www.nextron-systems.com/2021/03/06/scan-for-hafnium-exploitation-evidence-with-thor-lite/)
 * [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
+* [Linux Compromise Assessment Command Cheat Sheet, Nov 2018](https://www.sandflysecurity.com/wp-content/uploads/2018/11/Linux.Compromise.Detection.Command.Cheatsheet.pdf)
 
-Virtual Machines
+### Data collection
+
+* [KAPE by Eric Zimmerman](https://www.kroll.com/en/insights/publications/cyber/kroll-artifact-parser-extractor-kape), [repository for community created Targets and Modules for use with KAPE](https://github.com/EricZimmerman/KapeFiles), [Using KAPE with CrowdStrike Falcon (Real Time Response)](https://ericzimmerman.github.io/KapeDocs/#!Pages\60-Tips-and-tricks.md)
+Recommendation: run from share, results locally and after sent to server (SMB, [SFTP](http://www.mashthatkey.com/2019/10/use-kape-to-collect-data-remotely-and.html)...)
+```
+> .\kape.exe --tsource \\RemoteEndpoint\C$ --tdest E:\kape --target WebBrowsers --gui --tvars user:JohnDoe
+> PsExec64.exe -s E:\kape\Kape.exe --msource G: --module MSFTallScan --mdest E:\kape\parsed
+```
+* [Forensic Artifact Collection Tool Matrix - Win, Linux, Swisscom, Dec 2020](https://github.com/swisscom/ArtifactCollectionMatrix)
+
+### Virtual Machines
 
 * [Vmware](https://github.com/volatilityfoundation/volatility/wiki/VMware-Snapshot-File), Eventually convert to [core memory dump](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2003941).
 ```
@@ -69,10 +93,39 @@ prlctl start {<VM_UID>}
 prlctl internal {<VM_UID>} dbgdump --path /path/to/target/dir/
 ```
 
-Docker
+### Docker
 
 * [CSI: Container Edition - forensics in the age of containers, Aug 2017](https://www.stackrox.com/post/2017/08/csi-container-edition---forensics-in-the-age-of-containers/)
     * ```docker commit $CONTAINER_ID imagename```
     * memory: ```gcore $PID```, objdump, dd...
 * [Forensicating Docker, Part 1, Mar 2016](https://isc.sans.org/forums/diary/Forensicating+Docker+Part+1/20835)
 * [Docker explorer](https://github.com/google/docker-explorer)
+
+### Cloud
+
+* [Introducing Libcloudforensics, May 2020](https://osdfir.blogspot.com/2020/05/introducing-libcloudforensics.html)
+```
+# Create a copy of the volume 'vol1' from one account to another
+cloudforensics aws 'us-east-2b' copydisk --volume_id='vol1' --src_profile='src_profile' --dst_profile='dst_profile'
+# Scenario 3. Assumes credentials are configured through profiles in ~/.azure/credentials.json
+cloudforensics az 'resource_group_name' copydisk --disk_name='disk1' --src_profile='src_profile' --dst_profile='dst_profile'
+```
+* [Forensicating Azure VMs, Feb 2021](https://isc.sans.edu/forums/diary/Forensicating+Azure+VMs/27136/)
+```
+powershell> $vm=az vm show --name whacked --resource-group whacked | ConvertFrom-JSON
+powershell> $vm.storageProfile.osDisk.managedDisk.id
+powershell> $disk=az disk show --ids $vm.storageProfile.osDisk.managedDisk.id
+powershell> $snap = az snapshot create --resource-group whacked --name whacked-snapshot-2021FEB20 --source "/subscriptions/366[...]42/resourceGroups/whacked/providers/Microsoft.Compute/disks/whacked_disk1_66a[...]7" --location centralus | ConvertFrom-JSON
+powershell> $snap.id
+
+powershell> $sas=(az snapshot grant-access --duration-in-seconds 7200 --resource-group whacked --name whacked-snapshot-2021FEB20 --access-level read --query [accessSas] -o tsv)
+powershell> az storage blob copy start --destination-blob whacked-snapshot-2021FEB20 --destination-container images --account-name [removed] --auth-mode login --source-uri "`"$sas`""
+powershell> (az storage blob show -c images --account-name forensicimage -n whacked-snapshot-2021FEB20 --auth-mode login | ConvertFrom-JSON).properties.copy.progress
+943718400/136367309312
+powershell> (az storage blob show -c images --account-name forensicimage -n whacked-snapshot-2021FEB20 --auth-mode login | ConvertFrom-JSON).properties.copy.progress
+136367309312/136367309312
+
+powershell> az disk create --resource-group forensicdemo --name whacked-image --sku 'Standard_LRS' --location 'centralus' --size-gb 150 --source "`"https://[removed].blob.core.windows.net/images/whacked-snapshot-2021FEB20`""
+powershell> $diskid=$(az disk show -g forensicdemo -n whacked-image --query 'id' -o tsv)
+powershell> az vm disk attach -g forensicdemo --vm-name sift --name $diskid
+```

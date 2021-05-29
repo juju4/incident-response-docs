@@ -21,4 +21,5 @@ Usually security incidents are TLP:RED during the incidents and downgraded after
 * [TLP, FIRST](https://www.first.org/tlp)
 * [Information Classification Policy, APCERT](http://www.apcert.org/documents/pdf/APCERT_Information_Classification_Policy.pdf)
 * [TLP, CIRCL.LU](https://circl.lu/pub/traffic-light-protocol/)
-
+* [NIST SP 800-60 Vol. 1 Rev. 1 - Guide for Mapping Types of Information and Information Systems to Security Categories](https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final)
+* [A Markdown Chart for the US-CERT Traffic Light Protocol (TLP) with Default GitHub Emoji](https://github.com/swannysec/tlp-markdown)

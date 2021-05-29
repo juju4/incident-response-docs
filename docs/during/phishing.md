@@ -6,7 +6,7 @@ This document will mostly go through phishing email but it can also be through o
 ## Course of Action
 
 * Review messsage
-    * recover full email with headers. Some reporting service will require msg file.
+    * recover full email with headers. Some reporting service will require msg file. Note some phishing awareness campaign use X-PHISH header to be identified.
     * confirm if malicious: sender, headers, content, urls... use sandbox to investigate any attachments or url.
     * check impact: how many people impacted based on subject, from, attachment...
 * For internal email, issue a mass recall
@@ -14,10 +14,15 @@ This document will mostly go through phishing email but it can also be through o
 * Notify users of a phishing campaign
 * Notify Email provider of service abuse
 * Eventually, review suspicious system case
-* Takedown of the fraudulent website
+* Takedown of the fraudulent website or incriminated email.
     * review legal template
+* Validate security coverage of targeted users and in general and possibly attacked targets (O365, Cloud, Password reset...)
 
 ## References
+
+* [Online Brand Protection, Mar 2020](https://www.digitalshadows.com/blog-and-research/the-complete-guide-to-online-brand-protection/)
+* [Keep Office 365 safe from BEC when you are an SME](https://www.comae.com/posts/2020-04-12_keep-office-365-safe-from-bec-when-you-are-an-sme/)
+* [Simple Email Reputation](https://emailrep.io)
 
 Report
 
@@ -33,6 +38,8 @@ Report
 * [SIGNALER UN SITE..., PhishingInitiative](https://phishing-initiative.fr/contrib/)
 * [Report unsafe site, Microsoft](https://www.microsoft.com/en-us/wdsi/support/report-unsafe-site)
 * [Easily Report Phishing and Malware, Decent Security](https://decentsecurity.com/malware-web-and-phishing-investigation/)
+* [Filing a Complaint with the IC3](https://www.ic3.gov)
+* [ICANN Contractual Compliance Complaint Forms](https://icannportal.force.com/compliance/s/abuse-domain)
 
 Takedown
 
@@ -54,6 +61,7 @@ How to do email
 
 * [How to Not Send Corporate Emails?, Feb 2016](https://blog.rootshell.be/2016/02/29/phishing-or-not-phishing/)
 * [97% of FTSE 250 Companies are Exposing Customers to Risks of Phishing Attacks, Mar 2016 - No DMARC](http://www.informationsecuritybuzz.com/study-research/97-of-ftse-250-companies-are-exposing-customers-to-risks-of-phishing-attacks/)
+* [How to Send Customer Emails That Don’t Look Like Phishing, Dec 2020](https://zeltser.com/customer-emails-like-phishing/)
 * [About Spam Filters, Mailchimp](http://kb.mailchimp.com/delivery/spam-filters/about-spam-filters)
 * [Best practices for sending person-to-person email, Rackspace](https://support.rackspace.com/how-to/best-practices-for-sending-person-to-person-email/)
 * [Marketing FAQs, SpamHaus](https://www.spamhaus.org/faq/section/Marketing%20FAQs)
@@ -63,3 +71,9 @@ Email server recall/removal (test before!!!)
 * [Removing specific messages from your Exchange Server, Oct 2010](https://blogs.technet.microsoft.com/exchange/2010/10/27/removing-specific-messages-from-your-exchange-server/)
 * [Office 365 Search and Delete mail using Powershell, Oct 2012](https://www.resdevops.com/2012/10/26/office-365-search-and-delete-mail-using-powershell/)
 * [How To Delete Mails From Or To A Specific Email Address From Your Mail Queue (Postfix)](https://www.howtoforge.com/delete-mails-to-or-from-a-specific-email-address-from-postfix-mail-queue)
+
+Misc
+
+* [Keep Office 365 safe from BEC when you are an SME, Apr 2020](https://www.comae.com/posts/keep-office-365-safe-from-bec-when-you-are-an-sme/)
+* [BEC Response Guide Tips for Responding to Business Email Compromise Incidents, Dec 2020](https://iheartmalware.medium.com/bec-response-guide-tips-for-responding-to-business-email-compromise-incidents-fbb6744e056a)
+* [Improving the phishing triage process: Keeping our analysts (and our customers) sane, Jan 2021](https://expel.io/blog/improving-the-phishing-triage-process/). Is this email benign or malicious? Impersonation, Intent, Action

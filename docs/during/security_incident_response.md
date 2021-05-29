@@ -94,7 +94,7 @@ At some point, you will decide to do full or partial host assessment
     * if virtualized or container, take full snapshot. Take care that container snapshot are NOT equivalent of a VM snapshot.
 * collect disk image
 
-These steps are essentials to identify 
+These steps are essentials to identify
 
 1. Indicators of Compromise (IP, domain, hash...) and Indicator of Attacks (behavior like email calling browser calling powershell)
 1. Any covert channel
@@ -212,7 +212,7 @@ Work with law enforcement to identify the source of the attack, letting any syst
 **Delegate to:** Communication and Marketing Team
 
 Depending on incident, you will have to communicate publicly at discovery of the incidents, a few days after or once it's closed. Many countries have now data breach notification law enforcing short delay (~1-5d) if PII are impacted. Also, some attacker will boast or push your data online.
-Try to be as accurate as possible, stay factual, have a timeline of events, and know exactly what information was compromised, how it was compromised. 
+Try to be as accurate as possible, stay factual, have a timeline of events, and know exactly what information was compromised, how it was compromised.
 You also should include any actions that customers need to take (reset password, MFA...).
 Provide regular updates and if a mistake was done in the report, say it.
 
@@ -245,20 +245,36 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Incident Handler's Handbook - SANS ](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS): Prepare > Identify > Contain > Remediate > Recover > Aftermath
 * [Responding to IT Security Incidents - Microsoft](https://technet.microsoft.com/en-us/library/cc700825.aspx) (Microsoft)
 * [Defining Incident Management Processes for CSIRTs: A Work in Progress - CMU CERT/CC](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
+* [Effective Practices for Cyber Incident Response and Recovery, UK FSB, OCT 2020](https://www.fsb.org/wp-content/uploads/P191020-1.pdf)
 * [Creating and Managing Computer Security Incident Handling Teams (CSIRTS) - First](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)
 * [ENISA CSIRT Setting up](https://www.enisa.europa.eu/publications/csirt-setting-up-guide)
 * Cheatsheets: [SANS](https://digital-forensics.sans.org/community/cheat-sheets), [Lenny Zeltser](https://zeltser.com/cheat-sheets/), [CERT Société Générale](https://cert.societegenerale.com/en/publications.html)...
 * [Incident Response: Taking CSIRT modeling to the next level, Frode Hommedal](http://frodehommedal.no/presentations/first-tc-oslo-2015/#/slide-start)
 * [The Remediation Ballet, Matt Linton, SANS Threat Hunting & Incident Response Summit 2016](files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/The-Remediation-Ballet-Performing-the-Delicate-Dance-of-Clean-Up-Matt-Linton-Google.pdf)
-* [Demisto public playbooks](https://github.com/demisto/content)
 * [IncidentResponse.com playbooks](https://www.incidentresponse.com/playbooks/)
+* [RE&CT Framework (EN)](https://atc-project.github.io/atc-react/)
+* [Demisto public playbooks](https://github.com/demisto/content)
 * [Phantom Orchestration Playbooks ](https://github.com/phantomcyber/playbooks)
 * [Cuckoo's Egg](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg)
 * [Analysis of Competing Hypotheses, CIA](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html) and [Psychology of Intelligence Analysis](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/PsychofIntelNew.pdf)
 * [IR A-Z By: Mary Ellen Kennel](http://aboutdfir.com/incident-response-a-to-z/)
 * [Incident Response Fundamentals Communication, Sep 2017](https://blogs.cisco.com/security/incident-response-fundamentals-communication)
+* [Incident Management Process and Policy Importance - Template, Jan 2018](https://www.peerlyst.com/posts/incident-management-process-and-policy-importance-free-template-to-download-magda-chelly-ph-d)
 * [Incident Response: Writing a Playbook, Apr 2018](https://medium.com/@magoo/incident-response-writing-a-playbook-773e7920f171)
 * [Incident Response Playbooks Wiki, Oct 2018](https://www.peerlyst.com/posts/incident-response-playbooks-wiki-j-geno-j-geno)
 * [CRITICAL LOG REVIEW CHECKLIST FOR SECURITY INCIDENTS, SANS, 2018](https://www.sans.org/brochure/course/log-management-in-depth/6)
 * [The incident response Field Manual, A consolidated guide for the Incident Responder By Sampson T. Chandler, Feb 2019](https://drive.google.com/file/d/1AKPTpb1e2c7vZv0YNcxAz0EwCpyImvOh/view)
 * [Incident management, UK NCSC, Oct 2019](https://www.ncsc.gov.uk/collection/incident-management)
+* [Kubernetes Engine >Documentation >Guides > Mitigating security incidents, GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/security-mitigations)
+    * Snapshot the host VM's disk.
+    * Inspect the VM while the workload continues to run.
+    * Redeploy a container.
+    * Delete a workload.
+* [Incident Response in Crisis, May 2020](https://ryanfrantz.com/posts/remote-incident-response.html)
+* [Digital Forensics and Incident Response, Jai Minton, Apr 2020](https://www.jaiminton.com/cheatsheet/DFIR/)
+* [You’re a CISO.Your company was just hit with ransomeware.What do you do?](https://twitter.com/varcharr/status/1299064776622997504)
+* [Defenders think in lists. Attackers think in graphs. As long as this is true, attackers win. Microsoft](https://docs.microsoft.com/en-us/archive/blogs/johnla/defenders-think-in-lists-attackers-think-in-graphs-as-long-as-this-is-true-attackers-win)
+* [SANS Blue Team Operations - Primers/References, Printable](https://wiki.sans.blue/#!Printables.md)
+* [Playbooks gallery](https://www.incidentresponse.com/playbooks/)
+* [Cloud Incident Response Framework - CSA, May 2021](https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/)
+* [Microsoft Incident Response Playbooks, May 2021](https://aka.ms/IRPlaybooks), https://docs.microsoft.com/en-us/security/compass/incident-response-playbooks (Phishing, Password spray, App consent grants)

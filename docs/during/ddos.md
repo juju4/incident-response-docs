@@ -42,6 +42,7 @@ For DNS and NTP, security conscious companies can limit corresponding traffic to
 
 
 ## References
+
 * [THE HISTORY OF DDoS, 20 years of DDoS attacks](https://www.arbornetworks.com/the-history-of-ddos)
 * [‘Booter Shells’ Turn Web Sites into Weapons, Aug 2012](https://krebsonsecurity.com/2012/08/booter-shells-turn-web-sites-into-weapons/)
 * [Can You Afford $500 per Minute of Internet Downtime? $1000? More?](https://www.arbornetworks.com/blog/insight/can-you-afford-500-per-minute-of-internet-downtime-1000-more/)
@@ -50,8 +51,10 @@ For DNS and NTP, security conscious companies can limit corresponding traffic to
 * [TR-19 - UDP Protocols Security - Recommendations To Avoid or Limit DDoS reflection / amplification](https://www.circl.lu/pub/tr-19/)
 * [Checklist To Prepare Yourself In Advance of a DDoS Attack, Mar 2013](https://www.whitehatsec.com/blog/checklist-to-prepare-yourself-in-advance-of-a-ddos-attack/)
 * [BCP38](http://www.bcp38.info/index.php/Main_Page)
+* [Not all attacks are equal: understanding and preventing DoS in web applications, Sep 2020](https://r2c.dev/blog/2020/understanding-and-preventing-dos-in-web-apps/)
 
 * [Maximizing Firewall Availability, Team Cymru](http://www.cymru.com/gillsr/documents/maximizing-firewall-availability.htm)
+* [Unwanted Traffic RemovalService (UTRS), Team Cymru](https://team-cymru.com/community-services/utrs/)
 * [DDoS Mitigation Using BGP Flowspec, Justin Ryburn, Nanog63](https://nanog.org/sites/default/files/tuesday_general_ddos_ryburn_63.16.pdf)(https://forums.juniper.net/t5/Security-Now/DDoS-Mitigation-using-BGP-Flowspec/ba-p/268609)
 * [FastNetmon detection tool](https://fastnetmon.com/)
 

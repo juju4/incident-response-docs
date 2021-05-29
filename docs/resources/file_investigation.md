@@ -53,6 +53,8 @@ Whatever is relevant in your context
 * Collection of [Didier Steven's PDF tools](https://blog.didierstevens.com/programs/pdf-tools/)
 * MsOffice tools: [oletools](https://github.com/decalage2/oletools), [oletools' mraptor](https://github.com/decalage2/oletools/wiki/mraptor)
 
+* [Malware Analysis Fundamentals - Files | Tools, Jun 2020](https://www.winitor.com/pdf/Malware-Analysis-Fundamentals-Files-Tools.pdf)
+
 * [Photo Tampering throughout History](http://pth.izitru.com)
 * [Photo Forensics](https://29a.ch/photo-forensics/)
 * [GIMP-ELA, A JPEG Error Level Analysis forensic plugin for the GNU Image Manipulation Program (GIMP)](https://github.com/sentenza/GIMP-ELA)

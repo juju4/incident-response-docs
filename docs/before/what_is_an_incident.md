@@ -46,6 +46,8 @@ One of the more important concepts of our incident response process is the menta
 
 ## References
 
+* [How To Establish a High Severity Incident Management Program](https://www.gremlin.com/community/tutorials/how-to-establish-a-high-severity-incident-management-program/)
+
 ### Security incident definitions
 
 * (ITILv2)  An event which is not part of the standard operation of a service and which causes or may cause disruption to or a reduction in the quality of services and Customer productivity.
@@ -57,3 +59,6 @@ One of the more important concepts of our incident response process is the menta
 * (NIST SP800-61)
     * An event is any observable occurrence in a system or network.
     * A computer security incident is a violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices.
+* ([US PPD-41](https://obamawhitehouse.archives.gov/the-press-office/2016/07/26/presidential-policy-directive-united-states-cyber-incident))
+    * Cyber incident. An event occurring on or conducted through a computer network that actually or imminently jeopardizes the integrity, confidentiality, or availability of computers, information or communications systems or networks, physical or virtual infrastructure controlled by computers or information systems, or information resident thereon. For purposes of this directive, a cyber incident may include a vulnerability in an information system, system security procedures, internal controls, or implementation that could be exploited by a threat source.
+    * Significant cyber incident. A cyber incident that is (or group of related cyber incidents that together are) likely to result in demonstrable harm to the national security interests, foreign relations, or economy of the United States or to the public confidence, civil liberties, or public health and safety of the American people.

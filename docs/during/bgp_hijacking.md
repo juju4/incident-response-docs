@@ -43,18 +43,23 @@ Please note that you must know where to announce the route (which router) and to
 * [Best Practices to Combat Route Leaks and Hijacks, Jan 2017](https://blog.thousandeyes.com/best-practices-combat-route-leaks-hijacks/)
 * [BGP / DNS Hijacks Target Payment Systems, Aug 2018](https://blogs.oracle.com/internetintelligence/bgp-dns-hijacks-target-payment-systems)
 * [BGP Hijacking tag, Krebs on security](https://krebsonsecurity.com/tag/bgp-hijacking/)
-* [BGP Hijack Detection, Tabi](https://github.com/ANSSI-FR/tabi)
+* [August 30th 2020: Analysis of CenturyLink/Level(3) Outage](https://blog.cloudflare.com/analysis-of-todays-centurylink-level-3-outage/)
+* [CenturyLink / Level 3 Outage Analysis, Aug 2020](https://blog.thousandeyes.com/centurylink-level-3-outage-analysis/)
 
 Operations
 
 * [Secure Cisco IOS BGP Template, Team Cymru](https://www.team-cymru.org/secure-bgp-template.html)
 * [BGP Operations and Security, RFC7454](https://www.rfc-editor.org/rfc/rfc7454.txt)
 * [Abuse Contact DB](https://www.abusix.com/contactdb)
+* [BGP Hijack Detection, Tabi](https://github.com/ANSSI-FR/tabi)
 
 Investigate
 
+* [NANOG Mailing-list archive](https://mailman.nanog.org/pipermail/nanog/)
 * [RIPEStat](https://stat.ripe.net/)
 * [Hurricane Electric BGP Toolkit](http://bgp.he.net/)
 * [BGP Looking Glasses for IPv4/IPv6, Traceroute & BGP Route Servers](http://www.bgp4.as/looking-glasses)
 * [BGP Looking Glass Database](http://www.bgplookingglass.com/)
 * [BGP Routing Table Analysis Reports](https://bgp.potaroo.net/)
+* [BGP.tools](https://bgp.tools/)
+* Twitter: https://twitter.com/thousandeyes, https://twitter.com/bgpmon
