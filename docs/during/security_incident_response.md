@@ -238,7 +238,7 @@ Provide regular updates and if a mistake was done in the report, say it.
 ## Additional Reading
 
 * [Computer Security Incident Handling Guide - NIST SP800-61](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf) (NIST)
-* [Incident Handler's Handbook - SANS ](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS): Prepare > Identify > Contain > Remediate > Recover > Aftermath
+* [Incident Handler's Handbook - SANS](https://www.sans.org/reading-room/whitepapers/incident/incident-handlers-handbook-33901) (SANS): Prepare > Identify > Contain > Remediate > Recover > Aftermath
 * [Responding to IT Security Incidents - Microsoft](https://technet.microsoft.com/en-us/library/cc700825.aspx) (Microsoft)
 * [Defining Incident Management Processes for CSIRTs: A Work in Progress - CMU CERT/CC](http://resources.sei.cmu.edu/library/asset-view.cfm?assetid=7153) (CMU)
 * [Creating and Managing Computer Security Incident Handling Teams (CSIRTS) - First](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)
