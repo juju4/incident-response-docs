@@ -248,7 +248,7 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Effective Practices for Cyber Incident Response and Recovery, UK FSB, OCT 2020](https://www.fsb.org/wp-content/uploads/P191020-1.pdf)
 * [Creating and Managing Computer Security Incident Handling Teams (CSIRTS) - First](https://www.first.org/conference/2008/papers/killcrece-georgia-slides.pdf) (CERT)
 * [ENISA CSIRT Setting up](https://www.enisa.europa.eu/publications/csirt-setting-up-guide)
-* Cheatsheets: [SANS](https://digital-forensics.sans.org/community/cheat-sheets), [Lenny Zeltser](https://zeltser.com/cheat-sheets/), [CERT Société Générale](https://cert.societegenerale.com/en/publications.html)...
+* Cheatsheets: [SANS](https://digital-forensics.sans.org/community/cheat-sheets), [Lenny Zeltser](https://zeltser.com/cheat-sheets/), [Incident Response Methodologies, CERT Société Générale](https://github.com/certsocietegenerale/IRM)...
 * [Incident Response: Taking CSIRT modeling to the next level, Frode Hommedal](http://frodehommedal.no/presentations/first-tc-oslo-2015/#/slide-start)
 * [The Remediation Ballet, Matt Linton, SANS Threat Hunting & Incident Response Summit 2016](files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/The-Remediation-Ballet-Performing-the-Delicate-Dance-of-Clean-Up-Matt-Linton-Google.pdf)
 * [IncidentResponse.com playbooks](https://www.incidentresponse.com/playbooks/)
@@ -278,3 +278,5 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Playbooks gallery](https://www.incidentresponse.com/playbooks/)
 * [Cloud Incident Response Framework - CSA, May 2021](https://cloudsecurityalliance.org/artifacts/cloud-incident-response-framework/)
 * [Microsoft Incident Response Playbooks, May 2021](https://aka.ms/IRPlaybooks), https://docs.microsoft.com/en-us/security/compass/incident-response-playbooks (Phishing, Password spray, App consent grants)
+* [Syntax IR playbooks, Jun 2021](https://gitlab.com/syntax-ir/playbooks/)
+* [CACAO Security Playbooks Version 1.0, OASIS, Jun 2021](https://docs.oasis-open.org/cacao/security-playbooks/v1.0/cs02/security-playbooks-v1.0-cs02.html)
