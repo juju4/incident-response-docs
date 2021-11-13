@@ -17,6 +17,8 @@ It includes
     * network activity
     * performance activity
     * logs activity from central logging
+    * Cloud console information.
+      Ex: Azure Security Center, Policy, Networking...
 * Collect live artifacts
     * live snapshot if virtualized (vmware disk+memory, azure disk...)
     * memory if not previously
@@ -53,12 +55,15 @@ Recovering MFT entries from memory does *NOT* just duplicate what is on disk! Yo
 * [FastIR](https://github.com/SekoiaLab/FastIR_Collector)
 * [OSX Collector](https://github.com/Yelp/osxcollector)
 * [AutoMacTC: Automated Mac Forensic Triage Collector](https://github.com/CrowdStrike/automactc)
+* [CSIRT-Collect, Windows Powershell](https://github.com/dwmetz/CSIRT-Collect)
 * [Microsoft Safety Scanner](https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/safety-scanner-download)
 * [Alert (AA21-077A) Detecting Post-Compromise Threat Activity Using the CHIRP IOC Detection Tool, Mar 2021](https://us-cert.cisa.gov/ncas/alerts/aa21-077a)
 * [Forensic Artifact Collection Tool Matrix](https://github.com/swisscom/ArtifactCollectionMatrix)
+* [Forensic helper scripts for KAPE and RegRipper](https://github.com/swisscom/Invoke-Forensics)
 * [Scan for HAFNIUM Exploitation Evidence with THOR Lite, Mar 2020](https://www.nextron-systems.com/2021/03/06/scan-for-hafnium-exploitation-evidence-with-thor-lite/)
 * [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
 * [Linux Compromise Assessment Command Cheat Sheet, Nov 2018](https://www.sandflysecurity.com/wp-content/uploads/2018/11/Linux.Compromise.Detection.Command.Cheatsheet.pdf)
+* https://github.com/austinsonger/Incident-Playbook
 
 ### Data collection
 
@@ -69,6 +74,7 @@ Recommendation: run from share, results locally and after sent to server (SMB, [
 > PsExec64.exe -s E:\kape\Kape.exe --msource G: --module MSFTallScan --mdest E:\kape\parsed
 ```
 * [Forensic Artifact Collection Tool Matrix - Win, Linux, Swisscom, Dec 2020](https://github.com/swisscom/ArtifactCollectionMatrix)
+* [When you should perform a Live Acquisition + the risks; these factors should always be considered prior to performing one during an investigation.Not so mini thread, Jul 2021](https://twitter.com/4n6lady/status/1411017778593677317)
 
 ### Virtual Machines
 
@@ -93,13 +99,14 @@ prlctl start {<VM_UID>}
 prlctl internal {<VM_UID>} dbgdump --path /path/to/target/dir/
 ```
 
-### Docker
+### Containers
 
 * [CSI: Container Edition - forensics in the age of containers, Aug 2017](https://www.stackrox.com/post/2017/08/csi-container-edition---forensics-in-the-age-of-containers/)
     * ```docker commit $CONTAINER_ID imagename```
     * memory: ```gcore $PID```, objdump, dd...
 * [Forensicating Docker, Part 1, Mar 2016](https://isc.sans.org/forums/diary/Forensicating+Docker+Part+1/20835)
 * [Docker explorer](https://github.com/google/docker-explorer)
+* [Windows Container Forensics, Jul 2021](https://osdfir.blogspot.com/2021/07/windows-container-forensics.html)
 
 ### Cloud
 
