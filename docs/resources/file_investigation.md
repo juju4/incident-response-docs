@@ -48,6 +48,8 @@ Whatever is relevant in your context
 
 ## References
 
+* [Malware Analysis Fundamentals - Files and Tools, Winitor](https://www.winitor.com/pdf/Malware-Analysis-Fundamentals-Files-Tools.pdf)
+
 * [TotalHash, Team Cymru](https://totalhash.cymru.com/)
 
 * Collection of [Didier Steven's PDF tools](https://blog.didierstevens.com/programs/pdf-tools/)
