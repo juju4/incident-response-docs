@@ -20,9 +20,19 @@ This document will mostly go through phishing email but it can also be through o
 
 ## References
 
+* [Security Tip (ST04-014) Avoiding Social Engineering and Phishing Attacks](https://us-cert.cisa.gov/ncas/tips/ST04-014)
+* [CERT Societe Generale, IRM-13-Phishing](https://github.com/certsocietegenerale/IRM/blob/master/EN/IRM-13-Phishing.pdf)
 * [Online Brand Protection, Mar 2020](https://www.digitalshadows.com/blog-and-research/the-complete-guide-to-online-brand-protection/)
 * [Keep Office 365 safe from BEC when you are an SME](https://www.comae.com/posts/2020-04-12_keep-office-365-safe-from-bec-when-you-are-an-sme/)
+* [BEC Taxonomy: A Proofpoint Framework, Apr 2021](https://www.proofpoint.com/us/blog/threat-insight/bec-taxonomy-proofpoint-framework)
+* [BEC Taxonomy: Invoice Fraud, May 2021](https://www.proofpoint.com/us/blog/threat-insight/bec-taxonomy-invoice-fraud)
+* [BEC Taxonomy: Payroll Redirects, May 2021](https://www.proofpoint.com/us/blog/threat-insight/bec-taxonomy-payroll-redirects)
 * [Simple Email Reputation](https://emailrep.io)
+* [Business-Email-Compromise-Guide, PwC, Feb 2021](https://github.com/PwC-IR/Business-Email-Compromise-Guide)
+* [Phishing investigation, Microsoft IR playbook](https://docs.microsoft.com/en-us/security/compass/incident-response-playbook-phishing)
+* [Playbook - Phishing, Incidentresponse.com](https://www.incidentresponse.com/playbooks/phishing)
+* [Playbook phishing, Counteractive](https://github.com/counteractive/incident-response-plan-template/blob/master/playbooks/playbook-phishing.md)
+* [Phishing Playbook, Syntax IR](https://gitlab.com/syntax-ir/playbooks/-/tree/main/IRP-Phishing)
 
 Report
 
