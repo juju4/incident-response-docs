@@ -27,3 +27,4 @@ Tools
 * [How to fix a compromised (hacked) Microsoft Office 365 account, Dec 2015](https://blogs.technet.microsoft.com/office365security/how-to-fix-a-compromised-hacked-microsoft-office-365-account/), [O365-InvestigationTooling, Github](https://github.com/OfficeDev/O365-InvestigationTooling/)
 * [My AWS account may be compromised](https://aws.amazon.com/premiumsupport/knowledge-center/potential-account-compromise/)
 * [Keeping your account and data secure, GitHub](https://help.github.com/articles/keeping-your-account-and-data-secure/)
+* [Recovering from systemic identity compromise](https://docs.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise)
