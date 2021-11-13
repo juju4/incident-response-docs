@@ -24,6 +24,7 @@ If internal staff is suspected of leakage, extra carefulness should occur with L
     * Sales prospect
     * Partners
     * Others
+* How can I tell if my environment has been compromised?
 * Communicate appropriately depending on the data leak.
     * internally
     * externally: customers, partners, regulators, law enforcement
@@ -39,3 +40,4 @@ If internal staff is suspected of leakage, extra carefulness should occur with L
 * [Report Regarding the November 16, 2020 Email Incident, Coil](https://coil.com/p/coil/Report-Regarding-the-November-16-2020-Email-Incident-/6udAFYucT)
 * [Clothes retailer Fatface: Someone's broken in and accessed your personal data, including partial card payment details... Don't tell anyone'Strictly private and confidential'? SERIOUSLY? Mar 2021](https://www.theregister.com/2021/03/24/fatface/)
 * [The "we suffered a security incident & your data is at risk" letters are pretty standard. New (to me, at least) is the "[redacted] confirmed from the intruder that any data that was accessed and copied has been destroyed." But, don't worry, "[redacted2] reports that it is actively monitoring via 3rd party experts and has found no trace of the data being available." The letter goes on to note how the "intruder was detected & expelled from the system." So: anonymous 3rd party has it totally under control, and we're taking the intruder at their word.](https://twitter.com/jckichen/status/1297307412299358208)
+* [Every security vulnerability advisory should contain such a chapter:"How can I tell if my environment has been compromised?"good job @solarwindshttps://solarwinds.com/trust-center/security-advisories/cve-2021-35211#FAQImage](https://twitter.com/cyb3rops/status/1414594673868480515)
