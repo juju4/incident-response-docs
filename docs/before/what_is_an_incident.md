@@ -47,6 +47,7 @@ One of the more important concepts of our incident response process is the menta
 ## References
 
 * [How To Establish a High Severity Incident Management Program](https://www.gremlin.com/community/tutorials/how-to-establish-a-high-severity-incident-management-program/)
+* [Incident Management vs. Incident Response - What's the Difference? May 2021](https://rootly.com/blog/incident-management-vs-incident-response-what-s-the-difference)
 
 ### Security incident definitions
 

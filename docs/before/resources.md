@@ -45,3 +45,4 @@ Examples
 * Toyota Andon Cord: on production line, worker can pull the cord to ask team leader for support. if they can't solve issue in a short time, production line is stopped and whole team is involved to fix it.
 
 * [SOPs in DFIR - Standard Operating Procedures](http://www.hecfblog.com/2017/02/sops-in-dfir.html)
+* https://github.com/mikeroyal/Digital-Forensics-Guide

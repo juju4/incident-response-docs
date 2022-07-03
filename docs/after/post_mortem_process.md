@@ -113,6 +113,7 @@ For example, Google mentions in SRE book
 * Postmortem group on internal social system
 * Postmortem reading clubs
 * Wheel of misfortune exercise based on post-mortem
+* Security issues and recommendations should be passed to GRC team and included in organization risks register.
 
 ## Examples
 Here are some examples of postmortems from other companies as a reference,

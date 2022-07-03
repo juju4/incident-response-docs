@@ -159,3 +159,7 @@ Anyone designated by the Incident Commander during incident response.
 
 ### How can I become one?
 Follow our [Internal Liaison training](../training/internal_liaison.md).
+
+## References
+
+* [An Introduction to Incident Response Roles, Oct 2021](https://rootly.com/blog/an-introduction-to-incident-response-roles)

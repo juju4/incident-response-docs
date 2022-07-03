@@ -15,7 +15,7 @@ Base analysis of file (not reverse-engineering)
     * `file`, `strings`, `grep`...
     * Windows [Sysinternals strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings)
     * Python [python-magic](https://pypi.org/project/python-magic/)
-    * exiftool and similar for Images
+    * exiftool and similar for Images but [also PDF and Windows PE files](https://developers.virustotal.com/reference/exiftool)
 
 See references for few tools relevant to MsOffice, PDF or Image files
 

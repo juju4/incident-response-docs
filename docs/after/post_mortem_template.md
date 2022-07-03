@@ -82,3 +82,7 @@ _This is what will be included on the status.pagerduty.com website regarding thi
 > What Happened?
 
 > What Are We Doing About This?
+
+## References
+
+* [Forensic reports in a nutshell... May 2021](https://twitter.com/XRY_mike/status/1391358750670344192)

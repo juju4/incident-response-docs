@@ -64,6 +64,9 @@ Recovering MFT entries from memory does *NOT* just duplicate what is on disk! Yo
 * [Adware the series, the final: Tools section, Jul 2017](https://blog.malwarebytes.com/puppum/2017/07/adware-the-series-the-final-tools-section/)
 * [Linux Compromise Assessment Command Cheat Sheet, Nov 2018](https://www.sandflysecurity.com/wp-content/uploads/2018/11/Linux.Compromise.Detection.Command.Cheatsheet.pdf)
 * https://github.com/austinsonger/Incident-Playbook
+* [Triage with Velociraptor  Pt 3, Oct 2019](https://docs.velociraptor.app/blog/2019/2019-10-08_triage-with-velociraptor-pt-3-d6f63215f579/)
+* [Thor Lite, Nextron systems](https://www.nextron-systems.com/thor-lite/), [`-a ProcessCheck` Process Memory only](https://twitter.com/cyb3rops/status/1501821636621873156)
+* [YaraMemoryScanner - Windows Powershell](https://github.com/BinaryDefense/YaraMemoryScanner)
 
 ### Data collection
 
@@ -136,3 +139,7 @@ powershell> az disk create --resource-group forensicdemo --name whacked-image --
 powershell> $diskid=$(az disk show -g forensicdemo -n whacked-image --query 'id' -o tsv)
 powershell> az vm disk attach -g forensicdemo --vm-name sift --name $diskid
 ```
+
+* [Exploring container security: Performing forensics on your GKE environment, Dec 2019](https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-performing-forensics-on-containers)
+* [Mitigating security incidents, GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/security-mitigations)
+
