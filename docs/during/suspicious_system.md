@@ -39,6 +39,7 @@ It includes
 
 ## References
 
+* [TR-22 - Recommendations for Readiness to Handle Computer Security Incidents, CIRCL.LU](https://circl.lu/pub/tr-22/)
 * [If you aren’t performing memory analysis then you are doing your clients & org a disservice, @attrc, jun 2016](https://twitter.com/attrc/status/742399097206771712)
 * [Reqs for effective #DFIR, Why Threat Hunting, Why Memory Forensics, @attrc, nov 2016](https://twitter.com/attrc/status/793875121022832640)
 * [I’m very concerned by the number of people in your mentions who think memory dumps aren’t necessary. My hope is they are mistaking IR for meaning “malware cleanup”. Feb 2021](https://twitter.com/MalwareTechBlog/status/1365358152133185537), [If you're not getting a memory dump, you're leaving evidence on the table. While I understand you can't always get memory because of constraints (e.g. system was powered off before you were involved), you shouldn't be planning to leave evidence behind either. Feb 2021](https://twitter.com/MalwareJake/status/1365362315365912578)
