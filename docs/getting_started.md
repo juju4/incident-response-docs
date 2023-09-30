@@ -1,11 +1,8 @@
 ---
 cover: assets/img/covers/getting_started.png
 description: This 'Getting Started' guide will help you to navigate the most important parts of our process, and provide some guidelines about which bits we think you should start with. If you're just starting out with your own incident response process, this is a great way to know what order we think you should do things in.
-hero: assets/img/headers/getting_started.jpg
+hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
 hero_alt_text: Getting Started
-hero_credit_url: https://www.pexels.com/photo/young-game-match-kids-2923/
-hero_credit_url_text: Pexels
-hero_credit_text: Breakingpic
 ---
 If you don't yet have a process in your own organization, or if you're just starting out, you may find the sheer quantity of information in this documentation overwhelming. It's important to remember that this **isn't something you'll be able to implement overnight**. This is a process that should be built up over time. While it took us years to get to this point, our hope is that you can make use of this documentation to skip some of the awkward growing pains we went through and reach a more mature incident response process in the most efficient way possible.
 
@@ -35,7 +32,7 @@ Finally, you want to make sure your [alerts are actionable](oncall/alerting_prin
 
 ## Define the incident response roles.
 
-You will only care about the [Incident Commander](before/different_roles#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](before/different_roles#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
+You will only care about the [Incident Commander](before/different_roles.md#incident-commander-ic) role to begin with. If you have enough people, you can also have a [Scribe](before/different_roles.md#scribe). But to start, just have an Incident Commander and your responders. The Incident Commander shouldn't be taking any remediation actions at all, they should just be leading the response and making the decisions. You don't need to follow the entire [training guide](training/incident_commander.md) to begin with; just the basics of asking questions and assigning tasks are enough to get you started.
 
 ## Create a postmortem template.
 You can use [our template](after/post_mortem_template.md) to get started or come up with your own version. Just make sure that you have a structured template so that it makes it easier to compare incidents to each other. It can be as simple as three headings to begin with:
@@ -65,7 +62,7 @@ You can now start expanding your process and adding some more things. Here are o
 
 ### Add a Scribe if you haven't already.
 
-Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](before/different_roles#scribe) should be the next role you start using.
+Keeping an accurate timeline of events becomes really important when you want to go back and review your incidents. A [Scribe](before/different_roles.md#scribe) should be the next role you start using.
 
 ### Expand your IC rotation.
 
@@ -73,7 +70,7 @@ You don't want to just have a single IC, you want to have as many as you can get
 
 ### Add in a Deputy as a role.
 
-Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](before/different_roles#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
+Once you have a few more IC's, start adding a Deputy to your response. Having a [Deputy](before/different_roles.md#deputy) will give you the ability to quickly hand over during longer incidents and also gives the IC some backup for shorter incidents.
 
 ### Define severity levels.
 
@@ -81,7 +78,7 @@ Once you have the process working well, you can start to add more granularity to
 
 ### Start adding other roles.
 
-As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](before/different_roles#customer-liaison) as the next one you include.
+As your process becomes more established, you want to start adding other roles. We recommend a [Customer Liaison](before/different_roles.md#customer-liaison) as the next one you include.
 
 ### Practice, practice, practice.
 
