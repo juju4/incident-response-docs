@@ -27,8 +27,11 @@ If internal staff is suspected of leakage, extra carefulness should occur with L
 * How can I tell if my environment has been compromised?
 * Communicate appropriately depending on the data leak.
     * internally
-    * externally: customers, partners, regulators, law enforcement
+    * externally: customers, partners, investors, regulators, law enforcement
+    * Identify priority groups which should be worked early on
 * Regularly evaluate impact of the incident and if it should be treated as a crisis
+
+* If part of data extortion scheme and if known communication channel that can be watched in advance, monitor both communication channel (like onion page) and backend if possible. It may give you a headstart.
 
 ## References
 
@@ -37,7 +40,11 @@ If internal staff is suspected of leakage, extra carefulness should occur with L
 * [Five data leak nightmares, NetworkWorld, Jan 2008](http://www.networkworld.com/article/2289232/lan-wan/five-data-leak-nightmares.html)
 * [Aligning with the GDPR: Data Breach Prevention and Notification, Apr 2018](https://www.trendmicro.com/vinfo/us/security/news/online-privacy/aligning-with-the-gdpr-data-breach-prevention-and-notification)
 
+* Data identification
+  * Credentials: https://github.com/trufflesecurity/trufflehog, https://github.com/gitleaks/gitleaks, https://github.com/Yelp/detect-secrets
+  * [Presidio: Data Protection and De-identification SDK](https://microsoft.github.io/presidio/)
+
 * [Report Regarding the November 16, 2020 Email Incident, Coil](https://coil.com/p/coil/Report-Regarding-the-November-16-2020-Email-Incident-/6udAFYucT)
 * [Clothes retailer Fatface: Someone's broken in and accessed your personal data, including partial card payment details... Don't tell anyone'Strictly private and confidential'? SERIOUSLY? Mar 2021](https://www.theregister.com/2021/03/24/fatface/)
 * [The "we suffered a security incident & your data is at risk" letters are pretty standard. New (to me, at least) is the "[redacted] confirmed from the intruder that any data that was accessed and copied has been destroyed." But, don't worry, "[redacted2] reports that it is actively monitoring via 3rd party experts and has found no trace of the data being available." The letter goes on to note how the "intruder was detected & expelled from the system." So: anonymous 3rd party has it totally under control, and we're taking the intruder at their word.](https://twitter.com/jckichen/status/1297307412299358208)
-* [Every security vulnerability advisory should contain such a chapter:"How can I tell if my environment has been compromised?"good job @solarwindshttps://solarwinds.com/trust-center/security-advisories/cve-2021-35211#FAQImage](https://twitter.com/cyb3rops/status/1414594673868480515)
+* [Every security vulnerability advisory should contain such a chapter:"How can I tell if my environment has been compromised?" good job @solarwinds https://solarwinds.com/trust-center/security-advisories/cve-2021-35211#FAQImage](https://twitter.com/cyb3rops/status/1414594673868480515)

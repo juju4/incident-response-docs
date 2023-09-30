@@ -290,6 +290,8 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Syntax IR playbooks, Jun 2021](https://gitlab.com/syntax-ir/playbooks/)
 * [CACAO Security Playbooks Version 1.0, OASIS, Jun 2021](https://docs.oasis-open.org/cacao/security-playbooks/v1.0/cs02/security-playbooks-v1.0-cs02.html)
 * [CYBER SECURITYINCIDENT MANAGEMENT GUIDE, Centre for Cyber Security Belgium, 2021](https://www.cybersecuritycoalition.be/content/uploads/cybersecurity-incident-management-guide-EN.pdf)
+* [Project Obsidian, BlueTeamVillage](https://blueteamvillage.org/programs/project-obsidian/), [DEFCON30 Obsidian stations, 2022 - youtube](https://www.youtube.com/watch?v=Km-gzMceT6M&list=PLvQcui-UIwfSvcB6mHYK-KSTVRqOyqIRJ&pp=iAQB), https://github.com/blueteamvillage/Project-Obsidian-DC30, https://github.com/blueteamvillage/Project-Obsidian-DC31
+* https://github.com/chocolatecoat/DFIR-Templates
 
 * [It‘s definitely one of the top sentences you hear in incident response engagements:“these systems should have been decommissioned a long time ago. I don’t know who’s still using them.”and then someone, who hasn’t spoken a word yet in that call, clears his throat, Jun 2022](https://twitter.com/cyb3rops/status/1533074343944667137)
 * [Famous last words of a cyber attack victim before getting compromisedI’ll start- it’s an appliance;it’s hardened- yes,we use two factors, name and password- let’s take a non-standard port;no one will look for that one- yes,it’s a public IP but unreachable from the Internet, Jun 2022](https://twitter.com/cyb3rops/status/1532760497132556290)
