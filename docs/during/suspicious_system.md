@@ -143,4 +143,5 @@ powershell> az vm disk attach -g forensicdemo --vm-name sift --name $diskid
 
 * [Exploring container security: Performing forensics on your GKE environment, Dec 2019](https://cloud.google.com/blog/products/containers-kubernetes/best-practices-for-performing-forensics-on-containers)
 * [Mitigating security incidents, GKE](https://cloud.google.com/kubernetes-engine/docs/how-to/security-mitigations)
-
+* [Making Sense of Kubernetes Initial Access Vectors Part 2 - Data Plane, Nov 2024](https://www.wiz.io/blog/kubernetes-data-plane), [Making Sense of Kubernetes Initial Access Vectors Part 1 – Control Plane, Nov 2024](https://www.wiz.io/blog/making-sense-of-kubernetes-initial-access-vectors-part-1-control-plane)
+* `kubectl cluster-info dump`

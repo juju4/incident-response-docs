@@ -76,3 +76,4 @@ Some countries require to notify government bodies
 * [I've worked a lot of #ransomware incidents and I've found that most companies don't realize what the true cost of a ransomware incident is.But isn't it just paying the ransom or restoring and you're done? Nope. Here are the (potential) costs (based on my experience): (1/X), May 2021](https://twitter.com/SecShoggoth/status/1389645581325320204)
 * [BloodHound versus Ransomware: A Defender’s Guide, Jun 2021](https://posts.specterops.io/bloodhound-versus-ransomware-a-defenders-guide-28147dedb73b)
 * [Ransomware prevention: How organizations can fight back , Feb 2022](https://www.mckinsey.com/business-functions/risk-and-resilience/our-insights/ransomware-prevention-how-organizations-can-fight-back)
+* [The State of Cloud Ransomware in 2024, Nov 2024](https://www.sentinelone.com/blog/the-state-of-cloud-ransomware-in-2024/)

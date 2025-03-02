@@ -31,3 +31,4 @@ Attacker will usually try to put you in situation of emergency and outside of no
 * [Krebs on security, tag CEO Fraud](http://krebsonsecurity.com/tag/ceo-fraud/)
 * [The 'bogus boss' email scam costing firms millions, BBC, Jan 2016](http://www.bbc.com/news/business-35250678)
 * [L'arnaque au président ou escroquerie aux faux ordres de virement (FOVI), Police Nationale, France, Jan 2016](http://www.police-nationale.interieur.gouv.fr/Actualites/Dossiers/Cybercrime/L-arnaque-au-president-ou-escroquerie-aux-faux-ordres-de-virement-FOVI)
+* [Easy Access to Information for Conducting Fraudulent Emergency Data Requests Impacts US-Based Companies and Law Enforcement Agencies, Nov 2024](https://www.ic3.gov/CSA/2024/241104.pdf)

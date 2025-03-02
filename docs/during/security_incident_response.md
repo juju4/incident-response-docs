@@ -207,6 +207,7 @@ Work with law enforcement to identify the source of the attack, letting any syst
 * Contact security companies to help in assessing risk and any PR next steps.
 * Contact cyber insurance provider.
 * Share with your partners and community through ISACs and CSIRTs to help them prevent or remediate similar attacks
+* Do required notifications, typically to Data Protection Authorities (EU GDPR), Financial authorities (like US SEC), customers
 
 ### External Communication
 **Delegate to:** Communication and Marketing Team
@@ -264,6 +265,7 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Analysis of Competing Hypotheses, CIA](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/art11.html) and [Psychology of Intelligence Analysis](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/psychology-of-intelligence-analysis/PsychofIntelNew.pdf)
 * [Incident management, UK NCSC, Oct 2019](https://www.ncsc.gov.uk/collection/incident-management)
 * [Incident Handling Checklist, US HHS](https://www.hhs.gov/sites/default/files/incident-handling-checklist.pdf)
+* [Incident Response Runbook - sectemplates.com](https://github.com/securitytemplates/sectemplates/blob/main/incident-response/v1/Incident_response_runbook.md)
 
 * [The Cyber OODA Loop: How Your Attacker Should HelpYou Design Your Defense, CIS, Sep 2015](https://csrc.nist.gov/CSRC/media/Presentations/The-Cyber-OODA-Loop-How-Your-Attacker-Should-Help/images-media/day3_security-automation_930-1020.pdf)
 * [Incident Response Fundamentals Communication, Sep 2017](https://blogs.cisco.com/security/incident-response-fundamentals-communication)
@@ -289,9 +291,23 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Microsoft Incident Response Playbooks, May 2021](https://aka.ms/IRPlaybooks), https://docs.microsoft.com/en-us/security/compass/incident-response-playbooks (Phishing, Password spray, App consent grants), [Compromised and malicious applications investigation, Apr 2022](https://docs.microsoft.com/en-us/security/compass/incident-response-playbook-compromised-malicious-app)
 * [Syntax IR playbooks, Jun 2021](https://gitlab.com/syntax-ir/playbooks/)
 * [CACAO Security Playbooks Version 1.0, OASIS, Jun 2021](https://docs.oasis-open.org/cacao/security-playbooks/v1.0/cs02/security-playbooks-v1.0-cs02.html)
+* [CACAO Security Playbooks Version 2.0, OASIS, Nov 2023](https://docs.oasis-open.org/cacao/security-playbooks/v2.0/security-playbooks-v2.0.html), https://github.com/oasis-open/cacao-json-schemas, https://github.com/opencybersecurityalliance/cacao-roaster, [SOARCA - The Open Source CACAO-based Security Orchestrator!](https://gitlab.com/cossas/SOARCA)
+* [MISP playbooks](https://misp.github.io/misp-playbooks/), https://github.com/MISP/misp-playbooks
+* [Cyber Security Playbooks, WA Cyber Security Unit (DGOV Technical) ](https://soc.cyber.wa.gov.au/guidelines/playbooks/), https://github.com/wagov/wasocshared
 * [CYBER SECURITYINCIDENT MANAGEMENT GUIDE, Centre for Cyber Security Belgium, 2021](https://www.cybersecuritycoalition.be/content/uploads/cybersecurity-incident-management-guide-EN.pdf)
 * [Project Obsidian, BlueTeamVillage](https://blueteamvillage.org/programs/project-obsidian/), [DEFCON30 Obsidian stations, 2022 - youtube](https://www.youtube.com/watch?v=Km-gzMceT6M&list=PLvQcui-UIwfSvcB6mHYK-KSTVRqOyqIRJ&pp=iAQB), https://github.com/blueteamvillage/Project-Obsidian-DC30, https://github.com/blueteamvillage/Project-Obsidian-DC31
 * https://github.com/chocolatecoat/DFIR-Templates
+* [Incident response on generative AI workloads, Dec 2024](https://www.linkedin.com/posts/thomas-roccia_genai-dfir-incidentresponse-activity-7269213716544434176-CB51), [Methodology for incident response on generative AI workloads, Sep 2024](https://aws.amazon.com/blogs/security/methodology-for-incident-response-on-generative-ai-workloads/)
+* [Announcing the Incident Response Program Pack v1.5 - sectemplates.com, Feb 2025](https://www.sectemplates.com/2025/02/announcing-the-incident-response-program-pack-v15.html)
+* [Open Source (OS) Security Operations Center (SOC) Documents (Docs)](https://github.com/madirish/ossocdocs)
+* [Cyber Detection and Response](https://github.com/misterjulien/detection-and-response/wiki)
 
 * [It‘s definitely one of the top sentences you hear in incident response engagements:“these systems should have been decommissioned a long time ago. I don’t know who’s still using them.”and then someone, who hasn’t spoken a word yet in that call, clears his throat, Jun 2022](https://twitter.com/cyb3rops/status/1533074343944667137)
 * [Famous last words of a cyber attack victim before getting compromisedI’ll start- it’s an appliance;it’s hardened- yes,we use two factors, name and password- let’s take a non-standard port;no one will look for that one- yes,it’s a public IP but unreachable from the Internet, Jun 2022](https://twitter.com/cyb3rops/status/1532760497132556290)
+
+* [Disclosure of Cybersecurity Incidents Determined To Be Material and Other Cybersecurity Incidents, SEC, May 2024](https://www.sec.gov/newsroom/speeches-statements/gerding-cybersecurity-incidents-05212024) - 4 days once determined material
+* [Notify a personal data breach to your Data Protection Authority (DPA) - Europe Art. 33 GDPR](https://www.edpb.europa.eu/notify-data-breach_en), https://gdpr-info.eu/art-33-gdpr/ - 72h
+* [Report a cyber incident - Canada](https://www.cyber.gc.ca/en/incident-management)
+* [Submit breach report to Office of Privacy Commissioner (OPC) of Canada](https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches/respond-to-a-privacy-breach-at-your-business/gd_pb_201810/) (Canada PIPEDA) - as soon as feasible
+* [Aviser la Commission et les personnes concernées - CAI Quebec, Canada](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/incidents-confidentialite-mesures-securite-entreprises) (Quebec Loi 25)
+* [FDPIC Guidelines on data breaches, Feb 2025](https://www.edoeb.admin.ch/en/guidelines-data-breach), [Voici comment annoncer une violation de données personnelles en Suisse, Fev 2025](https://dcod.ch/2025/02/17/voici-comment-annoncer-une-violation-de-donnees-personnelles-en-suisse/)
