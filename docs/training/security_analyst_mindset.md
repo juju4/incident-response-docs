@@ -70,6 +70,8 @@ Examples
 * [NSA Warns of Rogue System Administrators 1991 - Two Versions](https://cryptome.org/2014/01/nsa-rogue-sysadmins-compare.htm)
 * [SEC Charges Rogue Trader Who Bankrupted His Firm, Sep 2021](https://www.sec.gov/news/press-release/2021-205)
 * [UBS Rogue Trader Incident Stirs Access Management Speculation, Sep 2011](https://www.darkreading.com/authentication/ubs-rogue-trader-incident-stirs-access-management-speculation)
+* [The Lost Art of Careful Craftsmanship: Lessons from My Uncle’s Workshop, Mar 2025](https://cyb3rops.medium.com/the-lost-art-of-careful-craftsmanship-lessons-from-my-uncles-workshop-54ae2b7462ac)
+* [Know Your Tools, Mar 2025](https://windowsir.blogspot.com/2025/03/know-your-tools.html)
 
 * [Security Incident Response - a Process, Apr 2020](blog.jeffbryner.com/2020/04/14/security-incident-response-a-process.html)
 * Triage template: Summary/Understanding, Actions (What has been done, ongoing, next), Timeline, IOC, Theories, Lessons learned

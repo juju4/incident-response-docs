@@ -301,6 +301,8 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Announcing the Incident Response Program Pack v1.5 - sectemplates.com, Feb 2025](https://www.sectemplates.com/2025/02/announcing-the-incident-response-program-pack-v15.html)
 * [Open Source (OS) Security Operations Center (SOC) Documents (Docs)](https://github.com/madirish/ossocdocs)
 * [Cyber Detection and Response](https://github.com/misterjulien/detection-and-response/wiki)
+* [FICHE RÉFLEXE Compromission système Qualification, InterCERT FRANCE](https://www.intercert-france.fr/fichesreflexes-remediation/files/FicheReflexe-CompromissionSysteme-Qualification.pdf)
+* [Putting staff welfare at the heart of incident response, May 2022](https://www.ncsc.gov.uk/guidance/putting-staff-welfare-at-the-heart-of-incident-response)
 
 * [It‘s definitely one of the top sentences you hear in incident response engagements:“these systems should have been decommissioned a long time ago. I don’t know who’s still using them.”and then someone, who hasn’t spoken a word yet in that call, clears his throat, Jun 2022](https://twitter.com/cyb3rops/status/1533074343944667137)
 * [Famous last words of a cyber attack victim before getting compromisedI’ll start- it’s an appliance;it’s hardened- yes,we use two factors, name and password- let’s take a non-standard port;no one will look for that one- yes,it’s a public IP but unreachable from the Internet, Jun 2022](https://twitter.com/cyb3rops/status/1532760497132556290)
@@ -310,4 +312,4 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Report a cyber incident - Canada](https://www.cyber.gc.ca/en/incident-management)
 * [Submit breach report to Office of Privacy Commissioner (OPC) of Canada](https://www.priv.gc.ca/en/privacy-topics/business-privacy/breaches-and-safeguards/privacy-breaches/respond-to-a-privacy-breach-at-your-business/gd_pb_201810/) (Canada PIPEDA) - as soon as feasible
 * [Aviser la Commission et les personnes concernées - CAI Quebec, Canada](https://www.cai.gouv.qc.ca/protection-renseignements-personnels/information-entreprises-privees/incidents-confidentialite-mesures-securite-entreprises) (Quebec Loi 25)
-* [FDPIC Guidelines on data breaches, Feb 2025](https://www.edoeb.admin.ch/en/guidelines-data-breach), [Voici comment annoncer une violation de données personnelles en Suisse, Fev 2025](https://dcod.ch/2025/02/17/voici-comment-annoncer-une-violation-de-donnees-personnelles-en-suisse/)
+* [FDPIC Guidelines on data breaches, Feb 2025](https://www.edoeb.admin.ch/en/guidelines-data-breach), [Voici comment annoncer une violation de données personnelles en Suisse, Fev 2025](https://dcod.ch/2025/02/17/voici-comment-annoncer-une-violation-de-donnees-personnelles-en-suisse/), [Swiss critical sector faces new 24-hour cyberattack reporting rule, Mar 2025](https://www.bleepingcomputer.com/news/security/swiss-critical-sector-faces-new-24-hour-cyberattack-reporting-rule/)
