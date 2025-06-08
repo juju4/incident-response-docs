@@ -65,7 +65,15 @@ Almost any border can require it. Most of the time, they can't deny entry for th
 * [Use Travel Mode to remove vaults from your devices when you travel, 1password](https://support.1password.com/travel-mode/)
 
 News
+* [Russia to enforce location tracking app on all foreigners in Moscow, May 2025](https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/)
+* [What to do with your cell phone at U.S. borders (yes, even citizens), May 2025](https://epicenter-nyc.com/what-to-do-with-your-cell-phone-at-u-s-borders-yes-even-citizens/): "There’s no foolproof way to avoid scrutiny if CBP wants to retaliate. But traveling light, with less personal or political data, is usually safer."
+* [Keep calm (but delete your nudes): the new rules for travelling to and from Trump’s America, May 2025](https://www.theguardian.com/us-news/2025/may/15/travel-trump-america-us-border-detentions)
+* [Eight Kiwis detained at US border since November, MFAT reminds travellers of entry rules amid SafeTravel review, Apr 2025](https://www.nzherald.co.nz/travel/travel-news/eight-kiwis-detained-at-us-border-since-november-mfat-reminds-travellers-of-entry-rules-amid-safetravel-review/BUP6FRREGJE33FEV4IJ334VSVQ/)
+* [Australian academics refuse to attend US conferences for fear of being detained, Apr 2025](https://www.theguardian.com/australia-news/2025/apr/14/australian-academics-refuse-to-attend-us-conferences-for-fear-of-being-detained)
 * [An Australian was denied US entry for bizarre reasons. He’s not alone, Apr 2025](https://www.smh.com.au/traveller/travel-news/an-australian-was-denied-us-entry-for-bizarre-reasons-he-s-not-alone-20250403-p5lov8.html)
+* [CPJ Safety Advisory: Traveling to the US - Committee to Protect Journalists, Apr 2025](https://cpj.org/2025/04/cpj-safety-advisory-traveling-to-the-us/)
+* [Anti-spying phone pouches offered to EU lawmakers for trip to Hungary, Apr 2025](https://www.politico.eu/article/lawmakers-offered-anti-espionage-phone-pouches-in-hungary/)
+* [The US border surveillance expansion has global implications, Apr 2025](https://privacyinternational.org/news-analysis/5552/us-border-surveillance-expansion-has-global-implications)
 * [When the physicists need burner phones, that’s when you know America’s changed, Mar 2025](https://www.theguardian.com/us-news/2025/mar/29/when-the-physicists-need-burner-phones-thats-when-you-know-americas-changed)
 * [Why You Can (And Should) Opt Out Of TSA Facial Recognition Right Now, Mar 2025](https://www.huffpost.com/entry/tsa-facial-scan-opt-out_l_67e2f79fe4b075349cd175d6)
 * [How to protect your phone and data privacy at the US border, Mar 2025](https://www.theguardian.com/technology/2025/mar/26/phone-search-privacy-us-border-immigration)

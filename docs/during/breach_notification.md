@@ -101,6 +101,7 @@ https://www.privacylaws.com/Documents/data_breach_conference.pdf
 * [President Biden Signs into Law the Cyber Incident and Reporting Act, Mandating Reporting of Cyber Incidents and Ransomware Payments, Mar 2022](https://www.natlawreview.com/article/president-biden-signs-law-cyber-incident-and-reporting-act-mandating-reporting-cyber), report to CISA in 72h
 * [SEC wants public companies to report breaches within four days, Mar 2022](https://www-bleepingcomputer-com.cdn.ampproject.org/c/s/www.bleepingcomputer.com/news/security/sec-wants-public-companies-to-report-breaches-within-four-days/amp/)
 * [S.2666 - Sanction and Stop Ransomware Act of 2021 - Introduced](https://www.congress.gov/bill/117th-congress/senate-bill/2666), report in 24h
+* [Victoria’s Secret has a cybersecurity incident ongoing, I understand a ransomware group got into the network. May 2025](https://bsky.app/profile/GossiTheDog.cyberplace.social.ap.brid.gy/post/3lqb26x5l2242):14h+ delay in communication
 
 
 1. What is the activity you have to report? How is it defined?

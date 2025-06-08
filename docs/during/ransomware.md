@@ -77,3 +77,6 @@ Some countries require to notify government bodies
 * [BloodHound versus Ransomware: A Defender’s Guide, Jun 2021](https://posts.specterops.io/bloodhound-versus-ransomware-a-defenders-guide-28147dedb73b)
 * [Ransomware prevention: How organizations can fight back , Feb 2022](https://www.mckinsey.com/business-functions/risk-and-resilience/our-insights/ransomware-prevention-how-organizations-can-fight-back)
 * [The State of Cloud Ransomware in 2024, Nov 2024](https://www.sentinelone.com/blog/the-state-of-cloud-ransomware-in-2024/)
+* [Rebuild or Restore Active Directory from Backups? ... not a "rebuild" guy, May 2025](https://www.linkedin.com/posts/emannon_rebuild-or-restore-active-directory-from-activity-7330407013648138241-k_Kf)
+
+* [Australia's new ransomware payment disclosure rules, if total sales within a year over AUS$3 million ($1.93 million) report within 72 hours. Jun 2025](https://www.darkreading.com/threat-intelligence/australia-ransomware-payment-disclosure-rules)

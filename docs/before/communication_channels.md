@@ -61,3 +61,4 @@ Recommendations
 
 * [1] [Skip The URL When You Post In A Crisis, Readwrite, Aug 2012](http://readwrite.com/2012/08/29/skip-the-url-when-you-post-in-a-crisis/), [Determinants of information retweeting in microblogging, Internet Research](http://www.emeraldinsight.com/doi/abs/10.1108/10662241211250980)
 * [Incident communication best practices](https://www.atlassian.com/incident-management/incident-communication)
+* [Ask a security trainer: Checking identities in Signal, May 2025](https://freedom.press/digisec/blog/ask-a-security-trainer-checking-identities-in-signal/): verifying someone’s identity _over another trusted channel or in person_
