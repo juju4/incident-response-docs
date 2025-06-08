@@ -28,14 +28,30 @@ Subject:
 Internal Rating
 CVSS (https://www.first.org/cvss/calculator/4.0)
 EPSS (ex: https://www.cvedetails.com/epss/epss-score-history.html?delta=110; https://github.com/theowni/EPSS-Calculator)
-KES
+CISA KEV
+Public Exploit: trivial? popular tools Metasploit, Nuclei?
 
 Summary
 (5 Ws, business impact, exploited? internet-facing or customer-facing?)
 
 Details
 
+Mitigation
+(patch, workaround, custom config...)
+
+Detections
+(sigma, yara, logs...)
+
 References
+(vendor)
+(isc sans)
+(security vendors, blogs...)
+https://vulnerability.circl.lu/
+
+Exploitation path
+https://www.linkedin.com/posts/laurent-biagiotti-19779284_cve-2025-xxxx-ce-nest-pas-quun-num%C3%A9ro-activity-7321071823452872704-DNcs
+https://github.com/Galeax/CVE2CAPEC
+https://galeax.github.io/CVE2CAPEC/
 
 ## Others
 
