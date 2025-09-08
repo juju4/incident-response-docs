@@ -1,0 +1,41 @@
+
+* [Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. ](https://github.com/Yamato-Security/suzaku)
+* https://nathanmcnulty.com/blog/2025/04/comprehensive-guide-to-configuring-advanced-auditing/
+* https://github.com/nccgroup/ScoutSuite (AWS, Azure, GCP...)
+* https://docs.prowler.com/projects/prowler-open-source/en/latest/# (AWS, Azure, GCP...)
+
+* https://andreafortuna.org/2023/01/16/my-own-list-of-tools-to-perform-incident-response-against-azure-ad-and-microsoft-365
+* https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module
+* https://github.com/invictus-ir/Microsoft-Extractor-Suite
+* [An Azure SPN access minimizer](https://github.com/labyrinthinesecurity/silhouette/)
+* https://github.com/WillOram/AzureAD-incident-response
+* [Untitled Goose Tool Aids Hunt and Incident Response in Azure, Azure Active Directory, and Microsoft 365 Environments, Mar 2023](https://www.cisa.gov/news-events/alerts/2023/03/23/untitled-goose-tool-aids-hunt-and-incident-response-azure-azure-active-directory-and-microsoft-365), https://github.com/cisagov/untitledgoosetool
+* https://github.com/mandiant/Mandiant-Azure-AD-Investigator
+* https://github.com/T0pCyber/hawk
+* https://github.com/CrowdStrike/CRT
+* https://github.com/PwC-IR/Office-365-Extractor
+* https://github.com/SpecterOps/AzureHound
+* https://medium.com/@rajendraprasanth/cloud-incident-forensic-response-part3-azure-and-m365-fabe6dcbcef2
+* [Microsoft 365, Azure subscriptions and Microsoft Entra ID security configuration reviews](https://github.com/silverhack/monkey365)
+* [Microsoft Teams New Audit Log Feature Allows Admins to Track Users Actions, Jun 2025](https://cybersecuritynews.com/microsoft-teams-audit-log/)
+* [Belshazaar is a command-line tool for analyzing Azure Role-Based Access Control (RBAC) actions to detect overly broad wildcard permissions.](https://github.com/labyrinthinesecurity/silhouette/tree/2.1/formal)
+* [MAES: M365 Analyzer & Extractor Suite](https://github.com/ionsec/maes-platform)
+* [Insights from the trenches: building audit capacity for Microsoft Sentinel & Defender XDR](https://www.michalos.net/2025/06/20/insights-from-the-trenches-building-audit-capacity-for-microsoft-sentinel-defender-xdr/)
+* [How to check if audit logging is enabled:](https://www.linkedin.com/posts/chaim-black_imagine-buying-a-home-with-a-full-camera-activity-7348796040176685056-Fpj6/), <https://security.microsoft.com/auditlogsearch>
+
+* [I’m an Incident Responder on the AWS Customer Incident Response Team (CIRT). And I get asked a lot of questions, like:“Where do I even start with incident response in the cloud?”Here’s a beginner-friendly thread on AWS IR tips — with a few lessons I learned 🧵👇 /THREAD, Apr 2025](https://x.com/4n6lady/status/1917627609741156368): CloudTrail all regions, monitor root account, enable guardduty, tag resources, snapshot first, baseline, start small, save logs...
+* [Tales from the cloud trenches: The Attacker doth persist too much, methinks, May 2025](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-the-attacker-doth-persist-too-much/) AWS
+* Awesome work by the folks at AWS that implemented this! AWS now prevents OIDC misconfigurations with many popular third-parties. https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc_secure-by-default.html
+This is an issue I described here: https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions
+https://bsky.app/profile/scottpiper.bsky.social/post/3lr72k25qt227
+https://github.com/aws-samples/resource-control-policy-examples
+* [Get visibility into the IAM permissions in your AWS organizations and accounts](https://github.com/cloud-copilot/iam-lens)
+* [Go library, server, and CLI providing foundational capabilities to simulate access for AWS IAM policies.](https://nsiow.github.io/yams/)
+
+* https://cloud.google.com/architecture/framework/security
+* [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
+
+* [Granular, Actionable Adversary Emulation for the Cloud](https://github.com/DataDog/stratus-red-team)
+* [Cloud Offensive Breach and Risk Assessment (COBRA) Tool](https://github.com/PaloAltoNetworks/cobra-tool)
+* [EasyPIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity](https://github.com/kayasax/EasyPIM)
+* [Audit administrator events in Microsoft Entra Connect Sync](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/admin-audit-logging)
