@@ -78,3 +78,4 @@ Examples
 * [Security Incident Response - a Process, Apr 2020](blog.jeffbryner.com/2020/04/14/security-incident-response-a-process.html)
 * Triage template: Summary/Understanding, Actions (What has been done, ongoing, next), Timeline, IOC, Theories, Lessons learned
 * Executive summary: Summary, Actions (short)
+* [HISAC - High Impact Security Analysis and Communication. How to be a well rounded SOC/MDR/Cyber/Information Security Analyst. Jan 2025](https://www.jaiminton.com/internal-blog/high-impact-security-analysis)

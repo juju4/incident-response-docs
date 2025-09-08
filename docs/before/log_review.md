@@ -12,6 +12,7 @@ Infrastructure rules are a good based but in most cases, business context is key
 
 ### Linux
 
+* kernel (audit, apparmor, selinux...)
 * ssh
 * sudo
 * su
@@ -67,6 +68,7 @@ Infrastructure rules are a good based but in most cases, business context is key
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
+* [Priority logs for SIEM ingestion: Practitioner guidance, AU, May 2025](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance), [pdf](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
 * https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
 * Company's logging policy, standard, RACI and whatever applicable references
 * Environment's risk assessment and threat model
@@ -80,3 +82,14 @@ Infrastructure rules are a good based but in most cases, business context is key
   * jpcert: https://jpcertcc.github.io/ToolAnalysisResultSheet/, https://github.com/JPCERTCC/LogonTracer
   * https://github.com/mdecrevoisier/Splunk-input-windows-baseline
   * https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf
+  * https://www.malwarearchaeology.com/logging
+
+* [A Brief Ode to Data Minimization, Jun 2025](https://little-flying-robots.ghost.io/a-brief-ode-to-data-minimization/?ref=knowtheory-linking-people-to-it)
+
+* [Analyse logs in a way that leaves other sloths in the dust. ](https://github.com/francevarotz98/SlothLog) - http, ftp logs
+* [Your Logs are Lying: How Network Infrastructure Impacts EDR Network Telemetry, Jul 2025](https://academy.bluraven.io/blog/how-network-infrastructure-impacts-edr-telemetry): web proxy and EDR case
+* [Copilot Broke Your Audit Log, but Microsoft Won’t Tell You, Aug 2025](https://pistachioapp.com/blog/copilot-broke-your-audit-log)
+* RDP: [RDP Event Log DFIR, Feb 2019](https://dfironthemountain.wordpress.com/2019/02/15/rdp-event-log-dfir/), [Windows Forensic Analysis: some thoughts on RDP related Event IDs, Jun 2020](https://andreafortuna.org/2020/06/04/windows-forensic-analysis-some-thoughts-on-rdp-related-event-ids/), [Making Sense of RDP Connection Event Logs, Nov 2020](https://frsecure.com/blog/rdp-connection-event-logs/), [Windows RDP Event IDs Cheatsheet, Feb 2022](https://www.socinvestigation.com/windows-rdp-event-ids-cheatsheet/)
+* [A Primer on Forensic Investigation of Salesforce Security Incidents, Aug 2025](https://www.salesforce.com/blog/a-primer-on-forensic-investigation-of-salesforce-security-incidents/)
+* [Finding Seamless SSO usage, Aug 2025](https://nathanmcnulty.com/blog/2025/08/finding-seamless-sso-usage/) - EntraID
+* [Detecting Velociraptor misuse, Aug 2025](https://docs.velociraptor.app/knowledge_base/tips/velocirator_misuse/), [Velociraptor incident response tool abused for remote access, Aug 2025](https://news.sophos.com/en-us/2025/08/26/velociraptor-incident-response-tool-abused-for-remote-access/)

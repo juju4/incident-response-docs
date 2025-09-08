@@ -18,7 +18,7 @@ Those should help to identify easily which risk, platform or component is most o
 * Mean-Time-To-Acknowledge
 * Mean-Time-To-Repair (MTTR) or Contain or Fix, Cost of repair (hours)
 * Mean-Time-Between-Failure (MTBF)
-* Avaibility: either as uptime, either as successful requests (if using Error budget)
+* Availability: either as uptime, either as successful requests (if using Error budget)
 * Error budget (Google Site Reliability Engineering): one minus the availability target
 
 # More targeted security metrics
@@ -29,6 +29,9 @@ Those should help to identify easily which risk, platform or component is most o
 * Controls involved
 * KillChain, MITRE ATT&CK
 * Outcome: false-positive, true-positive, duplicate...
+* Repetitive/Can be automated/Was automated?
+* Consistency and Documentation (per process)
+* Log source cost and detections
 
 # Check or Quality Assurance
 

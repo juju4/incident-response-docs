@@ -102,6 +102,7 @@ https://www.privacylaws.com/Documents/data_breach_conference.pdf
 * [SEC wants public companies to report breaches within four days, Mar 2022](https://www-bleepingcomputer-com.cdn.ampproject.org/c/s/www.bleepingcomputer.com/news/security/sec-wants-public-companies-to-report-breaches-within-four-days/amp/)
 * [S.2666 - Sanction and Stop Ransomware Act of 2021 - Introduced](https://www.congress.gov/bill/117th-congress/senate-bill/2666), report in 24h
 * [Victoria’s Secret has a cybersecurity incident ongoing, I understand a ransomware group got into the network. May 2025](https://bsky.app/profile/GossiTheDog.cyberplace.social.ap.brid.gy/post/3lqb26x5l2242):14h+ delay in communication
+* [I’m quoted here regarding the ethics in not disclosing to students and defense contractors that their information may have been leaked in an Indiana University data breach. Still no word of a third party investigator being engaged. Dear Internet, do your thing. https://www.ipm.org/news/2025-07-04/administrator-says-iu-will-never-explain-it-security-breach-publicly, Jul 2025](https://bsky.app/profile/tarah.org/post/3lt5lrj2cxs2y)
 
 
 1. What is the activity you have to report? How is it defined?

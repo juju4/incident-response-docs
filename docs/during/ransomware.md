@@ -53,6 +53,12 @@ Some countries require to notify government bodies
   * US OFAC and CISA. [Updated Advisory on Potential Sanctions Risks for Facilitating Ransomware Payments, Sep 2021](https://home.treasury.gov/system/files/126/ofac_ransomware_advisory.pdf)
   * FR fill a complaint. [Loi LOPMI : pour payer la rançon, il faudra déposer plainte, Mar 2022](https://www.zdnet.fr/actualites/loi-lopmi-pour-payer-la-rancon-il-faudra-deposer-plainte-39939113.htm)
 
+# Post-Incident
+
+* Ensure restored full capacity and lessons learned
+* Preserve evidence for insurance and legal actions
+* Preserve most valuable encrypted data that was not recovered from elsewhere in case encryption key is made available or vulnerability found later
+
 # References
 
 * [Ransomware Guide, CISA, Sep 2020](https://www.cisa.gov/publication/ransomware-guide)
@@ -80,3 +86,4 @@ Some countries require to notify government bodies
 * [Rebuild or Restore Active Directory from Backups? ... not a "rebuild" guy, May 2025](https://www.linkedin.com/posts/emannon_rebuild-or-restore-active-directory-from-activity-7330407013648138241-k_Kf)
 
 * [Australia's new ransomware payment disclosure rules, if total sales within a year over AUS$3 million ($1.93 million) report within 72 hours. Jun 2025](https://www.darkreading.com/threat-intelligence/australia-ransomware-payment-disclosure-rules)
+* [Always maintain copies of encrypted data as long as decryption would still be valuable for the business. Jul 2025](https://bsky.app/profile/malwarejake.bsky.social/post/3lt2mvtwwrs2f), Hunters International ransomware shuts down operation and releases free decryption keys Via 3xp0rt: https://x.com/3xp0rtblog/status/1940690461624357144
