@@ -1,25 +1,24 @@
+# Security analyst mindset
+
 Goal: push better responsibility, curiosity and communication
 
-"Never assume, verify"
-"Trust but verify"
-"Zero-Trust"
-"Perfection is the enemy of the good when it comes to emergency management. Speed trumps perfection... The greatest error is not to move. The greatest error is to be paralyzed by the fear of failure. If you need to be right before you move, you will never win."
+> "Never assume, verify"
+> "Trust but verify"
+> "Zero-Trust"
+> "Perfection is the enemy of the good when it comes to emergency management. Speed trumps perfection... The greatest error is not to move. The greatest error is to be paralyzed by the fear of failure. If you need to be right before you move, you will never win."
 
-# Responsibility
+## Responsibility
 
 Your investigation can decide to fire someone, to send someone to jail, hopefully never to kill.
 It can and should be reviewed by your internal peers, management and internal auditors.
 Depending on context, it may be reviewed by external auditors, lawyers and journalists (1).
 Not all investigations are equals. "Choose your battle" but ensure to document and communicate limitations and tradeoffs to your team and management.
 
-# Mindset
+## Mindset
 
-Call it questioning mindset, detective, investigative or just scientific or feedback loop.
-Don't panic
-Don't wait / act fast - WHO crisis director
-[“Perfection is the enemy of the good when it comes to emergency management. Speed trumps perfection … The greatest error is not to move. The greatest error is to be paralyzed by the fear of failure. If you need to be right before you move, you will never win.", Michael Ryan (WHO Health Emergencies Programme) at daily press briefing on COVID 19 March 13th 2020](https://www.youtube.com/watch?v=AqRHH6e-y6I)
-[We are in a race to save lives right now and as my colleague Dr. Mike Ryan said back in March last year, it’s important in any crisis to act fast and have no regrets, WHO, Jan 2021](https://www.who.int/director-general/speeches/detail/opening-remarks-for-the-media-briefing-on-covid-19-5-january-2021)
-
+* Call it questioning mindset, detective, investigative or just scientific or feedback loop.
+* Don't panic
+* Don't wait / act fast - WHO crisis director: [“Perfection is the enemy of the good when it comes to emergency management. Speed trumps perfection … The greatest error is not to move. The greatest error is to be paralyzed by the fear of failure. If you need to be right before you move, you will never win.", Michael Ryan (WHO Health Emergencies Programme) at daily press briefing on COVID 19 March 13th 2020](https://www.youtube.com/watch?v=AqRHH6e-y6I), [We are in a race to save lives right now and as my colleague Dr. Mike Ryan said back in March last year, it’s important in any crisis to act fast and have no regrets, WHO, Jan 2021](https://www.who.int/director-general/speeches/detail/opening-remarks-for-the-media-briefing-on-covid-19-5-january-2021)
 * Relentlessly ask questions but prioritize as nearly all investigations are time-bound. No business will invest in years of investigation.
 * Establish timeline of the key events of the attack and of the response
 * Known Knowns, Known Unknowns - Donald Rumsfeld, https://en.wikipedia.org/wiki/There_are_unknown_unknowns
@@ -51,7 +50,7 @@ Examples
 * [Symantec: Data-stealing hackers use DDoS to distract from attacks, Oct 2012](https://www.zdnet.com/article/symantec-data-stealing-hackers-use-ddos-to-distract-from-attacks/)
 * [Rogue admin jailed after taking down former employer’s network, Dec 2016](https://nakedsecurity.sophos.com/2016/12/06/rogue-admin-jailed-after-taking-down-former-employers-network/)
 
-# References
+## References
 
 * [Five Ws](https://en.wikipedia.org/wiki/Five_Ws)
 * [Spy the Lie: Three Former CIA Officers Reveal Their Secrets to Uncloaking Deception](https://www.goodreads.com/book/show/13167156-spy-the-lie)
@@ -68,6 +67,8 @@ Examples
 * [Sysadmin tries, fails at being l337 hax0r, gets jail time, Jan 2008](https://arstechnica.com/information-technology/2008/01/sysadmin-tries-fails-at-being-l337-hax0r-gets-jail-time/)
 * [Feds: IT admin plotted to erase Fannie Mae, Jan 2009](https://www.theregister.com/2009/01/29/fannie_mae_sabotage_averted/)
 * [NSA Warns of Rogue System Administrators 1991 - Two Versions](https://cryptome.org/2014/01/nsa-rogue-sysadmins-compare.htm)
+* [How Analysts Approach Investigations with Diagnostic Inquiry, May 2016](https://chrissanders.org/2016/05/how-analysts-approach-investigations/)
+* [So, you want to work in security? Jul 2016](https://www.freecodecamp.org/news/so-you-want-to-work-in-security-bc6c10157d23#.8vgj4hxdy)
 * [SEC Charges Rogue Trader Who Bankrupted His Firm, Sep 2021](https://www.sec.gov/news/press-release/2021-205)
 * [UBS Rogue Trader Incident Stirs Access Management Speculation, Sep 2011](https://www.darkreading.com/authentication/ubs-rogue-trader-incident-stirs-access-management-speculation)
 * [IR 101 The analyst mindset, BTV Project Obsidian, Aug 2023](https://github.com/blueteamvillage/Project-Obsidian-DC31/blob/master/IR/Presentations/BTV-Project%20Obsidian-IR101%20Module%204.pptx)
