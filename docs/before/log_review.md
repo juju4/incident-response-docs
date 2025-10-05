@@ -83,6 +83,9 @@ Infrastructure rules are a good based but in most cases, business context is key
   * https://github.com/mdecrevoisier/Splunk-input-windows-baseline
   * https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf
   * https://www.malwarearchaeology.com/logging
+* Azure
+  * [Configure Microsoft Entra diagnostic settings for activity logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-configure-diagnostic-settings)
+  * [Configure Unified Sensor to support advanced identity detections (Preview)](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites-sensor-version-3#configure-unified-sensor-to-support-advanced-identity-detections-preview) - MDI
 
 * [A Brief Ode to Data Minimization, Jun 2025](https://little-flying-robots.ghost.io/a-brief-ode-to-data-minimization/?ref=knowtheory-linking-people-to-it)
 
@@ -93,3 +96,4 @@ Infrastructure rules are a good based but in most cases, business context is key
 * [A Primer on Forensic Investigation of Salesforce Security Incidents, Aug 2025](https://www.salesforce.com/blog/a-primer-on-forensic-investigation-of-salesforce-security-incidents/)
 * [Finding Seamless SSO usage, Aug 2025](https://nathanmcnulty.com/blog/2025/08/finding-seamless-sso-usage/) - EntraID
 * [Detecting Velociraptor misuse, Aug 2025](https://docs.velociraptor.app/knowledge_base/tips/velocirator_misuse/), [Velociraptor incident response tool abused for remote access, Aug 2025](https://news.sophos.com/en-us/2025/08/26/velociraptor-incident-response-tool-abused-for-remote-access/)
+* [Why SIEM Rules Fail and How to Fix Them: Insights from 160 Million Attack Simulations, Aug 2025](https://thehackernews.com/2025/08/why-siem-rules-fail-and-how-to-fix-them.html), [Picus BLUE REPORT 2025](https://www.picussecurity.com/blue-report)

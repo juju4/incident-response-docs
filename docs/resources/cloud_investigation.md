@@ -22,6 +22,8 @@
 * [MAES: M365 Analyzer & Extractor Suite](https://github.com/ionsec/maes-platform)
 * [Insights from the trenches: building audit capacity for Microsoft Sentinel & Defender XDR](https://www.michalos.net/2025/06/20/insights-from-the-trenches-building-audit-capacity-for-microsoft-sentinel-defender-xdr/)
 * [How to check if audit logging is enabled:](https://www.linkedin.com/posts/chaim-black_imagine-buying-a-home-with-a-full-camera-activity-7348796040176685056-Fpj6/), <https://security.microsoft.com/auditlogsearch>
+* [Maester, Your Microsoft Security test automation framework!](https://maester.dev/)
+* [ScubaGear, Automation to assess the state of your M365 tenant against CISA's baselines](https://github.com/cisagov/ScubaGear)
 
 * [I’m an Incident Responder on the AWS Customer Incident Response Team (CIRT). And I get asked a lot of questions, like:“Where do I even start with incident response in the cloud?”Here’s a beginner-friendly thread on AWS IR tips — with a few lessons I learned 🧵👇 /THREAD, Apr 2025](https://x.com/4n6lady/status/1917627609741156368): CloudTrail all regions, monitor root account, enable guardduty, tag resources, snapshot first, baseline, start small, save logs...
 * [Tales from the cloud trenches: The Attacker doth persist too much, methinks, May 2025](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-the-attacker-doth-persist-too-much/) AWS
@@ -34,6 +36,7 @@ https://github.com/aws-samples/resource-control-policy-examples
 
 * https://cloud.google.com/architecture/framework/security
 * [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
+* [How to Actually Security Benchmark Your Microsoft 365 Tenant, Sep 2025](https://ourcloudnetwork.com/how-to-actually-security-benchmark-your-microsoft-365-tenant/):  Maester, Scubgear (free), Avepoint, Inforcer, Coreview (paid)
 
 * [Granular, Actionable Adversary Emulation for the Cloud](https://github.com/DataDog/stratus-red-team)
 * [Cloud Offensive Breach and Risk Assessment (COBRA) Tool](https://github.com/PaloAltoNetworks/cobra-tool)

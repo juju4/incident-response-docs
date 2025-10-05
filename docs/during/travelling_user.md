@@ -65,6 +65,10 @@ Almost any border can require it. Most of the time, they can't deny entry for th
 * [Use Travel Mode to remove vaults from your devices when you travel, 1password](https://support.1password.com/travel-mode/)
 
 News
+* [Worried About Phone Searches? 1Password’s Travel Mode Can Clean Up Your Data, Sep 2025](https://www.wired.com/story/1password-travel-mode/)
+* [Ask a security trainer: How do I get secure phone backups? Sep 2025](https://freedom.press/digisec/blog/ask-a-security-trainer-how-do-i-get-secure-phone-backups/)
+* [eSIMplicity or eSIMplification? Privacy andSecurity Risks in the eSIM Ecosystem, Aug 2025](https://www.usenix.org/system/files/usenixsecurity25-motallebighomi.pdf?trk=public_post_comment-text)
+* [How to Set Up and Use a Burner Phone, Sep 2025](https://www.wired.com/story/how-to-set-up-use-burner-phone/)
 * [Hundreds Arrested in Immigration Raid at Hyundai Site in Georgia, Sep 2025. South Korea protests after more than 300 Korean company workers are detained](https://www.wsj.com/us-news/u-s-arrests-hundreds-in-raid-at-hyundai-plant-construction-site-in-georgia-4e150feb?st=sbpd2u&reflink=desktopwebshare_permalink), [What to know about the Hyundai immigration raid in US, Sep 2025](https://www.abc.net.au/news/2025-09-07/what-to-know-about-a-large-scale-immigration-raid-at-a/105744870)
 * [Canadians caught in crossfire as U.S. customs searches of electronic devices rise at borders, Aug 2025. 'What we're seeing is an exercise of discretion that's much stricter than ever before': Toronto-based lawyer](https://www.cbc.ca/news/canada/windsor/us-canada-device-searches-1.7619944)
 * [Travel eSIMs secretly route traffic over Chinese and undisclosed networks: study - USENIX34, Aug 2025](https://www.itnews.com.au/news/travel-esims-secretly-route-traffic-over-chinese-and-undisclosed-networks-study-619659), [eSIMplicity or eSIMplification? Privacy and Security Risks in the eSIM Ecosystem, Aug 2025](https://www.usenix.org/conference/usenixsecurity25/presentation/motallebighomi)

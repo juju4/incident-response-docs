@@ -73,6 +73,7 @@ text message, phone call or similar depending on your environment
 Any 🔑 items missing? Jun 2020](https://twitter.com/jhencinski/status/1278017846732378113)
 * [Forensic reports in a nutshell... May 2021 - xkcd](https://twitter.com/XRY_mike/status/1391358750670344192)
 * [TheDFIRReport, 2020-2022](https://thedfirreport.com/)
+* [Root causes of cyber incidents, Aug 2025. Part 1: The most actionable reports available and a wishlist for better ones](https://fluchsfriction.medium.com/root-causes-of-cyber-incidents-e274b5d10727)
 
 * [Common Vulnerability Scoring System SIG](https://www.first.org/cvss/)
 * [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)

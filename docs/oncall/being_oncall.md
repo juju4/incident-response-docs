@@ -93,3 +93,5 @@ You are free to set up your notification rules as you see fit to match how you w
 * Always consider covering an hour or so of someone else's on-call time if they request it and you are able. We all have lives which might get in the way of on-call time, and one day it might be you who needs to swap their on-call time in order to have a night out with your friend from out of town.
 
 * If an issue comes up during your on-call shift for which you got paged, you are responsible for resolving it. Even if it takes 3 hours and there's only 1 hour left of your shift. You can hand over to the next on-call if they agree, but you should never assume that's possible.
+
+* If reaching someone outside of paging system and not available, always leave a message (text preferred to voice as easier to check even during meetings).

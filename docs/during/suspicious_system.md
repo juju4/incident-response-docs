@@ -70,6 +70,7 @@ Recovering MFT entries from memory does *NOT* just duplicate what is on disk! Yo
 * [YaraMemoryScanner - Windows Powershell](https://github.com/BinaryDefense/YaraMemoryScanner)
 * [triage.zip provides an out-of-the-box Velociraptor triage collector for Windows, pre-configured for rapid and effective incident response. The project is intended for responders who need a reliable offline collector without the hassle of building from scratch.](https://github.com/Digital-Defense-Institute/triage.zip)
 * [WTFBin (n): a benign application that exhibits malicious behavior. These applications tend to confuse and alarm security analysts during incident response. This project exists to identify, catalog, and lightly poke fun at these applications, in the hopes that we can make analysts' lives just a little bit better.](https://wtfbins.wtf/)
+* [Velociraptor Deployment Automation System](https://github.com/N1ghtFury74/Scripts/tree/main/VDA)
 
 ### Data collection
 

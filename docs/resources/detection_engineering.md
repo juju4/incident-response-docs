@@ -61,6 +61,8 @@ Per log source
 
 * [On Detection: Tactical to Functional](https://posts.specterops.io/on-detection/home): 16 posts Jul 2022-Jan 2025
 * [About Detection Engineering, Sep 2022](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
+* [Security Analytics: How to rank use cases based on the "Quick Wins" approach? Apr 2017](https://detect.fyi/security-analytics-how-to-rank-use-cases-based-on-the-quick-wins-approach-d88748e5ece4)
+* [How to prioritize a Detection Backlog? May 2024](https://detect.fyi/how-to-prioritize-a-detection-backlog-84a16d4cc7ae)
 * [Baselines 101: Building Resilient, Frictionless SIEM Detections, Feb 2025](https://detect.fyi/baselines-101-building-resilient-frictionless-siem-detections-64dcbfb5afce): Detection Use Case: DCSync Attack & baseline periodic search
 * [Tactical Tuning by Combinational Reduction, Apr 2025](https://detect.fyi/tactical-tuning-by-combinational-reduction-afc65cb0ef41)
 * [Step-by-Step Guide: SOC Automation — SMB Threat Hunting & Incident Response Lab, Apr 2025](https://detect.fyi/step-by-step-guide-soc-automation-smb-threat-hunting-incident-response-lab-b6e48da2750d) with vmware, Windows AD, Kali Linux, Splunk SOAR Phantom and Enterprise
@@ -100,6 +102,11 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * [Scattered Spider: Detection Engineering Dilemma, Aug 2025](https://detecteam.com/blog/scattered-spider-detection-engineering-dilemma/)
 * [Z-Score: A Metric for Measuring Detection Use Case Consolidation, Aug 2025](https://medium.com/@zied.ehg/z-score-a-metric-for-measuring-detection-use-case-consolidation-dbaa16897cbd): indicates how many distinct, logically separable use cases are included within a single consolidated rule.
 * [A Detection Engineer's Guide to Cutting SIEM Costs, Sep 2025](https://www.monad.com/blog/a-detection-engineers-guide-to-cutting-siem-costs)
+* [Detection Engineering: Practicing Detection-as-Code – Versioning – Part 5, Sep 2025](https://blog.nviso.eu/2025/09/09/detection-engineering-practicing-detection-as-code-versioning-part-5/) on Sentinel
+* [Detection Gaps: The Hidden Enemy in SOC Threat Hunting & Detection Engineering, Sep 2025](https://detect.fyi/detection-gaps-the-hidden-enemy-in-soc-threat-hunting-detection-engineering-764472ea975e)
+* [Even if many plugins are fine, the bad ones are BAD, Sep 2025](https://dispatch.thorcollective.com/p/even-if-many-plugins-are-fine-the) - browsers extensions
+* [The Present and Future of Managed Detection and Response, Sep 2025](https://detect.fyi/the-present-and-future-of-managed-detection-and-response-01a72088e6f6)
+* [More than “plausible nonsense”: A rigorous eval for ADÉ, our security coding agent, Sep 2025](https://sublime.security/blog/more-than-plausible-nonsense-a-rigorous-eval-for-ade-our-security-coding-agent/): Detection Accuracy, Robustness, Economic Cost, [Evaluating LLM Generated Detection Rules in Cybersecurity, Sep 2025](https://arxiv.org/html/2509.16749v1)
 
 ### Tools
 
@@ -137,7 +144,8 @@ Generic
 * https://blog.sekoia.io/xdr-detection-rules-at-scale/
 * https://github.com/palantir/alerting-detection-strategy-framework
 * https://github.com/BinaryDefense/ARC-Labs-Hunting-Queries
-
+* [SOCPrime](https://socprime.com/)
+* [DetectionStream, Unify detection engineering across Sigma, Nova, and beyond](https://detectionstream.com/)
 
 Vendor-based
 
@@ -152,6 +160,10 @@ Vendor-based
 * [Improving automated Sentinel detection validation. Oct 2024](https://medium.com/@TimGroothuis/improving-automated-sentinel-detection-validation-02f91a9f4a21), [Azure Data Explorer Kusto emulator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto-emulator-overview), <https://github.com/timtim589/KustainerValidation>
 * [Automating Microsoft Sentinel Deployment with GitHub Actions, Aug 2025](https://sentinel.blog/automating-microsoft-sentinel-deployment-with-github-actions/)
 * [Initial thoughts on @detectionsai.bsky.social have been pretty positive. Great platform for sharing detection and analytic content across a multiple of tools and languages (Sigma, KQL, Splunk, Yara, etc..)](https://bsky.app/profile/jhuntinfosec.com/post/3lwpbrmu7nc2h)
+* https://github.com/mattnovitsch/M365/wiki
+* [Threat Hunting and Detection - KQL](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection)
+* [Elastic  Protections Artifacts](https://github.com/elastic/protections-artifacts) with rules
+* <https://github.com/SlimKQL/Hunting-Queries-Detection-Rules/>
 
 Linux
 * https://www.elastic.co/security-labs/primer-on-persistence-mechanisms, https://www.elastic.co/security-labs/primer-on-persistence-mechanisms

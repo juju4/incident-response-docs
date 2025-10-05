@@ -17,7 +17,8 @@ If your organization is world-wide, try to implement follow-the-sun model and av
 
 ## Shifts handover
 
-Email, Web status
+Medium can be whatever fitting team and company: Email, Web status, Chat status...
+It's recommended to have them archived.
 
 * Executive Summary, including incidents in progress
 * Actions/Recommendations
@@ -39,3 +40,4 @@ Email, Web status
 * https://en.wikipedia.org/wiki/Shift_plan
 * https://www.bmscentral.com/learn-employee-scheduling/category/shift-patterns/
 * [Intro SOC training, 2020 Educause Security, Chris Crowley](https://www.youtube.com/watch?v=caPYj9v8E-M) ~Daily Shift Change ~57:00
+* [Configure Shift Handover Templates - ServiceNow](https://www.servicenow.com/docs/bundle/zurich-security-management/page/product/secops-analyst-workspace/task/configure-shift-handover-templates.html)

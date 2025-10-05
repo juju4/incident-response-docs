@@ -87,3 +87,4 @@ Some countries require to notify government bodies
 
 * [Australia's new ransomware payment disclosure rules, if total sales within a year over AUS$3 million ($1.93 million) report within 72 hours. Jun 2025](https://www.darkreading.com/threat-intelligence/australia-ransomware-payment-disclosure-rules)
 * [Always maintain copies of encrypted data as long as decryption would still be valuable for the business. Jul 2025](https://bsky.app/profile/malwarejake.bsky.social/post/3lt2mvtwwrs2f), Hunters International ransomware shuts down operation and releases free decryption keys Via 3xp0rt: https://x.com/3xp0rtblog/status/1940690461624357144
+* [Ransomware Rising, Sep 2025. Confronting the fastest-growing cybercrime through international cooperation.](https://digitalfrontlines.io/2025/09/03/ransomware-rising/)
