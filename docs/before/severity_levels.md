@@ -142,3 +142,4 @@ Depending on your company, you could have SEV1+ incident involving a crisis cell
 
 * [CISA Cyber Incident Scoring System](https://us-cert.cisa.gov/CISA-Cyber-Incident-Scoring-System)
 * [SIEM Impact, Pain, Actionability, and Severity](https://socprime.com/blog/siem-impact-pain-actionability-and-severity/)
+* [Security Incident Severity and Priority Matrix - Gitlab handbook](https://handbook.gitlab.com/handbook/security/security-operations/sirt/severity-matrix/)

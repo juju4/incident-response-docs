@@ -1,5 +1,6 @@
 
 ## Definition
+
 BGP Hijacking involve redirecting traffic of someone else network to your, either as termination, either as man-in-the-middle.
 It is usually a mistake but could be malicious.
 
@@ -45,6 +46,9 @@ Please note that you must know where to announce the route (which router) and to
 * [BGP Hijacking tag, Krebs on security](https://krebsonsecurity.com/tag/bgp-hijacking/)
 * [August 30th 2020: Analysis of CenturyLink/Level(3) Outage](https://blog.cloudflare.com/analysis-of-todays-centurylink-level-3-outage/)
 * [CenturyLink / Level 3 Outage Analysis, Aug 2020](https://blog.thousandeyes.com/centurylink-level-3-outage-analysis/)
+* [At 2025-11-10 17:40:57 UTC Cloudflare for some unknown reason withdrew 2400:cb00:2049::/48, A prefix that contains a lot of DNS name servers for many customers (including bgp.tools) (see https://bgp.tools/prefix/2400:cb00:2049::/48#dns#dns )
+Everything was back by 2025-11-10 18:00:30, but it's kinda wild that a prefix that contains .gov and loads of other name servers on it would just disappear like that.
+This graph shows a selection of bgp.tools's session visibility second-by-second during the incident. Nov 2025](https://benjojo.co.uk/u/benjojo/h/7XtQ6k2vjx31G1w4n1)
 
 Operations
 

@@ -1,3 +1,4 @@
+# File Investigation
 
 Base analysis of file (not reverse-engineering)
 
@@ -63,3 +64,4 @@ Whatever is relevant in your context
 * [detect stegano-hidden data in PNG & BMP](https://github.com/zed-0xff/zsteg)
 
 * [Malware Delivered via Windows Installer Files, Feb 2018](https://isc.sans.edu/diary/Malware+Delivered+via+Windows+Installer+Files/23349)
+* [Base64 Patterns - Learning Aid](https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639)

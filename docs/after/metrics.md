@@ -32,6 +32,7 @@ Those should help to identify easily which risk, platform or component is most o
 * Repetitive/Can be automated/Was automated?
 * Consistency and Documentation (per process)
 * Log source cost and detections
+* [cost of data / number (or quality) of detection rules](https://www.linkedin.com/posts/secops-at-home_siem-siemdeployment-secops-activity-7388831993267912704-fH7-)
 
 # Check or Quality Assurance
 

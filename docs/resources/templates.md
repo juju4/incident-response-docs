@@ -79,3 +79,4 @@ Any 🔑 items missing? Jun 2020](https://twitter.com/jhencinski/status/12780178
 * [Exploit Prediction Scoring System (EPSS)](https://www.first.org/epss/)
 * [Known Exploited Vulnerabilities (KEV) Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 * https://github.com/alexdevassy/AI-Powered-Vulnerability-Impact-Analyzer
+* [A List of Vulnerability Scoring Systems](https://github.com/patrickmgarrity/vulnerability-scoring-systems)

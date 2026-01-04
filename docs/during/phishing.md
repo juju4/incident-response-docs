@@ -17,6 +17,7 @@ This document will mostly go through phishing email but it can also be through o
 * Takedown of the fraudulent website or incriminated email.
     * review legal template
 * Validate security coverage of targeted users and in general and possibly attacked targets (O365, Cloud, Password reset...)
+* Push repeated victims to use phish-resistant MFA (FIDO2 - yubikey, passkey...) and disable less secure MFA like phone/sms
 
 ## References
 
@@ -33,6 +34,7 @@ This document will mostly go through phishing email but it can also be through o
 * [Playbook - Phishing, Incidentresponse.com](https://www.incidentresponse.com/playbooks/phishing)
 * [Playbook phishing, Counteractive](https://github.com/counteractive/incident-response-plan-template/blob/master/playbooks/playbook-phishing.md)
 * [Phishing Playbook, Syntax IR](https://gitlab.com/syntax-ir/playbooks/-/tree/main/IRP-Phishing)
+* <https://github.com/MISP/misp-playbooks/blob/main/misp-playbooks/pb_investigating_phishing_websites.ipynb>, <https://misp.github.io/misp-playbooks/misp-playbooks/pb_investigating_phishing_websites-with_output.html>
 
 Report
 
@@ -87,3 +89,9 @@ Misc
 * [Keep Office 365 safe from BEC when you are an SME, Apr 2020](https://www.comae.com/posts/keep-office-365-safe-from-bec-when-you-are-an-sme/)
 * [BEC Response Guide Tips for Responding to Business Email Compromise Incidents, Dec 2020](https://iheartmalware.medium.com/bec-response-guide-tips-for-responding-to-business-email-compromise-incidents-fbb6744e056a)
 * [Improving the phishing triage process: Keeping our analysts (and our customers) sane, Jan 2021](https://expel.io/blog/improving-the-phishing-triage-process/). Is this email benign or malicious? Impersonation, Intent, Action
+* [3 OAuth TTPs Seen This Month — and How to Detect Them with Entra ID Logs, Nov 2025](https://www.wiz.io/blog/recent-oauth-attacks-detection-strategies)
+* [DNS Uncovers Infrastructure Used in SSO Attacks, Dec 2025](https://blogs.infoblox.com/threat-intelligence/dns-uncovers-infrastructure-used-in-sso-attacks/)
+* [SpyCloud Data Shows Corporate Users 3x More Likely to Be Targeted by Phishing Than by Malware, Dec 2025](https://latesthackingnews-com.cdn.ampproject.org/c/s/latesthackingnews.com/2025/12/04/spycloud-data-shows-corporate-users-3x-more-likely-to-be-targeted-by-phishing-than-by-malware/amp/): "The company tracked a 400% year-over-year increase in successfully phished identities, with nearly 40% of the 28+ million recaptured phished records containing a business email address – compared to just 11.5% in recaptured malware data. The result is a warning to enterprises that their workforce is three times more likely to be targeted with phishing attacks than infostealer malware."
+* [App Governance in Defender for Cloud Apps: Your OAuth App Security Command Centre, Nov 2025](https://www.itprofessor.cloud/defender-for-cloud-apps-app-governance-oauth-security/)
+* [Conditional Access bypasses, Nov 2025](https://cloudbrothers.info/en/conditional-access-bypasses/)
+* [How #ConsentFix attack looks in the logs: Different methods, same behaviour. Dec 2025](https://www.linkedin.com/posts/mehmetergene_consentfix-threathunting-detectionengineering-activity-7407452633495425025-RCON): `SigninLogs | project IPAddress,SessionId,AppDisplayName,UserAgent,UniqueTokenIdentifier,ResourceDisplayName`

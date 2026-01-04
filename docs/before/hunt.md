@@ -26,7 +26,10 @@ TBD from your context and below resources.
 * [TaHiTI Threat Hunting Methodology, 2018](https://www.betaalvereniging.nl/en/safety/tahiti/)
 * [OTHF Open Threat Hunting Framework 2022-2023](https://github.com/TactiKoolSec/OTHF)
 * [Introducing the PEAK Threat Hunting Framework, Apr 2023](https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html): Prepare, Execute, and Act with Knowledge
+* [Open Threat Informed Detection Engineering is a comprehensive framework to enable Threat & Detection Modelling and Detection-as-Code in a unified workflow](https://github.com/OpenTideHQ)
+* F3EAD: Find, Fix, Finish, Exploit, Analyze and Disseminate. [Intelligence Concepts — F3EAD, Mar 2015](https://sroberts.io/posts/intelligence-concepts-f3ead/)
 * BlueTeamVillage Project Obsidian: [DC30](https://github.com/blueteamvillage/Project-Obsidian-DC30/tree/main/Threat-Hunting), [DC31](https://github.com/blueteamvillage/Project-Obsidian-DC31/tree/master/CTH), [DC33](https://github.com/blueteamvillage/dc33-presentations/tree/main/101-Content/ThreatHunting-101)
+* [The RESPONDS Threat Hunting Framework, May 2025](https://www.themikewylie.com/the-responds-threat-hunting-framework/)
 
 * [Elevate Your Threat Hunting with Elastic](https://www.elastic.co/security-labs/elevate-your-threat-hunting), [Building effective threat hunting and detection rules in Elastic Security, Aug 2025](https://www.elastic.co/blog/elastic-security-building-effective-threat-hunting-detection-rules)
 * [Threat hunting in Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/hunting?tabs=defender-portal)
@@ -35,3 +38,12 @@ TBD from your context and below resources.
 * [Threat Hunting Metrics: The Good, The Bad and The Ugly, Aug 2023](https://kostas-ts.medium.com/threat-hunting-metrics-the-good-the-bad-and-the-ugly-d662907379b2)
 * [This is my advice for people getting started in Threat Hunting and building out metrics for a program: Focus on Outcomes, Sep 2025](https://www.linkedin.com/posts/william-t_that-is-my-advice-for-people-getting-started-activity-7376004202445160448-cmqw)
 * [Baseline Bonanza: Ten Baseline Hunts You Should Do (and How to Do Them), Sep 2025](https://dispatch.thorcollective.com/p/baseline-bonanza-ten-baseline-hunts)
+* [I really believe threat hunting is one of the areas where AI actually makes SecOps better. Nov 2025](https://www.linkedin.com/posts/filipstojkovski_i-really-believe-threat-hunting-is-one-of-activity-7394781860825825281-r5fI)
+* [Threat Hunting 🏹 , Nov 2025](https://www.linkedin.com/posts/jay-kerai-cyber_thruntandchill-security-defender-activity-7395430371581964288-oczZ)
+> Threat Hunting should be:
+> - TTP (Tactics Techniques or Procedures) or IOA (Indicator of Attack) based (you will find many attack chains have crossover. Having some good detection will pay itself off in future)
+> - Feed into Preventative controls (it is fairly common to find potential hardening/actions to take post a hunt)
+> - Feed into new detection rules (fidelity test)
+> - Not just be limited to a threat hunting team, SOC analysts should get involved too (remember they are the first on the scene to alerts) 
+> - Not get too caught up in Attribution of attackers, Attackers can "share" TTPs (I have already proved attribution can be spoofed in an earlier post, using TTPs casts your net wider already)
+> - Work with other technical teams to understand what normal business operations are to sift out BAU from logs.

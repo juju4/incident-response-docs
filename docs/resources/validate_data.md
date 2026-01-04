@@ -42,6 +42,7 @@ Opensource
 * [A package to build an end-to-end ML pipeline to detect personally identifiable information (PII) from text. alpha](https://pypi.org/project/piidetect/)
 * [Fluentd filter output plugin to anonymize records with MD5/SHA1/SHA256/SHA384/SHA512 algorithms. This data masking plugin protects privacy data such as ID, email, phone number, IPv4/IPv6 address and so on. ](https://github.com/y-ken/fluent-plugin-anonymizer)
 * [PII and Your Logs: Managing Log Data with Loggly and Fluentd, Jan 2015](https://www.loggly.com/blog/pii-logs-managing-log-data-loggly-fluentd/)
+* [Why IP address truncation fails at anonymization, Oct 2025](https://00f.net/2025/10/27/ip-anonymization/), [Methods for IP Address Encryption and Obfuscation](https://github.com/ipcrypt-std/draft-denis-ipcrypt)
 
 
 Commercial

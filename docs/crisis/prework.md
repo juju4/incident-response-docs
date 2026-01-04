@@ -12,3 +12,10 @@ Conducting discussion-based tabletop exercises with your team is an ideal starti
 The PagerDuty platform will automatically track the length of the exercise and record any notes or status changes in the timeline which you can then use in your [postmortem](https://postmortems.pagerduty.com/what_is/) (i.e, after action report or hotwash) and in developing further tabletops or simulations. 
 
 A biannual cadence for crisis simulations provides sufficient time for preparation and to review the findings in the postmortem.
+
+## References
+
+* US [Cyber Storm: Securing Cyber Space](https://www.cisa.gov/resources-tools/programs/cyber-storm)
+* US [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages)
+* [Exercise in a Box - UK NCSC](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview)
+* [Plateforme de simulation de crise inspirée de l’exercice massifié REMPAR25 de l’ANSSI - FR](https://github.com/JMousqueton/murail)

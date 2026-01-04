@@ -29,6 +29,7 @@ Tools
 * [Keeping your account and data secure, GitHub](https://help.github.com/articles/keeping-your-account-and-data-secure/)
 * [Recovering from systemic identity compromise](https://docs.microsoft.com/en-us/azure/security/fundamentals/recover-from-identity-compromise)
 * [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository): `git filter-repo`, [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+* [Revoke user access in Microsoft Entra ID](https://docs.azure.cn/en-us/entra/identity/users/users-revoke-access)
 
 * Reset passwords and sessions/cookies
   * https://www.newswire.com/news/new-report-from-flare-highlights-significant-costs-and-industry-impact-22553863

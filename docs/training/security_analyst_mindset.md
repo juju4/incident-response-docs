@@ -75,8 +75,27 @@ Examples
 * [The Lost Art of Careful Craftsmanship: Lessons from My Uncle’s Workshop, Mar 2025](https://cyb3rops.medium.com/the-lost-art-of-careful-craftsmanship-lessons-from-my-uncles-workshop-54ae2b7462ac)
 * [Know Your Tools, Mar 2025](https://windowsir.blogspot.com/2025/03/know-your-tools.html)
 * [Your Mood Is Murdering Your DF/IR Investigation and You Don’t Even Know It, May 2025](https://brettshavers.com/brett-s-blog/entry/your-mood-is-murdering-your-investigation-and-you-dont-even-know-it)
+* [I Was There When Digital Forensics Lost Its Soul. Oct 2025](https://www.linkedin.com/pulse/i-when-digital-forensics-lost-its-soul-brett-shavers-otkec)
+* [Your DF/IR skills won’t be tested by technology; it’ll be tested by testimony. Nov 2025](https://www.linkedin.com/pulse/your-dfir-skills-wont-tested-technology-itll-brett-shavers-apjtc), [Fight City Hall: If You Missed the Webinar, You’re Making Mistakes You Don’t Know About, Nov 2025](https://brettshavers.com/brett-s-blog/entry/fight-city-hall-if-you-missed-the-webinar-youre-making-mistakes-you-dont-know-about)
+  1. You Assume Evidence Will Still Exist When You Request It
+  2. Your Report Structure Will Collapse Under Adversarial Pressure
+  3. Chain-of-Custody Weak Points Are Not “Minor Issues.” They Are Attack Surfaces.
+  4. Your Terminology Probably Isn’t Defensible
+  5. You Are Preparing for Friendly Questions, Not Hostile Ones
+  6. Your Workflow Has Failure Points You Can’t See Yet
 
 * [Security Incident Response - a Process, Apr 2020](blog.jeffbryner.com/2020/04/14/security-incident-response-a-process.html)
 * Triage template: Summary/Understanding, Actions (What has been done, ongoing, next), Timeline, IOC, Theories, Lessons learned
 * Executive summary: Summary, Actions (short)
 * [HISAC - High Impact Security Analysis and Communication. How to be a well rounded SOC/MDR/Cyber/Information Security Analyst. Jan 2025](https://www.jaiminton.com/internal-blog/high-impact-security-analysis)
+* [*A brief note to new cybersecurity grads trying to land that first job.*, Nov 2025](https://www.linkedin.com/posts/jen-easterly_a-brief-note-to-new-cybersecurity-grads-activity-7392076035799883776-OhKo): (apply largely)
+  1) Don’t compete with AI — learn to lead it.
+  2) Strengthen your technical foundation
+  3) Go where the growth is. Some areas are saturated. Others are exploding
+  4) Find opportunities to build experience
+* [Learning to ADAPT | Framework for analyzing any evidence in IR, Nov 2025](https://chocolatecoat4n6.com/2025/11/30/learning-to-adapt-framework-for-analyzing-any-evidence-in-ir/): Approach, Discovery, Association, Profile, Timeline
+* [Thoughts on Analysis, Nov 2025](https://windowsir.blogspot.com/2025/11/thoughts-on-analysis.html): **"The key to all of this is to document your analysis process; if you don't know what you did, you can't make modifications or adjustments to the process."**
+* [The FACT Attribution Framework v1.0, Dec 2025](https://zenodo.org/records/17745959): "The FACT Attribution Framework v1.0 is a legally grounded investigative model designed to bridge the gap between technical digital evidence and human attribution."
+* [The late Tom Stoppard, in his play Hapgood, had some good advice for writers of scientific papers.](https://federate.social/@mattblaze/115693121409354888), <https://en.wikipedia.org/wiki/Hapgood_(play)>
+* [The Art of Pivoting - Techniques for Intelligence Analysts to Discover New Relationships in a Complex World](https://github.com/adulau/the-art-of-pivoting) (pdf, html, epub)
+* [THE RED TEAM HANDBOOK, A product of the TRADOC G–2 Operational Environment Enterprise](https://home.army.mil/wood/application/files/6115/8222/0759/RedTeamHB.pdf)

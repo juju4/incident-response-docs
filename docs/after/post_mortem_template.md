@@ -86,3 +86,4 @@ _This is what will be included on the status.pagerduty.com website regarding thi
 ## References
 
 * [Forensic reports in a nutshell... May 2021](https://twitter.com/XRY_mike/status/1391358750670344192)
+* [THINGS NOT TO DO IN A PENTEST REPORT, Feb 2023](https://www.blackhillsinfosec.com/wp-content/uploads/2023/02/SLIDES_Things-NOT-to-Do-in-Pentest-Reports.pdf) - not much different for an IR report

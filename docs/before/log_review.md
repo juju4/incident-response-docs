@@ -20,16 +20,32 @@ Infrastructure rules are a good based but in most cases, business context is key
 * ntp
 * Mail
 * Process activity (auditd, osquery, kunai, EDR...)
-* Network state change, vpn...
+* Package manager history (apt, dnf...)
+* Network state change, firewall, vpn...
 
 ### Macos
 
 ### Windows
 
 * Process activity (EventID 4688, sysmon, osquery, EDR...)
-* Scheduled Activities
-* RDP, TerminalServices
+* Accounts activity (4624, 4625, 4648, 4672, 4673, 4720, 4724, 4732, 4735, 4738)
+* User creation (4720, 4722, 4724, 4738)
+* Scheduled activity (129, 141, 4698, 4702)
+* Services activity (7000, 7022, 7024, 7030, 7031, 7034, 7036, 7040, 7045; 4697)
+* Audit policy (4719)
+* Network access (5140, 5145)
+* Object access (4656)
+* Removable media (6416; 400, 410, 10000, 20001, 4657; MDE DeviceEvents)
+* Windows time (35)
+* Logs cleared (104, 1102)
+* RDP, TerminalServices (1056)
+* OS version (6009)
+* Domain Controller (4769, 4771)
+* Application error (1000)
 * Network state change, vpn...
+* System Log: Event IDs 4614,4610,4611, and 4622
+
+See references for more
 
 ### IoT/Network
 (network appliances, camera, physical security systems like badges control points...)
@@ -48,8 +64,14 @@ Infrastructure rules are a good based but in most cases, business context is key
 
 * CSPM
 * SSO
-* File storage (s3 buckets, azure storage...)
+* File storage (s3 buckets, azure storage account...)
 
+## LLMs, Chatbots
+
+* Input, Output
+* Model and training dataset version
+
+Be mindful if logs are covered for corporate tools and dev tools (ex: M365 Copilot vs various Azure Copilot instances)
 
 ## Validation
 
@@ -62,31 +84,46 @@ Infrastructure rules are a good based but in most cases, business context is key
 ## References
 
 * [Guide to Computer Security Log Management, NIST SP800-92](https://csrc.nist.gov/publications/detail/sp/800-92/final)
-* [Effective Daily Log Monitoring, PCI DSS](https://www.pcisecuritystandards.org/documents/Effective-Daily-Log-Monitoring-Guidance.pdf)
-* [Logging Cheat Sheet, OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [A09:2021  Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/)
+* [Effective Daily Log Monitoring, PCI DSS](https://www.pcisecuritystandards.org/documents/Effective-Daily-Log-Monitoring-Guidance.pdf): "10.7 Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup)."
+* [Logging Cheat Sheet, OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [A09:2021  Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/), [A09:2025 Security Logging & Alerting Failures, OWASP Top10 2025](https://owasp.org/Top10/2025/A09_2025-Security_Logging_and_Alerting_Failures/)
 * [M-21-31 MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES, USA, Aug 2021](https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf) - Appendix C: Logging Requirements  Technical Details
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 * [Priority logs for SIEM ingestion: Practitioner guidance, AU, May 2025](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance), [pdf](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
-* https://audit-logs.tax, https://github.com/shellcromancer/audit-log-wall-of-shame
+* <https://audit-logs.tax>, <https://github.com/shellcromancer/audit-log-wall-of-shame>
 * Company's logging policy, standard, RACI and whatever applicable references
 * Environment's risk assessment and threat model
-* https://www.malwarearchaeology.com/cheat-sheets
-* https://what2log.com/
+* <https://www.malwarearchaeology.com/cheat-sheets>
+* <https://what2log.com/>
 * Linux
 * Macos
 * Windows:
-  * https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor
-  * https://learn.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection
-  * jpcert: https://jpcertcc.github.io/ToolAnalysisResultSheet/, https://github.com/JPCERTCC/LogonTracer
-  * https://github.com/mdecrevoisier/Splunk-input-windows-baseline
-  * https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf
-  * https://www.malwarearchaeology.com/logging
+  * <https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor>
+  * <https://learn.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection>
+  * jpcert: <https://jpcertcc.github.io/ToolAnalysisResultSheet/>, <https://github.com/JPCERTCC/LogonTracer>
+  * <https://github.com/mdecrevoisier/Splunk-input-windows-baseline>
+  * <https://www.13cubed.com/downloads/windows_event_log_cheat_sheet.pdf>
+  * <https://www.malwarearchaeology.com/logging>, <https://www.malwarearchaeology.com/cheat-sheets/>, <https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/5b8f091c0ebbe8644d3a886c/1536100639356/Windows+ATT&CK_Logging+Cheat+Sheet_ver_Sept_2018.pdf>
+  * <https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4697>
+  * <https://isc.sans.edu/forums/diary/Windows+Events+log+for+IRForensics+Part+2/21501/>
+  * <https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720>
+  * <https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732>
+  * <https://xcancel.com/jepayneMSFT/status/763025567344054275>
+
 * Azure
   * [Configure Microsoft Entra diagnostic settings for activity logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-configure-diagnostic-settings)
   * [Configure Unified Sensor to support advanced identity detections (Preview)](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites-sensor-version-3#configure-unified-sensor-to-support-advanced-identity-detections-preview) - MDI
+  * [MICROSOFT EXPANDED CLOUD LOGS IMPLEMENTATION PLAYBOOK, CISA, Jan 2025](https://www.cisa.gov/sites/default/files/2025-01/microsoft-expanded-cloud-logs-implementation-playbook-508c.pdf)
+  * [Microsoft Sentinel Platform: Audit Logs and Where to Find Them, Dec 2025](https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/microsoft-sentinel-platform-audit-logs-and-where-to-find-them/4481838) `CloudAppEvents` table 
+* Saas Workday
+  * [Workday REST services directory: activityLogging](https://community.workday.com/sites/default/files/file-hosting/restapi/index.html#privacy/v1/get-/activityLogging)
+  * [Workday User Activity Logs - Datadog](https://docs.datadoghq.com/integrations/workday/)
+  * [Workday solution - Sentinel](https://marketplace.microsoft.com/en-us/product/azure-applications/azuresentinel.azure-sentinel-solution-workday?tab=Overview), [How Defender for Cloud Apps helps protect your Workday environment](https://learn.microsoft.com/en-us/defender-cloud-apps/protect-workday#connect-workday-to-microsoft-cloud-app-security)
+  * [Workday integration - Sumologic](https://www.sumologic.com/help/docs/integrations/saas-cloud/workday/)
+* Saas [Log Sources for Security Monitoring - Snowflake](https://snowflake-labs.github.io/Sentry/reference/log-sources.html): identifiers, views, MITRE ATT&CK
 
+* [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
 * [A Brief Ode to Data Minimization, Jun 2025](https://little-flying-robots.ghost.io/a-brief-ode-to-data-minimization/?ref=knowtheory-linking-people-to-it)
 
 * [Analyse logs in a way that leaves other sloths in the dust. ](https://github.com/francevarotz98/SlothLog) - http, ftp logs
@@ -97,3 +134,24 @@ Infrastructure rules are a good based but in most cases, business context is key
 * [Finding Seamless SSO usage, Aug 2025](https://nathanmcnulty.com/blog/2025/08/finding-seamless-sso-usage/) - EntraID
 * [Detecting Velociraptor misuse, Aug 2025](https://docs.velociraptor.app/knowledge_base/tips/velocirator_misuse/), [Velociraptor incident response tool abused for remote access, Aug 2025](https://news.sophos.com/en-us/2025/08/26/velociraptor-incident-response-tool-abused-for-remote-access/)
 * [Why SIEM Rules Fail and How to Fix Them: Insights from 160 Million Attack Simulations, Aug 2025](https://thehackernews.com/2025/08/why-siem-rules-fail-and-how-to-fix-them.html), [Picus BLUE REPORT 2025](https://www.picussecurity.com/blue-report)
+* [Rethinking SIEM, Oct 2025](https://zendannyy.substack.com/p/rethinking-siem)
+* [I get asked all the time which tables each Sentinel connector writes to. Surprisingly, the answer isn’t straightforward: many connectors share tables, others write to multiple tables, and—until now—there hasn’t been a single, complete list. Dec 2025](https://www.linkedin.com/posts/oshezaf_i-get-asked-all-the-time-which-tables-each-activity-7401808297906814976-9Acl), <https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Solutions%20Analyzer>
+* [Velociraptor Misuse, Pt. II: The Eye of the Storm, Dec 2025](https://www.huntress.com/blog/velociraptor-misuse-part-two-eye-of-the-storm)
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions%20Analyzer/connector-docs/connectors-index.md
+
+Retention
+
+* [Security log retention: Best practices and compliance guide, Jun 2025](https://auditboard.com/blog/security-log-retention-best-practices-guide)
+* [HIPAA Data Security and Retention Requirements, Jun 2025](https://www.bytebase.com/blog/hipaa-data-security-and-retention-requirements/): "Audit Controls and Monitoring [...] 6 years. [...] medical record retention varies by state law. [...] 1 to 11 years"
+* [EU Revives Plan for Year-Long Data Retention Across Digital Services, Including Encrypted Apps, Dec 2025](https://reclaimthenet.org/eu-revives-plan-for-year-long-data-retention)
+
+LLMs, Chatbots
+
+* [Whitepapers/GuidesGenAI Incident Response Guide 1.0, Jul 2025](https://genai.owasp.org/resource/genai-incident-response-guide-1-0/)
+* [Tinker Tailor LLM Spy Investigate & Respond to Attacks on GenAI Chatbots](https://drive.google.com/file/d/1RQtcTZUdYSAUWU9zqnFsfAl6nEtCGPkY/view), Bsidesmtl, Sep 2025
+> Understand the risks: architecture, data, and agency
+> Implement logging for inputs, outputs, and guardrails
+> Prepare your guardrail toolbox to stop incidents
+* [Task 1.1: Search the audit log for Copilot interactions in Microsoft Purview ](https://microsoft.github.io/TechExcel-Elevate-your-Copilot-for-M365-technical-proficiency/docs/L5Ex01/0101.html), [How to Investigate Microsoft 365 Copilot Interactions, Mar 2025](https://nikkichapple.com/investigating-microsoft-365-copilot-interactions/)
+* [Microsoft Purview protections for Copilot, Apr 2025](https://techcommunity.microsoft.com/blog/microsoftmechanicsblog/microsoft-purview-protections-for-copilot/4406384)
+* [Secure and govern AI apps and agents with Microsoft Purview, Jul 2025](https://techcommunity.microsoft.com/blog/microsoft-security-blog/secure-and-govern-ai-apps-and-agents-with-microsoft-purview/4429925)

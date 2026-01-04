@@ -308,8 +308,10 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [How to do Security Analysis, Apr 2025](https://cybernoweducation.medium.com/how-to-do-security-analysis-acbc67c1c963)
 * [Due Diligence In The Search For & Practice of Digital Forensics, May 2025](https://dfirphilosophy.blogspot.com/2025/05/due-diligence-in-search-for-practice-of.html) - Court expert qualification
 * [A Standard for Human-Centered Investigation Playbooks, Jun 2025](https://chrissanders.org/2025/06/human-centered-playbooks/), https://github.com/Security-Onion-Solutions/securityonion-resources-playbooks/tree/main
+* [Investigation Theory](https://www.networkdefense.co/courses/investigationtheory/)
 * [Rethinking Incident Response — From PICERL to DAIR (Expanded Edition), Jul 2025](https://medium.com/@cyberengage.org/rethinking-incident-response-from-picerl-to-dair-expanded-edition-7d309f00d43a)
 * [Cloud forensics: Prepare for the worst -implement security baselines for forensic readiness in Azure, Aug 2025](https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/cloud-forensics-prepare-for-the-worst--implement-security-baselines-for-forensic/4440310)
+* [Re-Writing the Playbook — A detection-driven approach to Incident Response, Oct 2025](https://detect.fyi/re-writing-the-playbook-a-detection-driven-approach-to-incident-response-5269e2eb33ca)
 
 * [It‘s definitely one of the top sentences you hear in incident response engagements:“these systems should have been decommissioned a long time ago. I don’t know who’s still using them.”and then someone, who hasn’t spoken a word yet in that call, clears his throat, Jun 2022](https://twitter.com/cyb3rops/status/1533074343944667137)
 * [Famous last words of a cyber attack victim before getting compromisedI’ll start- it’s an appliance;it’s hardened- yes,we use two factors, name and password- let’s take a non-standard port;no one will look for that one- yes,it’s a public IP but unreachable from the Internet, Jun 2022](https://twitter.com/cyb3rops/status/1532760497132556290)

@@ -41,3 +41,4 @@ It's recommended to have them archived.
 * https://www.bmscentral.com/learn-employee-scheduling/category/shift-patterns/
 * [Intro SOC training, 2020 Educause Security, Chris Crowley](https://www.youtube.com/watch?v=caPYj9v8E-M) ~Daily Shift Change ~57:00
 * [Configure Shift Handover Templates - ServiceNow](https://www.servicenow.com/docs/bundle/zurich-security-management/page/product/secops-analyst-workspace/task/configure-shift-handover-templates.html)
+* [Time Zone Math That Actually Works, Dec 2025](https://hirefullscale.com/timezone-math-that-works) "A tight daily overlap between your US core hours and an offshore mid-shift does more for velocity than most teams realize. Two or three hours of live collaboration can collapse feedback loops, kill decision lag, and move work from “stalled” to “shipped.”"

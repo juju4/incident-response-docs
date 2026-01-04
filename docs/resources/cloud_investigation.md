@@ -1,3 +1,6 @@
+# Cloud Investigation
+
+## References
 
 * [Suzaku (朱雀) is a sigma-based threat hunting and fast forensics timeline generator for cloud logs. ](https://github.com/Yamato-Security/suzaku)
 * https://nathanmcnulty.com/blog/2025/04/comprehensive-guide-to-configuring-advanced-auditing/
@@ -24,6 +27,8 @@
 * [How to check if audit logging is enabled:](https://www.linkedin.com/posts/chaim-black_imagine-buying-a-home-with-a-full-camera-activity-7348796040176685056-Fpj6/), <https://security.microsoft.com/auditlogsearch>
 * [Maester, Your Microsoft Security test automation framework!](https://maester.dev/)
 * [ScubaGear, Automation to assess the state of your M365 tenant against CISA's baselines](https://github.com/cisagov/ScubaGear)
+* [lightweight security testing tool that checks if Microsoft Entra ID (Azure AD) APIs and login portals allow password-only authentication ](https://github.com/NotSoSecure/NoPrompt), <https://www.claranet.com/us/blog/noprompt-%E2%80%94-detect-mfa-conditional-access-gaps-entra-id>
+* [Microsoft-Analyzer-Suite (Community Edition) A collection of PowerShell scripts for analyzing data from Microsoft 365 and Microsoft Entra ID.](https://github.com/LETHAL-FORENSICS/Microsoft-Analyzer-Suite)
 
 * [I’m an Incident Responder on the AWS Customer Incident Response Team (CIRT). And I get asked a lot of questions, like:“Where do I even start with incident response in the cloud?”Here’s a beginner-friendly thread on AWS IR tips — with a few lessons I learned 🧵👇 /THREAD, Apr 2025](https://x.com/4n6lady/status/1917627609741156368): CloudTrail all regions, monitor root account, enable guardduty, tag resources, snapshot first, baseline, start small, save logs...
 * [Tales from the cloud trenches: The Attacker doth persist too much, methinks, May 2025](https://securitylabs.datadoghq.com/articles/tales-from-the-cloud-trenches-the-attacker-doth-persist-too-much/) AWS
@@ -35,8 +40,8 @@ https://github.com/aws-samples/resource-control-policy-examples
 * [Go library, server, and CLI providing foundational capabilities to simulate access for AWS IAM policies.](https://nsiow.github.io/yams/)
 
 * https://cloud.google.com/architecture/framework/security
-* [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
 * [How to Actually Security Benchmark Your Microsoft 365 Tenant, Sep 2025](https://ourcloudnetwork.com/how-to-actually-security-benchmark-your-microsoft-365-tenant/):  Maester, Scubgear (free), Avepoint, Inforcer, Coreview (paid)
+* [How Google Does It: Collecting and analyzing cloud forensics, Dec 2025](https://cloud.google.com/transform/how-google-does-it-collecting-and-analyzing-cloud-forensics): grr, plaso, timesketch, dftimewolf...
 
 * [Granular, Actionable Adversary Emulation for the Cloud](https://github.com/DataDog/stratus-red-team)
 * [Cloud Offensive Breach and Risk Assessment (COBRA) Tool](https://github.com/PaloAltoNetworks/cobra-tool)

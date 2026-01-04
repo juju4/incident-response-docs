@@ -1,5 +1,6 @@
+# Information sharing
 
-# workflow
+## Workflow
 
 * Pre-approved cases
 IOC (hash, domain, IP address, url, email, yara rule, sigma rule, snort rule...) - only if external, non-identified to company
@@ -9,16 +10,31 @@ IOC (hash, domain, IP address, url, email, yara rule, sigma rule, snort rule...)
 * Legal approval
 C-Suite, Employee or customer/partner data
 
-# Store data
+Examples
+| Data type | Approval | Communication channel |
+| --------- | -------- | --------------------- |
+| Sharing of public resources | Pre-approved | Any |
+| Url non-targeted phishing report | Pre-approved | Google SafeBrowsing, Netcraft, Phishtank... |
+| Non-targeted IOC (external data) | Manager | Authorized TIP and tool (MISP, Signal, file sharing, private security mailing-list & communities like FIRST and ISAC, National CERT ...) |
+| Targeted attack IOC | Director | Authorized TIP and higher security level tool |
+| Third-party compromise | CISO | Phone |
+| Company compromise, IOC Internal data | Legal, External counsel | Per legal review |
+| Detection rules (sigma, yara...) | ? | ? |
+| Security tools (contribution existing, new...) | ? | ? |
 
-# Transfer data
+Incident data can also be matched based on severity level.
 
-# Destroy data
+## Store data
 
-# Technical data
-TLP
-Type
-If email, subject/sender/phishing url/exfiltration to/email body observed, supporting evidence/sandbox url
+## Transfer data
+
+## Destroy data
+
+## Technical data
+
+* TLP
+* Type
+* If email, subject/sender/phishing url/exfiltration to/email body observed, supporting evidence/sandbox url
 
 ## References
 
