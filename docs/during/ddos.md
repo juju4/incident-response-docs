@@ -1,6 +1,8 @@
+# Distributed Denial of Service (DDoS)
 
 ## Definition
-Distributed Denial of Service targets avaibility of your system. It's usually triggered in two ways:
+
+Distributed Denial of Service targets availability of your system. It's usually triggered in two ways:
 
 * Volumetric attack: saturate system and network resources.
 * Application attack: exploit a configuration issue or software bug to make application unavailable.
@@ -30,8 +32,8 @@ BGP options
 * Blackhole: make target unavailable but the rest of your network will not be impacted anymore
     * usually easy
     * upstream provider can usually do without much preparation
-* Cleaning center: cloud system will remove bad trafic and send back to you only the valid one
-    * on advanced attacks, making distinction between good and bad trafic can be tricky. Be sure to be able to validate than (most of) legitimate trafic flows correctly.
+* Cleaning center: cloud system will remove bad traffic and send back to you only the valid one
+    * on advanced attacks, making distinction between good and bad traffic can be tricky. Be sure to be able to validate than (most of) legitimate traffic flows correctly.
     * use of world-wide cleaning center providers can be tricky from a privacy perspective. From a pure bandwidth capacity, it's hard to avoid. General recommendation is to use encryption and plan for applicative attacks on encryption channel at your own datacenter or site.
 * Flowspec: "newcomer" in the field and depending on upstream network, you can send flowspec commands to create acl on edge router
     * flowspec is kind of a firewall on steroids but it will not help against advanced attacks.

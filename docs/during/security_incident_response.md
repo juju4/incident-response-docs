@@ -61,7 +61,7 @@ Don't be rash or act too quickly! Security incident is grave concern but with in
 * alert the attacker you are aware of his presence. It might trigger compromission vectors you are unaware of or destructive actions
 * lose time and resources by non-prioritized actions
 
-John Boyd, USAF Colonel developped the decision cycle nicknamed OODA loop
+John Boyd, USAF Colonel developed the decision cycle nicknamed OODA loop
 
 * Observe
 * Orient

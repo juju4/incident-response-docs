@@ -21,7 +21,7 @@ Examples
 | Company compromise, IOC Internal data | Legal, External counsel | Per legal review |
 | Detection rules (sigma, yara...) | ? | ? |
 | Security tools (contribution existing, new...) | ? | ? |
-| General security architecture and tools feedback or advices except sensitive ones | Pre-Approved | Any |
+| General security architecture and tools feedback or advice except sensitive ones | Pre-Approved | Any |
 
 Incident data can also be matched based on severity level.
 

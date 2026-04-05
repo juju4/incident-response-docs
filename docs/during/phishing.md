@@ -5,7 +5,7 @@ This document will mostly go through phishing email but it can also be through o
 
 ## Course of Action
 
-* Review messsage
+* Review message
     * recover full email with headers. Some reporting service will require msg file. Note some phishing awareness campaign use X-PHISH header to be identified.
     * confirm if malicious: sender, headers, content, urls... use sandbox to investigate any attachments or url.
     * check impact: how many people impacted based on subject, from, attachment...

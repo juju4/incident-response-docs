@@ -12,7 +12,7 @@ In BGP, the route which is elected depends on two factors
 * the shortest path
 * the smaller prefix
 
-but on the Internet, it's uncommon to advertise anything smaller than /24, especially if you consider global routing table is over 512k which can lead to resource exhaustion on some equipments. Most large networks will not accept those advertising. Some will require a manual process.
+but on the Internet, it's uncommon to advertise anything smaller than /24, especially if you consider global routing table is over 512k which can lead to resource exhaustion on some equipment. Most large networks will not accept those advertising. Some will require a manual process.
 
 First step is to contact operator at the source of the issue.
 Without timely response and depending on impact, mitigation actions can be engaged.

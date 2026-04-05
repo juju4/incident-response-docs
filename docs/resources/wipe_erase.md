@@ -13,7 +13,7 @@ Best practice:
 * ATA secure erase
 * Full Disk Encryption and Erase keys
 
-Softwares
+Software
 * Unix dd
 * DBAN
 * [Blancco Drive Eraser](https://www.blancco.com/products/drive-eraser/)

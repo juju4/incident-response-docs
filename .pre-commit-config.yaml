@@ -27,7 +27,7 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
-        args: [-I, .codespellignore]
+        args: [-I, .codespellignore, -x, theme/js/mermaid.min.js]
   - repo: https://github.com/jackdewinter/pymarkdown
     rev: v0.9.30
     hooks:

@@ -81,7 +81,7 @@ https://en.wikipedia.org/wiki/Security_breach_notification_laws
 https://iapp.org/media/pdf/resource_center/WLG_Global_Guide_Breach_Notifications_2016.pdf
 https://www.privacylaws.com/Documents/data_breach_conference.pdf
 * [Quick Guide to GDPR Breach Notifications, IE](https://www.dataprotection.ie/en/guidance-landing/quick-guide-gdpr-breach-notifications)
-* [US DoJ Instrucion: Reporting and Response procedure for a breach of Personally Identifiable Information, Feb 2018](https://www.justice.gov/file/4336/download)
+* [US DoJ Instruction: Reporting and Response procedure for a breach of Personally Identifiable Information, Feb 2018](https://www.justice.gov/file/4336/download)
 * [Electronic Crime Scene Investigation: A Guide for First Responders, Second Edition, Apr 2008](https://nij.ojp.gov/library/publications/electronic-crime-scene-investigation-guide-first-responders-second-edition)
 * [PCI Forensic Investigator (PFI), Aug 2016](https://www.pcisecuritystandards.org/documents/PFI_Program_Guide_v3.0.pdf)
 

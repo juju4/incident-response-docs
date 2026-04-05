@@ -14,7 +14,7 @@ Engagement should have a well-defined scope and objectives.
     * Asset management/Inventory
     * Ingress/Egress points
     * Change management log
-* Capacity to push software or setup network componens
+* Capacity to push software or setup network components
 * Backup/Restore? BCP/DRP?
 * Information sharing policy
 

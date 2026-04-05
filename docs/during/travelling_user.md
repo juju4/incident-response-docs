@@ -1,5 +1,5 @@
 
-Advices for people travelling abroad and security impacts.
+Advice for people travelling abroad and security impacts.
 
 # Before travel
 

@@ -20,7 +20,7 @@ Attacker will usually try to put you in situation of emergency and outside of no
 ### For security team
 
 * try to identify intent and target. Which information are requested?
-* Cross-check on recorded cases. Campaign to recruit your resources? to get sensisitve informations (passwords, intellectual property...)
+* Cross-check on recorded cases. Campaign to recruit your resources? to get sensisitve information (passwords, intellectual property...)
 * Alert management and users
 
 ## References

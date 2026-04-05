@@ -213,7 +213,7 @@ How would you to spot these mistakes without having knowledge and skill? Are you
 
 There is a very slight chance that I'm completely wrong. That is:
 - The table "anvilogic.gold.endpoint" is a special table that contains only encoded PowerShell command executions (it doesn't seem like it).
-- The USER field contains privileges of the users, insted of the user name (less likely).](https://www.linkedin.com/posts/mehmetergene_as-a-former-practitioner-ive-always-been-activity-7321888302624641026-Ty7w?) - Anvilogic
+- The USER field contains privileges of the users, instead of the user name (less likely).](https://www.linkedin.com/posts/mehmetergene_as-a-former-practitioner-ive-always-been-activity-7321888302624641026-Ty7w?) - Anvilogic
 * [𝐖𝐡𝐚𝐭 𝐬𝐡𝐨𝐮𝐥𝐝 𝐛𝐞 𝐭𝐡𝐞 % 𝐨𝐟 𝐓𝐫𝐮𝐞 𝐏𝐨𝐬𝐢𝐭𝐢𝐯𝐞 𝐚𝐥𝐞𝐫𝐭𝐬 𝐚𝐭 𝐚 𝐡𝐞𝐚𝐥𝐭𝐡𝐲 𝐒𝐎𝐂? 🎯  I keep seeing posts claiming 𝟐𝟎%, 𝟓𝟎%, sometimes 𝟕𝟎%+ true positive rate and I'm confused. Jan 2026](https://www.linkedin.com/posts/rafal-kitab_siem-secops-metrics-activity-7419726253001428992-vuOB)
 * [Introducing OpenTide Threat Surface: One Unified Vocabulary to Describe Where Threats Land, Mar 2026](https://blog.opentide.org/introducing-opentide-threat-surface-one-unified-vocabulary-to-describe-where-threats-land-fe491d1fa85b), <https://github.com/OpenTideHQ/CoreTide/releases/tag/2026.03.09%2Fthreat-surface>
 * [We need to talk about attack paths. Mar 2026](https://www.linkedin.com/posts/kdaskalakis_socon-attackpaths-identitysecurity-activity-7435251712543580162-X5qQ) "It's whether you've already closed the path that makes detection necessary."
