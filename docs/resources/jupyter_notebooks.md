@@ -33,3 +33,7 @@
 
 * [How to improve your security incident response processes with Jupyter notebooks, Nov 2023](https://aws.amazon.com/fr/blogs/security/how-to-improve-your-security-incident-response-processes-with-jupyter-notebooks/)
 * [Using Jupyter Notebook for CTI using PyMISP, Mar 2024](https://socradar.io/blog/using-jupyter-notebook-for-cti-using-pymisp/)
+
+Sentinel Workbooks/Notebooks
+* [Process Investigation workbooks is a collection of Microsoft Sentinel workbooks that act as a **log-based process explorer**. ](https://github.com/lazaridischristos/Sentinel-Workbook-Process-Investigation) (Sysmon or MDE based)
+* <https://github.com/microsoft/Sentinel/tree/main/data%20lake/notebooks/PasswordSpray>

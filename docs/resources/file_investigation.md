@@ -57,6 +57,7 @@ Whatever is relevant in your context
 * MsOffice tools: [oletools](https://github.com/decalage2/oletools), [oletools' mraptor](https://github.com/decalage2/oletools/wiki/mraptor)
 
 * [Malware Analysis Fundamentals - Files | Tools, Jun 2020](https://www.winitor.com/pdf/Malware-Analysis-Fundamentals-Files-Tools.pdf)
+* [Malware Analysis: How to Analyze and Understand Malware, Feb 2026](https://www.blackhillsinfosec.com/malware-analysis-how-to-analyze-and-understand-malware/)
 
 * [Photo Tampering throughout History](http://pth.izitru.com)
 * [Photo Forensics](https://29a.ch/photo-forensics/)
@@ -65,3 +66,4 @@ Whatever is relevant in your context
 
 * [Malware Delivered via Windows Installer Files, Feb 2018](https://isc.sans.edu/diary/Malware+Delivered+via+Windows+Installer+Files/23349)
 * [Base64 Patterns - Learning Aid](https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639)
+* [A simple script to read the contents of a zip/tar/folder and extract metadata](https://github.com/stark4n6/Arc2Lite)

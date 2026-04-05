@@ -1,6 +1,6 @@
 # Security analyst mindset
 
-Goal: push better responsibility, curiosity and communication
+Goal: push better responsibility, curiosity and communication, make a difference
 
 > "Never assume, verify"
 > "Trust but verify"
@@ -99,3 +99,24 @@ Examples
 * [The late Tom Stoppard, in his play Hapgood, had some good advice for writers of scientific papers.](https://federate.social/@mattblaze/115693121409354888), <https://en.wikipedia.org/wiki/Hapgood_(play)>
 * [The Art of Pivoting - Techniques for Intelligence Analysts to Discover New Relationships in a Complex World](https://github.com/adulau/the-art-of-pivoting) (pdf, html, epub)
 * [THE RED TEAM HANDBOOK, A product of the TRADOC G–2 Operational Environment Enterprise](https://home.army.mil/wood/application/files/6115/8222/0759/RedTeamHB.pdf)
+* [Why do so many new analysts drown in logs?They're great at using tools, but they haven't mastered the foundational skills of investigation. Jan 2026](https://www.linkedin.com/posts/adamgoss1_cyberinvestigation-threathunting-soc-activity-7413550033024753664-q4ve): "4 core evidentiary skills: Interpretation, Manipulation, Capability Comprehension, Collection", <https://kravensecurity.com/hack-the-box-brutus-sherlock-walkthrough/>
+* [CTI Notetaking: How to Make Effective Notes and Documentation, Jul 2025](https://kravensecurity.com/cti-notetaking-guide/)
+* [Quiet, Loud, and in the Logfiles: The Detection Duo You Didn’t Know You Needed, May 2025](https://dispatch.thorcollective.com/p/quiet-loud-and-in-the-logfiles) "The Introverts and the Extroverts."
+* [A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. ](https://github.com/trimstray/the-book-of-secret-knowledge)
+* [Why You Should Build The most powerful thing you can do in security is create something that did not exist before. Jan 2026](https://dispatch.thorcollective.com/p/why-you-should-build)
+* [Presenting the ADAPT framework: Investigation and Analysis without Paralysis, Jan 2026](https://chocolatecoat4n6.com/2026/01/23/presenting-the-adapt-framework-investigation-and-analysis-without-paralysis/) "Approach Discovery Association Profile Timeline"
+* [Skill Atrophy in Cybersecurity: Part 3- The Mid-Level Danger Zone — Experience Without Adaptation! Feb 2026](https://nothingcyber.medium.com/skill-atrophy-in-cybersecurity-part-2-the-mid-level-danger-zone-experience-without-adaptation-a7394b9546d2)
+* [Skill Atrophy in Cybersecurity: Part 6- The Accelerators — AI! Feb 2026](https://nothingcyber.medium.com/skill-atrophy-in-cybersecurity-part-6-the-accelerators-ai-952192448acb)
+* [Top Lessons from Operation Deepfake & What They Teach Us About Insider Risks, Jan 2026](https://vertex.link/blogs/insider-threat-lms/)
+* [Staying ahead of the constant flow of intelligence data isn’t about collecting more, it’s about connecting the right signals faster.
+Ryann Hallback (reign) shows how analysts cut through noise, link critical data, and move investigations forward with confidence. https://www.youtube.com/watch?v=84oGqEL7ITQ](https://bsky.app/profile/vertexproject.bsky.social/post/3mfrtqc3brk2j)
+* [Does AI have a role in security? Perhaps. Is it going to replace DF analysts? ...](https://www.linkedin.com/posts/harlan-carvey-86a8694b_does-ai-have-a-role-in-security-perhaps-activity-7433152986064785409-xTbw)
+> Consider how you, as a DF analyst, currently conduct your analysis. 
+> Is it goal-based? 
+> Do you have your goals documented at the top of your case notes? (I do)
+> Is your tool usage intentional, and derived from your goals, and based on deep knowledge and understanding of the data, as well as the tool itself?
+> Do you recognize & document potential gaps in data, pivot based on findings, and apply lessons learned from previous analysis by operationalizing those lessons?
+> If you said "yes" to each of those questions, AI will not replace you.
+* [Too many people simply don't understand that you actually want some slack in your organization. You want people to not be grinding 24/7, because sometimes, you will have a crisis that requires all hands on deck, and if all hands are *always* on deck, things fall apart.](https://bsky.app/profile/jkfecke.bsky.social/post/3mhrivvcbsk2u), <https://www.jalopnik.com/2129924/laguardia-lone-air-traffic-controller-ground-air-space/>
+* [Nouveau design, Fev 2026](https://richard-dern.fr/interets/divers/2026/02/24/nouveautes-du-blog/) "Comme presque chaque année depuis 2021, j’ai créé un nouveau design pour le blog. Il est toujours totalement dépourvu de javascript, le CSS fait toujours moins de 15ko, et la page d’accueil pèse un peu moins de 1.5Mo. [...] Il est loin le temps où le client savait ce qu’il voulait, où il était capable d’aligner sa vision dans un document complet, conjointement avec les développeurs grâce à un lien social, et où le livrable était considéré comme définitif. [...] Je n’ai rien fait de spécial : j’ai mis à jour mon blog, comme des milliers de blogueurs à travers le monde à chaque instant. J’ai pourtant l’impression d’avoir relié mon passé et mon avenir. Je ne sais pas si l’IA causera notre perte ou sera notre salut, et le fait-même de se poser la question est troublant. Je n’aurais pas cru être amené à tant de métaphysique, simplement en mettant mon site à jour.  Je suis juste content de ne pas m’être laissé dépasser par l’IA."
+* [From Operations to Leadership: What 19 Years in Cybersecurity Actually Taught Me. Mar 2026](https://www.hurrikane.net/from-operations-to-leadership-what-19-years-in-cybersecurity-actually-taught-me)

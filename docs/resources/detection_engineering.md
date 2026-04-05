@@ -86,11 +86,14 @@ VDI
 * [Detection knowledge repository – by Daniel Koifman](https://detections.xyz)
 * [Explore supported frameworks and learn from their documentation. Learn how to write your own rules!](https://detectionstream.com/)
 * <https://github.com/rabobank-cdc/DeTTECT>
+* [Directory of pySigma community pipelines](https://github.com/SigmaHQ/pySigma-community-pipelines)
+* [Add Regression Tests and Simulation Links - First Batch #5719](https://github.com/SigmaHQ/sigma/pull/5719)
 
 * [On Detection: Tactical to Functional](https://posts.specterops.io/on-detection/home): 16 posts Jul 2022-Jan 2025
 * [About Detection Engineering, Sep 2022](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
 * [Capturing Detection Ideas to Improve Their Impact, Oct 2022](https://cyb3rops.medium.com/capturing-detection-ideas-to-improve-their-impact-311cf4e1c7a8)
 * [Security Analytics: How to rank use cases based on the "Quick Wins" approach? Apr 2017](https://detect.fyi/security-analytics-how-to-rank-use-cases-based-on-the-quick-wins-approach-d88748e5ece4)
+* [What makes up a solid SIEM query? Apr 2024](https://detect.fyi/what-makes-up-a-solid-siem-query-8f93c7a5a952)
 * [How to prioritize a Detection Backlog? May 2024](https://detect.fyi/how-to-prioritize-a-detection-backlog-84a16d4cc7ae)
 * [Baselines 101: Building Resilient, Frictionless SIEM Detections, Feb 2025](https://detect.fyi/baselines-101-building-resilient-frictionless-siem-detections-64dcbfb5afce): Detection Use Case: DCSync Attack & baseline periodic search
 * [Tactical Tuning by Combinational Reduction, Apr 2025](https://detect.fyi/tactical-tuning-by-combinational-reduction-afc65cb0ef41)
@@ -160,6 +163,26 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * ?[The moment every SOC analyst dreads:You deploy a new detection rule. Within hours, 1,000+ alerts flood your queue. Your team is drowning in noise.](https://www.linkedin.com/posts/charles-ngor-17878886_the-moment-every-soc-analyst-dreads-you-ugcPost-7407458820991500288-0-aJ)
 * [That's a very old view of sigma and disregard the fact the sigma is a format not limited to SigmaHQ which aims to be generic. [...] Dec 2025](https://www.linkedin.com/posts/nasreddinebencherchali_sigma-works-amazing-in-dfir-and-rapid-triage-activity-7407883437237293056-0t9i), [Why Venture Capital Is Betting Against Traditional SIEMs, Dec 2025](https://raffy.ch/blog/2025/12/17/why-venture-capital-is-betting-against-traditional-siems/): "The challenge is that many of these still sit atop the same primitives. For example, SIGMA is widely used as a community detection language, but it is fundamentally limited: it is mostly single-event, cannot express event ordering or causality, has no native temporal abstractions or entity-centric modeling, and cannot natively express thresholds, rates, cardinality, or statistical baselines."
 * [How data science can boost your detection engineering maintenance and keep you from herding sheep, Dec 2025](https://medium.com/falconforce/how-data-science-can-boost-your-detection-engineering-maintenance-and-keep-you-from-herding-sheep-8713b7220776)
+* [Fixing Microsoft's Azure Brute Force Detection: Why Their Template Fires Constantly (And What You Should Change), Dec 2025](https://www.itprofessor.cloud/tuning-azure-portal-brute-force-detection/)
+* [Multi-Cloud Detection at Scale: A Normalization Framework, Jan 2026](https://cloudnativedetection.substack.com/p/multi-cloud-detection-at-scale-a)
+* [What are Composite Detections? Jan 2026](https://www.detectionengineering.net/p/what-are-composite-detections)
+* [Chasing 100% coverage is a trap. Instead, ship a CISO-ready baseline in 30 days. Here's my quick plan to get your team started…](https://www.linkedin.com/posts/dylan-williams-a2927599_how-to-assess-a-detection-program-activity-7411805773883703297-I78J) "Start with crown jewels"
+* [Yesterday I presented "Why Detection Has Failed" to the Bay Area CISO group. The discussion that followed reminded me why I love this community. Brutally honest discussion.](https://www.linkedin.com/posts/calebsima_why-detection-has-failed-ugcPost-7418019181536743426-gmi3) "My thesis was this is caused by the fact that by in large we as CISO's don't know how to measure a detection & response TEAM properly. We use the wrong metrics and our metrics can be gamed. Fire on every alert and your MTTD drops to zero but your MTTR skyrockets. Close tickets fast and your MTTR looks great but closing ≠ investigating. Ultimately how do any of these metrics help me answer "Can we catch bad guys early?""
+* [How to Use Pareto Principle to Fine-Tune Alerts and Reduce False Positives Wisely, Jan 2026](https://detect.fyi/how-to-use-pareto-principle-to-fine-tune-alerts-and-reduce-false-positives-wisely-2c171356fe5b)
+* [Adversarial Detection Engineering (ADE) Framework](https://github.com/NikolasBielski/Adversarial-Detection-Engineering-Framework) "A framework and taxonomy for identifying, classifying, and reasoning about detection logic bugs in SIEM, EDR, and XDR rules, with concrete examples and real-world bypasses."
+* [You spent $2M on detection engineering headcount. Your actual detection register is a spreadsheet named "Final_v3_UPDATED." Jan 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_you-spent-2m-on-detection-engineering-headcount-activity-7420133186623438849-JcVn) "Detection lives everywhere, ownership lives nowhere, and the process stays heavy and manual as a result."
+* [My Friday SIEM post is here, this week the two SIEM onboarding religions. Feb 2026](https://www.linkedin.com/posts/filipstojkovski_siem-securityoperations-activity-7425581711067009024-LI8O) "Onboard by design or Onboard by pain"
+* [The Fear of Not Doing Enough, Why Security Teams Keep Generating Work They Can't Handle, Feb 2026](https://www.cybersec-automation.com/p/the-fear-of-not-doing-enough)
+* [Why Teams Are Decoupling Their SIEM from Their Data Pipeline, Feb 2026](https://www.monad.com/blog/why-teams-are-decoupling-their-siem-from-their-data-pipeline) +
+* [How reliable are the logs? Feb 2026](https://medium.com/@birkankess/how-reliable-are-the-logs-91a77a4c8367)
+* [Pattern Detection and Correlation in JSON Logs Introducing RSigma: a Rust toolkit for evaluating Sigma detection rules against JSON events without a SIEM. Feb 2026](https://mostafa.dev/pattern-detection-and-correlation-in-json-logs-fab16334e4ee), <https://crates.io/crates/rsigma>, <https://github.com/timescale/rsigma>
+* [detection libraries must be repeatedly validated, Mar 2026](https://thrivingdefense.com/principles/detection-libraries-must-be-repeatedly-validated)
+* [Selecting Advantageous Terrain, Mar 2026](https://thrivingdefense.com/methodology/Selecting-Advantageous-Terrain)
+* [detections based on threat intelligence are always opportunistic, Mar 2026](https://thrivingdefense.com/principles/detections-based-on-threat-intelligence-are-always-opportunistic)
+* [When did you last simulate the attack your detection is supposed to catch?  I work in banking. Regulators make us prove our detections actually work. Most teams don't have that forcing function. Here's the process anyway. Mar 2026](https://www.linkedin.com/posts/charlescyberdefense_when-did-you-last-simulate-the-attack-your-activity-7441878731767349249-78Wy)
+* [“Automated detection engineering” is a nice label for a small problem. The real problem is running an entire detection program end-to-end. Mar 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_automated-detection-engineering-is-a-nice-activity-7442999323035996160-04pL) "We need a system that runs the detection program end-to-end: • Ingest what’s happening in your environment • Map it to relevant threats • Generate detections continuously • Verify coverage as things change"
+* [Databricks just entered the SIEM market.  $26 billion in funding. 14,614 employees. A sleeping beast that just woke up.](https://www.linkedin.com/posts/nikolozk_cybersectools-mcp-siem-market-overview-activity-7442871183672410112-so7m) "We track 197 SIEM products across 126 companies on CybersecTools. Databricks alone now holds 57% of all funding in the entire category."
+* [Microsoft tested if AI can replace detection engineers, Apr 2026](https://theweatherreport.ai/posts/microsoft-vibe-detection/), [AVDA: Autonomous Vibe Detection Authoring for Cybersecurity](https://arxiv.org/abs/2603.25930)
 
 ### Tools
 
@@ -172,6 +195,13 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * [ADX to Sentinel - Continuous Data Pipeline](https://github.com/LaurieRhodes/ADX-to-LogAnalytics-Scanner)
 * [A cross-platform baselining, threat hunting, and attack surface analysis tool for security teams.](https://github.com/redcanaryco/surveyor)
 * [UEBA in Microsoft Sentinel: Stop Wasting Time on Behavioral Analytics, Dec 2025](https://www.itprofessor.cloud/microsoft-sentinel-ueba/) "The problem isn't UEBA. The problem is everyone treats it like a fire-and-forget feature instead of what it actually is: a data science problem that requires baseline tuning, entity context, and honest assessment of whether your data is good enough to detect anything real."
+* https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/turn-complexity-into-clarity-introducing-the-new-ueba-behaviors-layer-in-microso/4484493
+https://learn.microsoft.com/en-us/azure/sentinel/entity-behaviors-layer
+* [Microsoft Sentinel Data Lake Tier: Deep Dive and Comparison, Aug 2025](https://secureazcloud.com/f/microsoftsentineldatalaketierdeepdiveandcomparison)
+* [ADX o Data Lake, Dec 2025](https://www.reddit.com/r/AzureSentinel/comments/1p35fvo/adx_o_data_lake/)
+* [Logs to ADX from all your machines via AMA, Feb 2026](https://tokesi.cloud/blogs/26_02_06_ama_changes/)
+* [Windows Event Log EPS & Storage Calculator](https://github.com/besimorhino/Get-EventEPS)
+* [Entra Protect - Threat Watch  Monitor and identify dangerous OAuth applications, permissions, and malicious user agents in your Entra ID environment](https://www.entraprotect.io/)
 
 
 * [Carefully watch this video and witness how AI fails on detection engineering. 
@@ -184,6 +214,19 @@ How would you to spot these mistakes without having knowledge and skill? Are you
 There is a very slight chance that I'm completely wrong. That is:
 - The table "anvilogic.gold.endpoint" is a special table that contains only encoded PowerShell command executions (it doesn't seem like it).
 - The USER field contains privileges of the users, insted of the user name (less likely).](https://www.linkedin.com/posts/mehmetergene_as-a-former-practitioner-ive-always-been-activity-7321888302624641026-Ty7w?) - Anvilogic
+* [𝐖𝐡𝐚𝐭 𝐬𝐡𝐨𝐮𝐥𝐝 𝐛𝐞 𝐭𝐡𝐞 % 𝐨𝐟 𝐓𝐫𝐮𝐞 𝐏𝐨𝐬𝐢𝐭𝐢𝐯𝐞 𝐚𝐥𝐞𝐫𝐭𝐬 𝐚𝐭 𝐚 𝐡𝐞𝐚𝐥𝐭𝐡𝐲 𝐒𝐎𝐂? 🎯  I keep seeing posts claiming 𝟐𝟎%, 𝟓𝟎%, sometimes 𝟕𝟎%+ true positive rate and I'm confused. Jan 2026](https://www.linkedin.com/posts/rafal-kitab_siem-secops-metrics-activity-7419726253001428992-vuOB)
+* [Introducing OpenTide Threat Surface: One Unified Vocabulary to Describe Where Threats Land, Mar 2026](https://blog.opentide.org/introducing-opentide-threat-surface-one-unified-vocabulary-to-describe-where-threats-land-fe491d1fa85b), <https://github.com/OpenTideHQ/CoreTide/releases/tag/2026.03.09%2Fthreat-surface>
+* [We need to talk about attack paths. Mar 2026](https://www.linkedin.com/posts/kdaskalakis_socon-attackpaths-identitysecurity-activity-7435251712543580162-X5qQ) "It's whether you've already closed the path that makes detection necessary."
+* [Building a Detection Foundation: Part 1 - The Single-Source Problem, Feb 2026](https://trustedsec.com/blog/building-a-detection-foundation-part-1-the-single-source-problem)
+
+* [Living Off the Living Off the Land  Centralized farming resources to thrive off the land](https://lolol.farm/)
+* [LOLBAS, Living Off The Land Binaries, Scripts and Libraries](https://lolbas-project.github.io/)
+* [LOLC2 collection of C2 frameworks that leverage legitimate services to evade detection](https://lolc2.github.io/)
+* [Living Off The Land Drivers](https://www.loldrivers.io/)
+* [GTFOBins](https://gtfobins.org/) (unix)
+* [Living Off the Orchard: macOS Binaries (LOOBins)](https://www.loobins.io/)
+* [WTFBins?! WTFBin is a binary that behaves exactly like malware, except, somehow, it's not.](https://wtfbins.wtf/)
+* [Living off the False Positive!](https://br0k3nlab.com/LoFP/)
 
 ### Rules
 
@@ -202,37 +245,77 @@ Generic
 * [SOCPrime](https://socprime.com/)
 * [DetectionStream, Unify detection engineering across Sigma, Nova, and beyond](https://detectionstream.com/)
 * [SigmaHQ Quality Assurance Pipeline, Nov 2025](https://blog.sigmahq.io/sigmahq-quality-assurance-pipeline-d99eaba1760e), <https://github.com/SigmaHQ/sigma-rules-validator>, <https://github.com/NextronSystems/evtx-baseline>
+* [A pySigma wrapper to manage detection rules.](https://github.com/certeu/droid)
+* [MCP to help Defenders Detection Engineer Harder and Smarter](https://github.com/MHaggis/Security-Detections-MCP), [Detection Engineer Secrets: MCP + LLM for Scalable Detection Engineering](https://www.youtube.com/watch?v=i9_sZAp8qfI)
+* [Mapping of open-source detection rules and atomic tests. ](https://github.com/krdmnbrk/AttackRuleMap)
+* [Detection Chokepoints  TTPs evolve. Chokepoints don't.](https://iimp0ster.github.io/detection-chokepoints/)
+  * [Infostealer Browser Credential Theft](https://iimp0ster.github.io/detection-chokepoints/chokepoints/browser-credential-theft/)
+  * [EDR Bypass Techniques](https://iimp0ster.github.io/detection-chokepoints/chokepoints/edr-bypass-techniques/)
+  * [Ransomware Service Manipulation](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ransomware-service-manipulation/)
+  * [Web Shell Persistence](https://iimp0ster.github.io/detection-chokepoints/chokepoints/web-shells/)
+  * [ClickFix Techniques](https://iimp0ster.github.io/detection-chokepoints/chokepoints/clickfix-techniques/)
+
 
 Vendor-based
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Detections/readme.md
-* https://github.com/CyberAutomationX/SecureAzCloud-Scripts/tree/main/KQL
-* https://github.com/elastic/detection-rules
-* https://github.com/splunk/security_content
-* https://github.com/socfortress/Wazuh-Rules
-* [Detection tuning – “Making the tuning process simple - one step at a time.”, Nov 2021](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/detection-tuning-–-“making-the-tuning-process-simple---one-step-at-a-time-”/2919589)
-* [Threat detection with Atomic Red Team and Azure Sentinel, Apr 2021](https://www.remotelycurious.net/post/threatlab/)
-* [Sentinel for Purple Teaming, Oct 2024](https://medium.com/@iknowjason/sentinel-for-purple-teaming-183b7df7a2f4), [PurpleCloud - docs](https://www.purplecloud.network/), [PurpleCloud - github](https://github.com/iknowjason/PurpleCloud)
-* [Improving automated Sentinel detection validation. Oct 2024](https://medium.com/@TimGroothuis/improving-automated-sentinel-detection-validation-02f91a9f4a21), [Azure Data Explorer Kusto emulator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto-emulator-overview), <https://github.com/timtim589/KustainerValidation>
-* [Automating Microsoft Sentinel Deployment with GitHub Actions, Aug 2025](https://sentinel.blog/automating-microsoft-sentinel-deployment-with-github-actions/)
-* [Initial thoughts on @detectionsai.bsky.social have been pretty positive. Great platform for sharing detection and analytic content across a multiple of tools and languages (Sigma, KQL, Splunk, Yara, etc..)](https://bsky.app/profile/jhuntinfosec.com/post/3lwpbrmu7nc2h)
-* https://github.com/mattnovitsch/M365/wiki
-* [Threat Hunting and Detection - KQL](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection)
-* [Elastic  Protections Artifacts](https://github.com/elastic/protections-artifacts) with rules
-* <https://github.com/SlimKQL/Hunting-Queries-Detection-Rules/>
-* [KQL Sentinel & Defender queries](https://github.com/HybridBrothers/Hunting-Queries-Detection-Rules/tree/main)
-* [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
-* [Effective Tips To Manage Microsoft Defender XDR Tables, Oct 2025](https://charbelnemnom.com/manage-microsoft-defender-xdr-tables/)
-* [Cutting Through The Noise: Reducing Fortinet Teardown Traffic In Microsoft Sentinel, Oct 2025](https://www.hanley.cloud/2025-10-16-Cutting-Through-the-Noise-Reducing-Fortinet-Teardown-Traffic-in-Microsoft-Sentinel/)
-* [Defender XDR VS Microsoft Sentinel table changes, Oct 2025](https://hybridbrothers.com/posts/defender-xdr-vs-sentinel-table-changes/)
-* [KQL Queries. Microsoft Defender, Microsoft Sentinel](https://github.com/alexverboon/Hunting-Queries-Detection-Rules)
-* [Detecting Risky Password Reset Activity in Microsoft Sentinel, Dec 2025](https://beemermeup.github.io/LargeAmountOfPasswordResetsByUsers.html)
-* [Automate the conversion and deployment of Sigma Rules to Grafana Alerting via GitHub Actions](https://github.com/grafana/sigma-rule-deployment)
-* [Convert Sigma rules to Wazuh rules](https://github.com/theflakes/sigma_to_wazuh), [StoW - Sigma to Wazuh rule converter in GO](https://github.com/theflakes/StoW)
+* Elastic
+  * https://github.com/elastic/detection-rules
+  * [Elastic  Protections Artifacts](https://github.com/elastic/protections-artifacts) with rules
+  * [Elastic Reference - Managing Elastic Security Detection Rules Using DaC](https://dac-reference.readthedocs.io/en/latest/)
+  * [The Engineer's Guide to Elastic Detections as Code, Feb 2026](https://www.elastic.co/security-labs/detection-as-code-timeline-and-new-features)
+  * [Elastic Detection-as-Code with Threat Intel to Rule Workflow](https://github.com/GBinion2020/AI-Threat-Intel-detection-as-code-pipeline)
+* Grafana
+  * [Automate the conversion and deployment of Sigma Rules to Grafana Alerting via GitHub Actions](https://github.com/grafana/sigma-rule-deployment)
+* Sentinel/Defender XDR
+  * https://github.com/Azure/Azure-Sentinel/blob/master/Detections/readme.md
+  * https://github.com/CyberAutomationX/SecureAzCloud-Scripts/tree/main/KQL
+  * [Detection tuning – “Making the tuning process simple - one step at a time.”, Nov 2021](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/detection-tuning-–-“making-the-tuning-process-simple---one-step-at-a-time-”/2919589)
+  * [Threat detection with Atomic Red Team and Azure Sentinel, Apr 2021](https://www.remotelycurious.net/post/threatlab/)
+  * [Sentinel for Purple Teaming, Oct 2024](https://medium.com/@iknowjason/sentinel-for-purple-teaming-183b7df7a2f4), [PurpleCloud - docs](https://www.purplecloud.network/), [PurpleCloud - github](https://github.com/iknowjason/PurpleCloud)
+  * [Improving automated Sentinel detection validation. Oct 2024](https://medium.com/@TimGroothuis/improving-automated-sentinel-detection-validation-02f91a9f4a21), [Azure Data Explorer Kusto emulator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto-emulator-overview), <https://github.com/timtim589/KustainerValidation>
+  * [Automating Microsoft Sentinel Deployment with GitHub Actions, Aug 2025](https://sentinel.blog/automating-microsoft-sentinel-deployment-with-github-actions/)
+  * https://github.com/mattnovitsch/M365/wiki
+  * [Threat Hunting and Detection - KQL](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection)
+  * [KQL Sentinel & Defender queries](https://github.com/HybridBrothers/Hunting-Queries-Detection-Rules/tree/main)
+  * [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
+  * [Effective Tips To Manage Microsoft Defender XDR Tables, Oct 2025](https://charbelnemnom.com/manage-microsoft-defender-xdr-tables/)
+  * [Cutting Through The Noise: Reducing Fortinet Teardown Traffic In Microsoft Sentinel, Oct 2025](https://www.hanley.cloud/2025-10-16-Cutting-Through-the-Noise-Reducing-Fortinet-Teardown-Traffic-in-Microsoft-Sentinel/)
+  * [Defender XDR VS Microsoft Sentinel table changes, Oct 2025](https://hybridbrothers.com/posts/defender-xdr-vs-sentinel-table-changes/)
+  * [KQL Queries. Microsoft Defender, Microsoft Sentinel](https://github.com/alexverboon/Hunting-Queries-Detection-Rules)
+  * [Detecting Risky Password Reset Activity in Microsoft Sentinel, Dec 2025](https://beemermeup.github.io/LargeAmountOfPasswordResetsByUsers.html)
+  * <https://github.com/SlimKQL/Hunting-Queries-Detection-Rules/>
+  * [Approximate, partial and combined lookups in Azure Sentinel, May 2020](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/approximate-partial-and-combined-lookups-in-azure-sentinel/1393795)
+  * [Accelerate your move to Microsoft Sentinel with the new AI Powered SIEM migration experience, Jan 2026](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/accelerate-your-move-to-microsoft-sentinel-with-the-new-ai-powered-siem-migratio/4488505)
+  * <https://github.com/HybridBrothers/Hunting-Queries-Detection-Rules/>
+  * [Professional MITRE ATT&CK coverage analysis for Azure Sentinel](https://github.com/rohit8096-ag/sentinel-mitre-analyzer) (powershell)
+  * [Monitor New Actions in Sentinel & Defender XDR (V2), Jan 2026](https://kqlquery.com/posts/monitor-new-actions-sentinel-defender-xdr/)
+  * [Top 5 Microsoft Sentinel Queries for Threat Hunting, Feb 2026](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/top-5-microsoft-sentinel-queries-for-threat-hunting/4497667)
+  * [Detection-as-Code repository for Microsoft Sentinel. YAML-based detection rules mapped to MITRE ATT&CK and Cyber Kill Chain stages, enriched with lifecycle tags and automated for CI/CD deployment.](https://github.com/aring87/Sentinel-Detection-As-Code/tree/main)
+  * [A demo repository, showing how one could validate detections against an ADX emulator to catch KQL runtime errors](https://github.com/timtim589/KustainerValidation)
+  * [[DxBP] Part 1 - Technical Detection Engineering Best Practices, Feb 2026](https://kqlquery.com/posts/dxbp-part1/)
+  * [One of the best ways for defenders to start analyzing with graphs is to use the logs they already know. Every log has multiple entities, relations, and properties in its columns. Or as I say, every table has a graph waiting to be born. Mar 2026](https://www.linkedin.com/posts/johnjlambert_security-data-is-inherently-graph-shaped-activity-7440032425310691328-QQyG), [Kusto Graph Functions for Cybersecurity Investigations](https://gist.github.com/ddamenova/43696f1e7c63c66f924637e9577316ee)
+* Splunk
+  * https://github.com/splunk/security_content
+* Wazuh
+  * https://github.com/socfortress/Wazuh-Rules
+  * [Convert Sigma rules to Wazuh rules](https://github.com/theflakes/sigma_to_wazuh), [StoW - Sigma to Wazuh rule converter in GO](https://github.com/theflakes/StoW)
+* Multiples
+  * [Initial thoughts on @detectionsai.bsky.social have been pretty positive. Great platform for sharing detection and analytic content across a multiple of tools and languages (Sigma, KQL, Splunk, Yara, etc..)](https://bsky.app/profile/jhuntinfosec.com/post/3lwpbrmu7nc2h)
+  * [SIEGMA - Transform Sigma rules into SIEM consumables](https://github.com/3CORESec/SIEGMA)
 
 Linux
 * [Linux Detection Engineering -  A primer on persistence mechanisms, Aug 2024](https://www.elastic.co/security-labs/primer-on-persistence-mechanisms)
 * [PANIX - Persistence Against \*NIX](https://github.com/Aegrah/PANIX)
+* [Practical Detection Engineering for Kubernetes A Primer on Log Sources and Ingestion Strategy. Feb 2026](https://brandontlyons.substack.com/p/practical-detection-engineering-for)
+* [Practical Detection Engineering for Kubernetes: Baselining Audit Logs Scope, Not Volume: Detecting Credential Abuse in Kubernetes, Mar 2026](https://brandontlyons.substack.com/p/practical-detection-engineering-for-a55?triedRedirect=true)
 
 Macos
 * [coreSigma: Expanding Sigma Detection for macOS, Nov 2025](https://nebulock.io/blog/coresigma-expanding-sigma-detection-for-macos)
+
+### Data Source integrations
+
+Community / Opened ones
+
+* <https://github.com/Azure/Azure-Sentinel>
+* <https://github.com/elastic/connectors/tree/main/app/connectors_service/connectors/agent/pipelines>
+* <https://github.com/ibmresilient/resilient-community-apps/>
+* <https://github.com/demisto/content/tree/master/Packs>

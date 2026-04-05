@@ -1,4 +1,4 @@
-PGP/GPG key management
+# PGP/GPG key management
 
 ## Usage
 
@@ -123,6 +123,8 @@ Master private key and revocation file should be archived both in electronic for
 * [Configuring an offline GnuPG master key and subkeys on YubiKey, Sep 2017](https://www.andreagrandi.it/2017/09/30/configuring-offline-gnupg-masterkey-subkeys-on-yubikey/)
 * [OpenPGP - The almost perfect key pair, Oct 2017](https://blog.eleven-labs.com/en/openpgp-almost-perfect-key-pair-part-1/)
 * [GPG Sync is designed to let users always have up-to-date public keys for other members of their organization, First Look Media/TheIntercept](https://github.com/firstlookmedia/gpgsync)
+* [What To Use Instead of PGP, Nov 2024](https://soatok.blog/2024/11/15/what-to-use-instead-of-pgp/): sigstore for signing software distributions, ssh signatures for signing git tags/commits, magic wormhole to send files between computers, tarsnap for encrypted backups, tink or libsodium to encrypt application data, age to encrypt files, signal for private messaging. don't encrypt email
+* [Everything You Need to Know About Email Encryption in 2026](https://soatok.blog/2026/01/04/everything-you-need-to-know-about-email-encryption-in-2026/), <https://gpg.fail/>
 
 gpg.conf
 ```

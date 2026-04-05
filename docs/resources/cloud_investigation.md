@@ -47,3 +47,9 @@ https://github.com/aws-samples/resource-control-policy-examples
 * [Cloud Offensive Breach and Risk Assessment (COBRA) Tool](https://github.com/PaloAltoNetworks/cobra-tool)
 * [EasyPIM let you manage PIM Azure Resource, Entra Role and Groups settings and assignments with simplicity](https://github.com/kayasax/EasyPIM)
 * [Audit administrator events in Microsoft Entra Connect Sync](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/admin-audit-logging)
+
+Cloud disk encryption (managed or customer)
+* [Overview of managed disk encryption options (VM) - Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/disk-encryption-overview): ADE (Scheduled for retirement on Sep 2028), SSE (PMK or CMK), Encryption at Host, Confidential disk encryption
+* [Computer forensics chain of custody in Azure](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/forensics/), <https://github.com/Azure/forensics>
+* [Forensicating Azure VMs, Feb 2021](https://isc.sans.edu/diary/27136)
+* [Can a managed disk with server-side encryption using platform managed keys be exported and imported to a VM on a different tenant. Or, are PMKs tenant specific? Dec 2022](https://learn.microsoft.com/en-us/answers/questions/1113949/can-a-managed-disk-with-server-side-encryption-usi), <https://stackoverflow.com/questions/70354057/azure-blobstorage-sas-token-urls-that-decrypt-data#comment124367652_70354057> "Something is missing. Are you using SSE (server side encryption) or client-provided key encryption? With SSE the encryption should be transparent and you should get decrypted content independent of the way you access the content (DownloadTextAsync or SAS url).", [Export Azure Platform Managed Key Encrypted VM, Feb 2024](https://www.reddit.com/r/AZURE/comments/1ak63au/export_azure_platform_managed_key_encrypted_vm/)

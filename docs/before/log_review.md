@@ -1,7 +1,10 @@
+# Logs review
 
 In most environment, there are more logs generated in a day that most security staff could review in possibly months if not year. As such, most log reviews will be based on rules and automation up to the point of a manual review.
 Rules ideally match your risk assessment and threat model.
 Infrastructure rules are a good based but in most cases, business context is key.
+
+Example monitoring matrix: System, OS, Comment, OS Logs, Audit Policy set, OS Log Alerting, Audit Policy Verified, Application Logs, Application Log Alerting, OS log Alerting Tested, Application Log Alerting Tested
 
 ## Coverage
 
@@ -59,6 +62,9 @@ See references for more
 * Web proxy
 * File storage, file transfer tools (sftp, samba/win shares, moveit...)
 * Database, selection by CRUD, stored procedures for example depending on criticality/volumes
+* Hypervisors
+* HR platform
+* CRM platform
 
 ### Cloud
 
@@ -96,6 +102,11 @@ Be mindful if logs are covered for corporate tools and dev tools (ex: M365 Copil
 * Environment's risk assessment and threat model
 * <https://www.malwarearchaeology.com/cheat-sheets>
 * <https://what2log.com/>
+* Antisyphon SOC Summit 2026: [Augmented Detection Engineering](https://www.blackhillsinfosec.com/wp-content/uploads/2026/03/TALK-4-1130-am-Wade-Wells-Augmented-Detection-Engineering.pdf)
+* [What Should I Ingest Into My SIEM? Mar 2026](https://isaacdunham.github.io/posts/what-should-i-ingest-into-my-siem/)
+
+Platforms
+
 * Linux
 * Macos
 * Windows:

@@ -1,8 +1,9 @@
+# Triage checklist
 
 Possible checklist for triage. Initial triage usually should be between 15-60 minute.
 Reminder to adapt to context.
 
-# Triage checklist
+## Questions
 
 * What is the problem?
 * Do you understand the alert? Can you explain it to someone else?
@@ -28,6 +29,6 @@ Reminder to adapt to context.
 
 # References
 
-* IR 9-line
-* RE&CT - https://github.com/atc-project/atc-react
-* [An analyst told me that their leadership expects them to complete alert triage to root cause analysis within 15 minutes. What are some of the problems with this?](https://bsky.app/profile/chrissanders88.bsky.social/post/3lqffgjbdeq26), https://bsky.app/profile/johncarlbaker.bsky.social/post/3lqdex7h65s2m
+* IR 9-line - [Incident Response 9-Line | SANS DFIR Summit 2021](https://www.youtube.com/watch?v=hU3i-jEF9cU)
+* RE&CT - <https://github.com/atc-project/atc-react>
+* [An analyst told me that their leadership expects them to complete alert triage to root cause analysis within 15 minutes. What are some of the problems with this? May 2025](https://bsky.app/profile/chrissanders88.bsky.social/post/3lqffgjbdeq26), <https://bsky.app/profile/johncarlbaker.bsky.social/post/3lqdex7h65s2m>

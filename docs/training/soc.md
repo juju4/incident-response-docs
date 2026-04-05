@@ -11,9 +11,12 @@ Few of many, mostly free content or partially.
 * https://letsdefend.io/, https://github.com/LetsDefend/awesome-soc-analyst, [Let's Defend Free SOC Training](https://app.letsdefend.io/training)
 * [TryHackMe - Cyber Defense](https://tryhackme.com/r/path/outline/blueteam), [SOC Workbooks and Lookups - Premium room](https://tryhackme.com/room/socworkbookslookups): "Discover useful corporate resources to help you structure and simplify L1 alert triage."
 * [HTB for Blue Teams](https://www.hackthebox.com/blue-team-upskilling)
+* [Threat Hunting & DFIR Certification - CCDL2 (formerly CCD)](https://cyberdefenders.org/certifications/certified-cyberdefender-level2/)
 * [Microsoft Security Academy](https://microsoft.github.io/PartnerResources/skilling/microsoft-security-academy)
 * https://training.dfirdiva.com/listing-category/dfir-blue-team-certifications
 * [Free technical skills labs in minutes - RangeForce](https://www.rangeforce.com/free-edition)
+* [Field Effect Cyber Range, CA](https://fieldeffect.com/products/cyber-range-security-training)
+* [Infinite Angles of Attack Require Limitless Options for Defence, EE](https://cybexer.com/)
 * [Learn cyber by solving mysteries - KC7Cyber](https://kc7cyber.com/)
 * [Kusto Detective Agency](https://detective.kusto.io/)
 * [RingZer0 Team Online CTF](https://ringzer0ctf.com/)
@@ -29,6 +32,10 @@ Few of many, mostly free content or partially.
 * [Closing the Cybersecurity Talent Gap: LinkedIn Learning Launches Cybersecurity Training Labs Powered by Hack The Box, Nov 2025](https://www.linkedin.com/business/talent/blog/learning-and-development/closing-the-cybersecurity-talent-gap)
 * [The Legend of Selara](https://selara.ai/): "AI prompt injection CTF"
 * [The Knights of the Stolen Session: Winter CTF Quest Begins, Nov 2025](https://flare.io/learn/resources/blog/knights-of-the-stolen-session-winter-ctf/)
+* [Cyber Range Exercising - Immersive Labs](https://www.immersivelabs.com/products/cyber-range-exercising)
+* [Weekly CTF Challenge - Antisyphon](https://www.antisyphontraining.com/ctf-challenges/)
+* [Repository for SOC analysts, queries to investigate, advanced hunting, sites for analysis, malware samples, courses to improve skills, IOC and monitoring.](https://github.com/DXC-0/SOC-Ressources)
+* [Linux Forensic Scenario, Mar 2026](https://righteousit.com/2026/03/27/linux-forensic-scenario/)
 
 older resources
 * [the cryptopals crypto challenges](https://cryptopals.com/)
@@ -50,11 +57,14 @@ Guide
 * [Trailofbits CTF Field Guide](https://trailofbits.github.io/ctf/index.html)
 * [Security Analyst mindset](./security_analyst_mindset.md)
 * [Improving Your Malware Forensics Skills, Jun 2014](https://journeyintoir.blogspot.com/2014/06/improving-your-malware-forensics-skills.html)
+* [The Infosec survival guide, Second Volume](https://www.blackhillsinfosec.com/wp-content/uploads/2023/11/Survival_Guide_v2_PDF_LINKEDIN.pdf)
 
 ## Trainings
 
 * <https://www.enisa.europa.eu/topics/skills-and-competences/trainings-and-exercises>
 * <https://circl.lu/services/forensic-training-materials/>
+* [A Practical Map of the DFIR Internet: Marketplaces, FAQs, and Fire Exits, Mar 2026](https://www.dfir.training/blog/a-practical-map-of-the-dfir-internet-marketplaces-faqs-and-fire-exits)
+* [Introducing the Synapse Learning Tool, Mar 2026](https://vertex.link/blogs/learning-tool-intro/)
 
 Commercial
 * [Antisyphon training](https://www.antisyphontraining.com), [SOC Core Skills with John Strand](https://www.antisyphontraining.com/product/soc-core-skills-with-john-strand/)
@@ -65,6 +75,11 @@ Commercial
 * Azure: [Microsoft Student Security Operations Center Toolkit](https://microsoft.github.io/SOC/), [Student SOC Program Foundations training - Microsoft free](https://microsoft.github.io/SOC/source/content/#/), [Training for Security Operations Analysts](https://learn.microsoft.com/en-us/training/career-paths/security-operations-analyst), [Microsoft Certified: Security Operations Analyst Associate](https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/?practice-assessment-type=certification) - SC-200, [Microsoft Certified: Azure Security Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/?practice-assessment-type=certification) - AZ-500, [Microsoft Certified: Cybersecurity Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/) - SC-100, [Microsoft Certified: Identity and Access Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/?practice-assessment-type=certification) - SC-300...
 * GCP: [Google Security Operations - Fundamentals](https://www.cloudskillsboost.google/paths/581/course_templates/971), [Google Security Operations - Deep Dive](https://www.cloudskillsboost.google/paths/581/course_templates/972), [Modern Security Operations](https://www.cloudskillsboost.google/paths/581/course_templates/1153)...
 * <https://www.networkdefense.co/courses/>
+* [DF/IR Training Resources Hub](https://www.dfir.training/resources), [PSBK Casework Course](https://www.suspectbehindthekeyboard.com/psbk-casework)
+* [BlueRaven Academy](https://academy.bluraven.io/courses) (KQL), <https://medium.com/blu-raven>, <https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection>
+* [Malware Unicorn Workshops](https://malwareunicorn.org/#/workshops), <https://github.com/malware-unicorn>
+* [Investigating Windows Memory, 13cubed](https://training.13cubed.com/investigating-windows-memory)
+* [CTI and DE&TH Workshop](https://paralus.co/online/cti_and_deth_workshop/)
 
 Periodic
 * [All the deals for InfoSec related software/tools this Black Friday](https://github.com/0x90n/InfoSec-Black-Friday)
@@ -105,16 +120,29 @@ Online Forums/chats
 
 Many of those communities offer mentorship.
 
+Be active in communities
+
+* [Shoulders of InfoSec: A Way to Give Back to the Cybersecurity Community, Dec 2019](https://www.tenable.com/blog/shoulders-of-infosec-a-way-to-give-back-to-the-cybersecurity-community)
+* [Publishing your work increases your luck, Jul 2022](https://github.com/readme/guides/publishing-your-work)
+* [S’investir dans les communautés quand on n’ose pas, Dec 2025](https://www.24joursdeweb.fr/2025/s-investir-dans-les-communautes-quand-on-n-ose-pas)
+* [Folks have asked me how to find and build community.Here is a very pragmatic and approachable way to find the community in your local town or neighborhood. [...] Dec 2025](https://infosec.exchange/@tinker/113589807117870451)
+* On contributing to projects [You can do it](https://mastodon.social/@bagder/115836405730279536), <https://this.wplr.rocks/@andrew/statuses/01KE4WQ1XNV4XM13ZW50S0924X>
+
+## Mentoring, Shadowing
+
+At work or in communities, ensure that guidelines are present. Define format and duration like amount time of week or month that can be used for mentoring or shadowing, how long it should last by default and under what terms can it be extended, if rotating a defined set of mentors...
+You may want to establish some requirements to ensure a person is motivated and willing to learn.
+Examples: One-pager motivation letter with expected benefits, self-service training or test, performance level or HR grade...
+
 * [Mentoring - Toastmasters](https://www.toastmasters.org/resources/mentoring)
 * [3 Key Tips to Be a Successful Security Mentor, Aug 2023](https://www.securityjourney.com/post/3-key-tips-to-be-a-successful-security-mentor)
 * [OWASP 2024 Global AppSec San Francisco Mentor/Mentee Program](https://sf.globalappsec.org/mentor-mentee/)
 * [Reasonable Expectations for Cybersecurity Mentees, Sep 2025](https://tisiphone.net/2025/09/24/reasonable-expectations-for-cybersecurity-mentees/)
 
-Be active in communities
+Shadowing
 
-* [Publishing your work increases your luck, Jul 2022](https://github.com/readme/guides/publishing-your-work)
-* [S’investir dans les communautés quand on n’ose pas, Dec 2025](https://www.24joursdeweb.fr/2025/s-investir-dans-les-communautes-quand-on-n-ose-pas)
-* [Folks have asked me how to find and build community.Here is a very pragmatic and approachable way to find the community in your local town or neighborhood. [...] Dec 2025](https://infosec.exchange/@tinker/113589807117870451)
+* [Your In-Depth Guide to Implementing Job Shadowing (+ Google Case Study), Aug 2023](https://www.aihr.com/blog/job-shadowing/)
+* [A 6-step Guide to Building a Successful Job Shadowing Program, Aug 2023](https://www.togetherplatform.com/blog/a-7-step-guide-to-building-a-successful-job-shadowing-program)
 
 ## Data set
 
@@ -165,17 +193,31 @@ Other data
 * [Splunk Attack Range](https://github.com/splunk/attack_range) (Cloud)
 * [Ludus is a system to build easy to use cyber environments for testing and development.](https://gitlab.com/badsectorlabs/ludus) (proxmox)
 * [Build. Break. Learn. Repeat.Master your craft with hands-on technical labs.](https://homelabtutorials.com/)
+* [Adversary Lab - Azure Security Monitoring Environment](https://github.com/purpleshellsecurity/adversary_lab)
 
 ## Sysadmin
 
 * https://studio.kodekloud.com/labs - Linux
 * [Troubleshoot and Make Sad Servers Happy!](https://sadservers.com)
 * https://labs.iximiuz.com/
+* ["there’s one critical subject [in CS] that’s rarely covered, and is instead left to students to figure out on their own: proficiency with their tools. We’ll teach you how to master the command-line, use a powerful text editor, use fancy features of version control systems, and much more!"
+Beautifully formatted course materials with lectures, all free of charge.
+https://missing.csail.mit.edu
+Thanks to @jschauma@mstdn.social for the pointer.](https://mastodon.social/@jpmens/116182041068196457)
 
 ## OT
 
 * [The Top 10 Things I’d Like to See in University OT Cybersecurity Curriculum (2025 Edition), Sep 2025](https://tisiphone.net/2025/09/10/the-top-10-things-id-like-to-see-in-university-ot-cybersecurity-curriculum-2025-edition/)
 * [CAPTURE THE FLAG 2025 - Dragos](https://hub.dragos.com/ctf-registration-25)
+* [My Top 5 Recommendations on OT Cybersecurity Student Upskilling, Jan 2026](https://tisiphone.net/2026/01/04/my-top-5-recommendations-on-ot-cybersecurity-student-upskilling/)
+
+## Soft skills
+
+Time Management
+
+Project Management
+
+Public speaking and leadership
 
 ## Apprenticeship
 

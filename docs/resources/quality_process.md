@@ -20,11 +20,13 @@ Manual
 * apply appropriate containment actions
 * lessons learned
 
-Auto
+Auto check/lint (regular frequency, closure)
 * time to ack
 * time to remediate/closure
 * has relevant attachments (email, logs queries+results, jupyter book...)
-* has relevant labels (user, host, bu/product...)
+* has relevant labels/tags (user, host, bu/product...) at case or observables level
+* minimum size for critical field (summary, timeline...)
+* closure code check (no conflicting attributes)
 * not updated since 1w
 * assigned but no comment
 

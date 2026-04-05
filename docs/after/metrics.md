@@ -1,9 +1,9 @@
-Metrics and Quality assurance
+# Metrics and Quality assurance
 
 Metrics are a requirement to evaluate impact and improvements over incidents
 Those should help to identify easily which risk, platform or component is most often at stake and where improvements are more valuable.
 
-# Recommendations
+## Recommendations
 
 * Easy
 * Automatable
@@ -12,7 +12,7 @@ Those should help to identify easily which risk, platform or component is most o
   * Operations or Tactical
   * Management or Strategical
 
-# Common metrics
+## Common metrics
 
 * Number of incidents per severity, per hour of day or day of week, per application/platform or geography
 * Mean-Time-To-Acknowledge
@@ -21,7 +21,7 @@ Those should help to identify easily which risk, platform or component is most o
 * Availability: either as uptime, either as successful requests (if using Error budget)
 * Error budget (Google Site Reliability Engineering): one minus the availability target
 
-# More targeted security metrics
+## More targeted security metrics
 
 * Dwell time: time between cause of incident/compromission and discovery
 * Identified loss, money, time, staff involved, systems rebuilt
@@ -34,7 +34,7 @@ Those should help to identify easily which risk, platform or component is most o
 * Log source cost and detections
 * [cost of data / number (or quality) of detection rules](https://www.linkedin.com/posts/secops-at-home_siem-siemdeployment-secops-activity-7388831993267912704-fH7-)
 
-# Check or Quality Assurance
+## Check or Quality Assurance
 
 Shewhart or Deming Wheel, ISO9001 and others
 Plan-Do-*Check*-Act or PDCA
@@ -74,3 +74,5 @@ How'd we get there? Story in /thread, Apr 2020](https://twitter.com/jhencinski/s
 
 * [PDCA (plan–do–check–act or plan–do–check–adjust)](https://en.wikipedia.org/wiki/PDCA)
 * [ISO 2859-1:1999 Sampling procedures for inspection by attributes — Part 1: Sampling schemes indexed by acceptance quality limit (AQL) for lot-by-lot inspection](https://www.iso.org/standard/1141.html)
+* [Here's your Michelin star (✨) for cooking SOC metrics to perfection. Mar 2026](https://www.linkedin.com/posts/rafal-kitab_soc-metrics-cookbook-ugcPost-7439800779848323072-37cJ): "1. Downgrade alert's severity 2. Reset SLA on escalation 3. include automation 4. selective sampling 5. fabricating a tech issue [...] These are the most common ways I've seen SOC metrics misrepresented, caught by actually reading SLA reports and validating them by hand (zero trust, baby)."
+* [The only SOC workload numbers that are worth anything are alerts per analyst AFTER finetuning AND automation separated between in-house and MSSP SOCs. Mar 2026](https://www.linkedin.com/posts/rafal-kitab_the-only-soc-workload-numbers-that-are-worth-activity-7444715233413312512-UqO4)

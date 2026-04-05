@@ -21,6 +21,7 @@ Examples
 | Company compromise, IOC Internal data | Legal, External counsel | Per legal review |
 | Detection rules (sigma, yara...) | ? | ? |
 | Security tools (contribution existing, new...) | ? | ? |
+| General security architecture and tools feedback or advices except sensitive ones | Pre-Approved | Any |
 
 Incident data can also be matched based on severity level.
 
@@ -41,6 +42,7 @@ Incident data can also be matched based on severity level.
 * [Information Sharing, US DHS](https://www.dhs.gov/information-sharing)
 * [Information Sharing and Awareness, US CISA](https://www.cisa.gov/information-sharing-and-awareness)
 * [Information Sharing and Analysis Centers (ISACs), ENISA](https://www.enisa.europa.eu/topics/national-cyber-security-strategies/information-sharing)
+* [Cyber incident reporting guidelines: Key information sharing requirements – ITSM.00.140](https://www.cyber.gc.ca/en/guidance/cyber-incident-reporting-guidelines-key-information-sharing-requirements-itsm00140)
 
 * [Good Practice Guide on Information Sharing, ENISA, 2009](https://www.enisa.europa.eu/publications/good-practice-guide)
 * [Privacy and Civil Liberties Final Guidelines: Cybersecurity Information Sharing Act of 2015](https://us-cert.cisa.gov/sites/default/files/ais_files/Privacy_and_Civil_Liberties_Guidelines.pdf), [Federal Guidance on the Cybersecurity Information Sharing Act of 2015](https://corpgov.law.harvard.edu/2016/03/03/federal-guidance-on-the-cybersecurity-information-sharing-act-of-2015/)

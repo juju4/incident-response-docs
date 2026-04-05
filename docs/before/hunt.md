@@ -10,6 +10,10 @@ Reviewing logs or code outside of an incident can be hunting.
 
 TBD from your context and below resources.
 
+* Hypothesis & Scope, Questions to answer
+* Validate available data source, possible queries, known detections (internal & external)
+* ...
+
 ## Metrics
 
 * Frequency
@@ -17,6 +21,18 @@ TBD from your context and below resources.
 * Environment and process documentation
 * New detections
 * New logs to be onboarded, onboarded
+
+## Example themes
+
+To complement with latest news/threat
+
+* LLMNR
+* Webserver webshell
+* File transfer tool compromise
+* Browser extensions
+* IDE extensions
+* M365 Apps
+* Azure Apps registrations
 
 ## References
 
@@ -47,3 +63,9 @@ TBD from your context and below resources.
 > - Not just be limited to a threat hunting team, SOC analysts should get involved too (remember they are the first on the scene to alerts) 
 > - Not get too caught up in Attribution of attackers, Attackers can "share" TTPs (I have already proved attribution can be spoofed in an earlier post, using TTPs casts your net wider already)
 > - Work with other technical teams to understand what normal business operations are to sift out BAU from logs.
+* [Add Punycode to your Threat Hunting Routine. Punycode patterns in DNS queries make excellent hunting opportunities. Jan 2026](https://isc.sans.edu/diary/Add%20Punycode%20to%20your%20Threat%20Hunting%20Routine/32640)
+* [Hunting in Microsoft Sentinel: What Hunting Actually Is and Why You Need It, Jan 2026](https://www.itprofessor.cloud/hunting-microsoft-sentinel/)
+* [How to build your first threat hunting hypothesis (in 5 simple steps) Feb 2026](https://www.linkedin.com/posts/khristina-filippova_socanalyst-threathunting-mitreattack-activity-7425524717131972608-25w2)
+* <https://github.com/davidalonsod/Dalonso-Security-Repo/tree/main/Use%20Cases%20Threat%20Hunting>
+* [When to Stop Hunting The Art of Knowing You’ve Looked Hard Enough. Mar 2026](https://dispatch.thorcollective.com/p/when-to-stop-hunting)
+* [Cutting Through the Noise: A Technique-Based Approach to Hunting Web-Delivered Malware, Apr 2026](https://censys.com/blog/technique-based-approach-hunting-web-delivered-malware/) "Technique-based HTTP body hunting using Censys, combining behavioral signal stacking with iterative negation and body hash frequency analysis, can reliably surface untagged malicious infrastructure at scale. The methodology described in this report reduced the entire observable web to 42 actionable results with a confirmed malicious hit rate exceeding 20%."

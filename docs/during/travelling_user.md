@@ -18,6 +18,8 @@ Advices for people travelling abroad and security impacts.
 # After
 
 * Report any incident to your manager and security team
+* If used a loaner device, return it
+* User may be on a watchlist (elevated monitoring) for some time
 
 # Emergency contact
 
@@ -30,7 +32,7 @@ Ensure they are defined and known.
 
 * I'm at border and requested to hand of access to my company systems? (laptop, smartphone or others protected by password, MFA or others)
 It depends on company policy. Ideally, a company official should be notified and approved the hand-of.
-If individual estimates there is risk for their personal safety, hand-of is accepted.
+If individual estimates there is risk for their personal safety, hand-off is accepted.
 
 * What to do if something special happen?
 Report as soon as possible to your manager and security contact.
@@ -39,10 +41,11 @@ Report as soon as possible to your manager and security contact.
 [NOT A LAWYER DISCLAIMER!]
 Each countries has its own legal framework but in 2018, many countries requires you to do so.
 Almost any border can require it. Most of the time, they can't deny entry for their own citizen, but citizen or not, you can still face detention (deportation if not citizen) and other consequences.
-
+Similarly for biometrics access.
 
 # References
 
+* [Key disclosure law](https://en.wikipedia.org/wiki/Key_disclosure_law)
 * [Safety and Security for the Business Professional Traveling Abroad, DoJ & FBI](https://travel.state.gov/content/dam/NEWTravelAssets/pdfs/FBI%20business-travel-brochure%20(2).pdf)
 * [Security while travelling, ENISA](https://www.enisa.europa.eu/publications/archive/security-while-travelling_training-material)
 * [Digital Privacy at the U.S. Border: Protecting the Data On Your Devices ](https://www.eff.org/wp/digital-privacy-us-border-2017)
@@ -64,8 +67,24 @@ Almost any border can require it. Most of the time, they can't deny entry for th
 * [Baseline Travel Prep](https://wiki.orgsec.community/en/actualise/travel)
 * [Use Travel Mode to remove vaults from your devices when you travel, 1password](https://support.1password.com/travel-mode/)
 * [Access Now Digital Security Helpline - Guide to Safer Travel](https://guides.accessnow.org/safer_travel_guide.html)
+* [Que faire contre l'espionnage lors de voyages ? Mar 2023](https://www.dgsi.interieur.gouv.fr/dgsi-a-vos-cotes/contre-espionnage/que-faire-contre-lespionnage-lors-de-voyages)
+* [Conseils aux entreprises : Flash ingérence - LES SÉJOURS À L’ÉTRANGER, PROPICES AUX MANŒUVRES DE CAPTATION ÉTRANGÈRES](https://www.dgsi.interieur.gouv.fr/dgsi-a-vos-cotes/contre-espionnage/conseils-aux-entreprises-flash-ingerence)
 
 News
+* [Security precautions to consider while traveling through airports, Mar 2026](https://this.weekinsecurity.com/security-precautions-to-consider-while-traveling-through-airports/)
+* [HK police can now demand phone passwords under new national security rules, Mar 2026](https://www.bbc.com/news/articles/ce8j9yj52lro), [Security Alert Refusal to Give the Government Passwords to Personal Mobile Device Criminalized in Hong Kong. Mar 2026](https://hk.usconsulate.gov/security-alert-2026032601/)
+* [Gnawing, slow-burn fear is written on everyone's face while an Orwellian security state arrests journalists in the street: I reported from Dubai for the last two weeks, this is what I saw... Mar 2026](https://www.dailymail.co.uk/news/article-15659527/war-torn-Dubai-two-weeks.html)
+* [British tourist among 20 charged in Dubai over videos of Iranian missile strikes  UAE cybercrime law means sharing images or footage of war can bring jail, prison time and deportation. Mar 2026](https://www.theguardian.com/world/2026/mar/12/british-tourist-among-20-charged-in-dubai-over-videos-of-iranian-missile-strikes)
+* [British man charged in Dubai for alleged filming of Iranian missiles, Mar 2026](https://www.bbc.com/news/articles/c743g4yn4k8o)
+* [What it takes to get an H-1B visa in Trump’s America  An immigration lawyer explains the behind-the-scenes challenges of getting the coveted U.S. visa in 2026. Feb 2026](https://restofworld.org/2026/get-h-1b-visa-trump-america/) "This could mean that if a candidate is obese or has asthma, the officer can refuse their visa because they will use U.S. resources for their health."
+* [What Stops ICE from Snatching People Off Canadian Streets? Very Little The legal reality Canadians don’t want to face, Feb 2026](https://thewalrus.ca/what-stops-ice-from-crossing-into-canada-to-snatch-people-very-little/)
+* [Government deciding whether US should get access to New Zealanders' biometric data, Feb 2026](https://www.rnz.co.nz/news/national/587964/government-deciding-whether-us-should-get-access-to-new-zealanders-biometric-data)
+* [I was quoted in this 2019 article about the risks of troves of biometric data collected by CBP from travelers. Six short years later and our data is being used against us, just like pretty much everyone warned it would be.](https://bsky.app/profile/chadloder.bsky.social/post/3mfgcx5l2l22x), <https://www.theatlantic.com/technology/archive/2019/06/travelers-images-stolen-attack-cbp/591403/>
+* [‘Don’t go to the US – not with Trump in charge’: the UK tourist with a valid visa detained by ICE for six weeks  Karen Newton was in America on the trip of a lifetime when she was shackled, transported and held for weeks on end. With tourism to the US under increasing strain, she says, ‘If it can happen to me, it can happen to anyone’ Feb 2026](https://www.theguardian.com/us-news/2026/feb/21/karen-newton-valid-visa-detained-ice)
+* [Germany Issues Formal Travel Advisory For US, Jan 2026](https://www.newsweek.com/germany-issues-formal-travel-advisory-for-us-11421830)
+* [Indigenous Canadians Warned about Travel to the US. The AFN says it ‘strongly condemns’ reports of First Nations people being questioned and detained by ICE. Jan 2026](https://thetyee.ca/News/2026/01/27/Indigenous-Canadians-Warned-Travel-US/)
+* [A dystopian new addition I unfortunately felt it prudent to implement on TechConf.Directory. Jan 2026](https://bsky.app/profile/vale.rocks/post/3mdaczlflm22o) "Travel Advisory  Attendees should be aware that travel to and within the United States of America presents heightened risks. Recent immigration enforcement actions have included aggressive use of force and expanded detention at or near borders. Transgender and gender-diverse travellers, in particular, may face increased scrutiny, misgendering, or denial of entry based on documentation or appearance. More broadly, the United States is experiencing political instability and the rapid expansion of authoritarian policies, sometimes implemented with little advance notice. Travellers are advised to review current conditions carefully, carry complete documentation, and assess personal risk before making travel plans. Consult your country's travel advisory for more information."
+* [The Trump Administration wants your DNA and social media, Dec 2025](https://www.privacyinternational.org/news-analysis/5713/trump-administration-wants-your-dna-and-social-media)
 * [CBP Agents Held This U.S. Citizen for Hours Until He Agreed To Let Them Search His Electronic Devices, Dec 2025](https://reason.com/2025/12/11/cbp-agents-held-this-u-s-citizen-for-hours-until-he-agreed-to-let-them-search-his-electronic-devices/): "A federal lawsuit argues that the agency's policy of perusing travelers' personal data without a warrant or probable cause violates the Fourth Amendment."
 * [Come to Trump's America...If You Dare. The Trump regime is pushing a paranoid new policy that will further discourage international travelers. The reputation of America's aggression is growing. Dec 2025](https://www.americaamerica.news/p/come-to-trumps-americaif-you-dare?r=bb6o8)
 * [IFCN statement on U.S. visa restrictions targeting fact-checkers, Dec 2025](https://www.poynter.org/news-release/2025/ifcn-statement-on-u-s-visa-restrictions-targeting-fact-checkers/)
@@ -89,6 +108,7 @@ https://www.404media.co/man-charged-for-wiping-phone-before-cbp-could-search-it/
 * [Phone Searches at the US Border Hit a Record High, Aug 2025](https://www.wired.com/story/phone-searches-at-the-us-border-hit-a-record-high/): "Customs and Border Protection agents searched nearly 15,000 devices from April through June of this year, a nearly 17 percent spike over the previous three-month high in 2022."
 * [CBP Wants New Tech to Search for Hidden Data on Seized Phones. Customs and Border Protection is asking companies to pitch tools for performing deep analysis on the contents of devices seized at the US border. Jul 2025](https://www.wired.com/story/cbp-wants-new-tech-to-search-for-hidden-data-on-seized-phones/)
 * [Russia to enforce location tracking app on all foreigners in Moscow, May 2025](https://www.bleepingcomputer.com/news/government/russia-to-enforce-location-tracking-app-on-all-foreigners-in-moscow/)
+* [A Journalist Security Checklist: Preparing Devices for Travel Through a US Border, Jun 2025](https://www.eff.org/deeplinks/2025/06/journalist-security-checklist-preparing-devices-travel-through-us-border)
 * [What to do with your cell phone at U.S. borders (yes, even citizens), May 2025](https://epicenter-nyc.com/what-to-do-with-your-cell-phone-at-u-s-borders-yes-even-citizens/): "There’s no foolproof way to avoid scrutiny if CBP wants to retaliate. But traveling light, with less personal or political data, is usually safer."
 * [Keep calm (but delete your nudes): the new rules for travelling to and from Trump’s America, May 2025](https://www.theguardian.com/us-news/2025/may/15/travel-trump-america-us-border-detentions)
 * [Eight Kiwis detained at US border since November, MFAT reminds travellers of entry rules amid SafeTravel review, Apr 2025](https://www.nzherald.co.nz/travel/travel-news/eight-kiwis-detained-at-us-border-since-november-mfat-reminds-travellers-of-entry-rules-amid-safetravel-review/BUP6FRREGJE33FEV4IJ334VSVQ/)
@@ -97,6 +117,7 @@ https://www.404media.co/man-charged-for-wiping-phone-before-cbp-could-search-it/
 * [CPJ Safety Advisory: Traveling to the US - Committee to Protect Journalists, Apr 2025](https://cpj.org/2025/04/cpj-safety-advisory-traveling-to-the-us/)
 * [Anti-spying phone pouches offered to EU lawmakers for trip to Hungary, Apr 2025](https://www.politico.eu/article/lawmakers-offered-anti-espionage-phone-pouches-in-hungary/)
 * [The US border surveillance expansion has global implications, Apr 2025](https://privacyinternational.org/news-analysis/5552/us-border-surveillance-expansion-has-global-implications)
+* [How to Enter the US With Your Digital Privacy Intact, Mar 2025](https://www.wired.com/2017/02/guide-getting-past-customs-digital-privacy-intact/)
 * [When the physicists need burner phones, that’s when you know America’s changed, Mar 2025](https://www.theguardian.com/us-news/2025/mar/29/when-the-physicists-need-burner-phones-thats-when-you-know-americas-changed)
 * [Why You Can (And Should) Opt Out Of TSA Facial Recognition Right Now, Mar 2025](https://www.huffpost.com/entry/tsa-facial-scan-opt-out_l_67e2f79fe4b075349cd175d6)
 * [How to protect your phone and data privacy at the US border, Mar 2025](https://www.theguardian.com/technology/2025/mar/26/phone-search-privacy-us-border-immigration)
