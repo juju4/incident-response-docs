@@ -8,18 +8,18 @@ You can view the documentation [directly](docs/index.md) in this repository, or 
 [![PagerDuty Incident Response Documentation](screenshot.png)](https://response.pagerduty.com)
 
 ## Development
-We use [MkDocs](https://www.mkdocs.org/) to create a static site from this repository.
+We use [ProperDocs](https://properdocs.org/) to create a static site from this repository.
 
 ### Native
 For local development on your native device,
 
-1. Install [MkDocs](https://www.mkdocs.org/user-guide/installation/). `pip install mkdocs`
+1. Install [ProperDocs](https://properdocs.org/getting-started/). `pip install properdocs`
 1. Install [MkDocs PyMdown Extensions](https://squidfunk.github.io/mkdocs-material/extensions/pymdown/). `pip install pymdown-extensions`
 1. Install [Pygments](https://pygments.org/) if you want syntax highlighting for any code examples. `pip install pygments`
 1. Install the [PagerDuty MkDocs Theme](https://github.com/pagerduty/mkdocs-theme-pagerduty).
     1. `git clone https://github.com/pagerduty/mkdocs-theme-pagerduty`
     1. `cd mkdocs-theme-pagerduty & python3 setup.py install`
-1. To test locally, run `mkdocs serve` from the project directory.
+1. To test locally, run `properdocs serve` from the project directory.
 1. You can now view the website in your browser at `http://127.0.0.1:8000`. The site will automatically update as you edit the code.
 
 ### Docker
@@ -32,7 +32,7 @@ For local development using Docker,
 _Note: If you're using an Apple Silicon device, add `--platform linux/arm64/v8` to the `docker build` command to get a native Apple Silicon image. That will work faster than translating an arm64 image._
 
 ## Deploying
-1. Run `mkdocs build --clean` to produce the static site for upload.
+1. Run `properdocs build --clean` to produce the static site for upload.
 1. Upload the `site` directory to S3 (or wherever you would like it to be hosted).
 
         aws s3 sync ./site/ s3://[BUCKET_NAME] \
