@@ -91,7 +91,7 @@ The Scribe is expected to:
 1. Ensure the incident call is being recorded.
 1. Note in Slack important data, events, and actions, as they happen. Specifically:
     * Key actions as they are taken (Example: "prod-server-387723 is being restarted to attempt to remove the stuck lock")
-    * Status reports when one is provided by the IC (Example: "We are in SEV-1, service A is currently not processing events due to a stuck lock, X is restarting the app stack, next checkin in 3 minutes")
+    * Status reports when one is provided by the IC (Example: "We are in SEV-1, service A is currently not processing events due to a stuck lock, X is restarting the app stack, next check-in in 3 minutes")
     * Any key callouts either during the call or at the ending review (Example: "Note: (Bob B) We should have a better way to determine stuck locks.")
 
 ### Who are they?
