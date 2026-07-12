@@ -268,6 +268,8 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [Incident Response Runbook - sectemplates.com](https://github.com/securitytemplates/sectemplates/blob/main/incident-response/v1/Incident_response_runbook.md)
 * [Cybersecurity Incident Response Plan - guardsight](https://github.com/guardsight/gsvsoc_cybersecurity-incident-response-plan)
 * [Cyber Incident Response Team Playbook Battle Cards - guardsight](https://github.com/guardsight/gsvsoc_cirt-playbook-battle-cards)
+* [Converged Infrastructure Forensics Model (CIFM)](https://github.com/M1sT3R-K1Lr0Y/converged-infrastructure-forensics-model/)
+* [fiches réflexes d’InterCERT France](https://www.intercert-france.fr/publications/fiches-reflexes/)
 
 * [The Cyber OODA Loop: How Your Attacker Should HelpYou Design Your Defense, CIS, Sep 2015](https://csrc.nist.gov/CSRC/media/Presentations/The-Cyber-OODA-Loop-How-Your-Attacker-Should-Help/images-media/day3_security-automation_930-1020.pdf)
 * [Incident Response Fundamentals Communication, Sep 2017](https://blogs.cisco.com/security/incident-response-fundamentals-communication)
@@ -335,3 +337,6 @@ Provide regular updates and if a mistake was done in the report, say it.
 * [From Chaos to Chronology: The Power of Forensic Timelines, Mar 2026](https://www.thedfirspot.com/post/from-chaos-to-chronology-the-power-of-forensic-timelines)
 * [What’s the first artifact you pull when you only have 30 minutes to triage a system?  When time is limited, the goal isn’t coverage. It’s figuring out what matters to guide the investigation. This is where forensic triage comes in. Mar 2026](https://www.linkedin.com/posts/tylerhudak_dfir-incidentresponse-bsides-activity-7440377816833048577-uCF4), <https://www.youtube.com/@BSidesROC/featured> (pending)
 * [KustoHawk is a lightweight incident triage and response tool designed for effective incident response in Microsoft Defender XDR and Microsoft Sentinel environments. ](https://github.com/Bert-JanP/KustoHawk)
+* [How to Write SOC Tickets That Build Trust and Drive Action, Apr 2026](https://www.antisyphontraining.com/wp-content/uploads/2026/03/How-to-Write-SOC-Tickets-That-Build-Trust-and-Drive-Action.pdf), [How to Write SOC Tickets That Build Trust and Drive Action w/ Dan Rearden](https://www.youtube.com/live/12ldaGyh7f0)
+* [CA/Responding To An Incident](https://wiki.mozilla.org/CA/Responding_To_An_Incident) (Certficate Authority), <https://hachyderm.io/@cpu/116540975829340357>
+* [Since When Did Asking for Evidence Become “Defending Criminals”? May 2026](https://www.suspectfile.com/since-when-did-asking-for-evidence-become-defending-criminals/)

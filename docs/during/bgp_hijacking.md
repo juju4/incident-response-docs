@@ -35,6 +35,7 @@ If prefix is smaller or equal than /24
 Please note that you must know where to announce the route (which router) and to which system. Depending on your network space, inventory can be more or less complicate.
 
 ## References
+
 * [YouTube Hijacking: A RIPE NCC RIS case study](https://www.ripe.net/publications/news/industry-developments/youtube-hijacking-a-ripe-ncc-ris-case-study)
 * [Pakistan hijacks YouTube, Renesys/Din, Feb 2008](https://dyn.com/blog/pakistan-hijacks-youtube-1/)
 * [Global Internet Routing Table Reaches 512k Milestone](https://blogs.cisco.com/sp/global-internet-routing-table-reaches-512k-milestone)
@@ -49,6 +50,16 @@ Please note that you must know where to announce the route (which router) and to
 * [At 2025-11-10 17:40:57 UTC Cloudflare for some unknown reason withdrew 2400:cb00:2049::/48, A prefix that contains a lot of DNS name servers for many customers (including bgp.tools) (see https://bgp.tools/prefix/2400:cb00:2049::/48#dns#dns )
 Everything was back by 2025-11-10 18:00:30, but it's kinda wild that a prefix that contains .gov and loads of other name servers on it would just disappear like that.
 This graph shows a selection of bgp.tools's session visibility second-by-second during the incident. Nov 2025](https://benjojo.co.uk/u/benjojo/h/7XtQ6k2vjx31G1w4n1)
+* [Enforcing the First AS in BGP AS_PATHs, Jun 2026](https://blog.cloudflare.com/enforce-first-as-bgp/), <https://xcancel.com/spamhaus/status/2043708364941627683>
+* [Is BGP boring? Well...it depends. But a few quick observations we've made recently:
+1. We identified several /24 IP blocks with consistent RPKI/IRR flips between a Romanian ASN that's the largest VPN exit node in Europe, half a dozen Iranian ASNs, and another handful of shell ASNs in Europe and North America in order to launder transit from sanctioned IP space.
+2. A new-ish ASN that's very much a problem child, including a recent favorite of Iranian threat actors, is nothing more than a well-known AS bucketing all its known problematic customers together, but still taking their money and providing them service. All original prefixes for the Problem Child originated at its parent ASN and migrated in the course of 3 hours.
+3. In looking at other IP blocks showing up in recent-ish advisories, you can see clear IP prefix handoffs from an Iranian ASN to an Italian one while traffic clearly still originates from Iran. The BGP updates occur in the middle of the night for Italy - but a healthy morning period for Tehran.
+4. This one, we published on - a Seychelles-based ASN under complete transit capture by one Russian organization and a second Slovakian one whose administration offices just happened to be in Moscow.
+And these aren't even the coolest things we've seen lately. These are just the ones I'm okay vaguebooking about.
+So no - BGP ain't boring. Much like DNS, it leads you to exactly where threat actors hang their hat.
+Look deeper, look wider, punch bad guys where it hurts and make sure the bruises last.](https://masto.deoan.org/@neurovagrant/116704466257184677)
+* [Telegram BGP hijack due to weird blackholing config, Jun 2026](https://anuragbhatia.com/post/2026/06/telegram-bgp-hijack-and-blackholing/)
 
 Operations
 
@@ -67,3 +78,6 @@ Investigate
 * [BGP Routing Table Analysis Reports](https://bgp.potaroo.net/)
 * [BGP.tools](https://bgp.tools/)
 * Twitter: https://twitter.com/thousandeyes, https://twitter.com/bgpmon
+* [IHR BGP Monitor](https://www.ihr.live/en/bgp-monitor)
+* [See through all BGP data with a monocle.](https://github.com/bgpkit/monocle)
+

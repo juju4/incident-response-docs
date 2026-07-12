@@ -1,5 +1,8 @@
+# Incident templates
 
-Incident templates
+Review with you management what format they prefer.
+
+Example: [BLUF (Bottom Line Up Front)](https://en.wikipedia.org/wiki/BLUF_(communication)
 
 ## Incident bridge structure
 
@@ -7,9 +10,10 @@ Incident templates
 
 * Incident Report
   * Executive summary
+  * High-level timeline
   * Recommendations: can align format on other teams (pentest, architecture review...) and map to NIST 800-53 Security Control, CIS and other frameworks. align on business objectives.
   * per section, classification and audience to allow easy redact.
-  * Annex: Attacker Profile, TTPs per ATT&CK MITRE, IOC, Vulnerability scan...
+  * Annex: Attacker Profile, TTPs per ATT&CK MITRE, IOC, Vulnerability scan, detailed timeline (attacker, response)...
 * Post-Mortem (unless you include it in incident report)
 
 ## Emails
@@ -24,11 +28,13 @@ Each of those can have variant depending on audience: security stakeholders, exe
 * External Communication: Press Release, Press Conference
 
 ### Vulnerability alert
+
 Subject: 
 Internal Rating
 CVSS (https://www.first.org/cvss/calculator/4.0)
-EPSS (ex: https://www.cvedetails.com/epss/epss-score-history.html?delta=110; https://github.com/theowni/EPSS-Calculator)
+EPSS (ex: https://www.cvedetails.com/epss/epss-score-history.html?delta=110; https://github.com/theowni/EPSS-Calculator; [Handling the CVE Flood With EPSS, Apr 2026](https://isc.sans.edu/diary/Handling the CVE Flood With EPSS/32914))
 CISA KEV
+CISA SSVC
 Public Exploit: trivial? popular tools Metasploit, Nuclei?
 
 Summary
@@ -38,6 +44,9 @@ Details
 
 Mitigation
 (patch, workaround, custom config...)
+* Apply patch in applicable delay from patch policy
+* Apply available workaround
+* Apply other compensating controls (disable involved feature, more aggressive WAF blocking, restrict access to trusted clients...)
 
 Detections
 (sigma, yara, logs...)
@@ -52,6 +61,8 @@ Exploitation path
 https://www.linkedin.com/posts/laurent-biagiotti-19779284_cve-2025-xxxx-ce-nest-pas-quun-num%C3%A9ro-activity-7321071823452872704-DNcs
 https://github.com/Galeax/CVE2CAPEC
 https://galeax.github.io/CVE2CAPEC/
+
+[Stakeholder-Specific Vulnerability Categorization (SSVC)](https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc)
 
 ## Others
 

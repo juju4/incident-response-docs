@@ -71,6 +71,13 @@ Similarly for biometrics access.
 * [Conseils aux entreprises : Flash ingérence - LES SÉJOURS À L’ÉTRANGER, PROPICES AUX MANŒUVRES DE CAPTATION ÉTRANGÈRES](https://www.dgsi.interieur.gouv.fr/dgsi-a-vos-cotes/contre-espionnage/conseils-aux-entreprises-flash-ingerence)
 
 News
+* [NEW: The U.S. government ordered people who traveled to the China summit to throw all objects from the trip into a bin before boarding Air Force One.
+The items thrown away included gifts, pins, and burner phones.
+https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/](https://infosec.exchange/@lorenzofb/116579361669241215)
+* [Guilty until proven innocent:
+The US is denying entry to anyone who has a private profile on social media.
+https://www.state.gov/releases/office-of-the-spokesperson/2025/06/announcement-of-expanded-screening-and-vetting-for-visa-applicants/](https://mastodon.social/@randahl/116588281458299589)
+* [The US uses its Visa Waiver Programme to literally dictate EU  policies. Now it demands near-unlimited EU-US data transfers, violating EU law. However the US does not even meet the criteria for EU visa free travel. Time for EU to play hardball: suspend visa free travel for Americans first, then talk, May 2026](https://bsky.app/profile/sophieintveld.bsky.social/post/3mkz7yyvuus2z), [Draft EU/US treaty on exchange of personal data for immigration control, with analysis, via @statewatch.bsky.social](https://www.linkedin.com/posts/romain-lanneau-67b5ba15b_statewatch-published-the-secret-eu-usa-agreement-share-7456962800830296065-aCiW)
 * [Security precautions to consider while traveling through airports, Mar 2026](https://this.weekinsecurity.com/security-precautions-to-consider-while-traveling-through-airports/)
 * [HK police can now demand phone passwords under new national security rules, Mar 2026](https://www.bbc.com/news/articles/ce8j9yj52lro), [Security Alert Refusal to Give the Government Passwords to Personal Mobile Device Criminalized in Hong Kong. Mar 2026](https://hk.usconsulate.gov/security-alert-2026032601/)
 * [Gnawing, slow-burn fear is written on everyone's face while an Orwellian security state arrests journalists in the street: I reported from Dubai for the last two weeks, this is what I saw... Mar 2026](https://www.dailymail.co.uk/news/article-15659527/war-torn-Dubai-two-weeks.html)

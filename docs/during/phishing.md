@@ -1,5 +1,7 @@
+# Phishing
 
 ## Definition
+
 Phishing is the attempt to obtain sensitive information such as usernames, passwords, and credit card details, often for malicious reasons, by disguising as a trustworthy entity in an electronic communication. [Wikipedia](https://en.wikipedia.org/wiki/Phishing)
 This document will mostly go through phishing email but it can also be through other channel like text message, social media...
 
@@ -8,6 +10,7 @@ This document will mostly go through phishing email but it can also be through o
 * Review message
     * recover full email with headers. Some reporting service will require msg file. Note some phishing awareness campaign use X-PHISH header to be identified.
     * confirm if malicious: sender, headers, content, urls... use sandbox to investigate any attachments or url.
+    * if credentials, you may want to use fake/puppet account to analyze attack chain further
     * check impact: how many people impacted based on subject, from, attachment...
 * For internal email, issue a mass recall
 * Report to 3rd party for blocking (mail systems, browsers, proxies... see references)
@@ -18,6 +21,49 @@ This document will mostly go through phishing email but it can also be through o
     * review legal template
 * Validate security coverage of targeted users and in general and possibly attacked targets (O365, Cloud, Password reset...)
 * Push repeated victims to use phish-resistant MFA (FIDO2 - yubikey, passkey...) and disable less secure MFA like phone/sms
+
+## Typical questions
+
+* Email
+  * Known third-party, past history?
+  * Spoofed?
+  * -Customized to recipient?-
+  * -Ortograph, grammar?-
+  * Urgency?
+  * Push to action?
+  * Share information? sensitive information?
+  * Share contact? email, phone, chat...
+  * Transfer money?
+  * Calendar link?
+  * QRcode?
+  * Invoice?
+  * Impersonation signs?
+* If attachment?
+  * QRcode?
+  * Invoice?
+* If url?
+  * Known domain, recently registered?
+  * Domain has similarity with Top1000 (global/org) domains?
+  * Legitimate third-party, registered company, past history
+  * Password protected?
+  * Known brands used in phish?
+  * Url redirections?
+  * Linked to unrelated countries websites?
+  * QRcode?
+  * Invoice?
+* Is recipient compromised?
+  * Has user interacted with any of previous component?
+  * From a computer?
+  * From a mobile device?
+  * From a non-corporate VPN?
+  * Are user devices enrolled in corporate MDM? compliant?
+  * Are user devices covered by expected security tools?
+  * What are the source countries and ASN involved?
+  * Unusual activity from different source or same source
+  * Email rules change?
+  * MFA, O365 consent app, API token changes?
+* Are other users affected by similar threat?
+
 
 ## References
 
@@ -109,5 +155,14 @@ Misc
 * [OAuth redirection abuse enables phishing and malware delivery, Mar 2026](https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/)
 * [1 in 4 phishing emails now contain no malicious link. No attachment. No exploit.  Just a phone number.  It's called TOAD — Telephone Oriented Attack Delivery. It surged 127% last year. Mar 2026](https://www.linkedin.com/posts/mfaas_1-in-4-phishing-emails-now-contain-no-malicious-activity-7437120474561757184-xOxT)
 * [There is no longer any such thing as Computer Security, Sep 2018](https://blog.codinghorror.com/there-is-no-longer-any-such-thing-as-computer-security/) (about phishing), [Basic security precautions for non-profits and journalists in the United States, early 2019. ](https://techsolidarity.org/resources/basic_security.html)
+* [Part II: How Malicious Actor Bypass Email Security Gateway? Jan 2025](https://medium.com/@simplessecurity/part-ii-how-malicious-actor-bypass-email-security-gateway-702f0cf33945)
 * [Inside p1bot: A Vishing Platform Weaponizing ElevenLabs, Mar 2026](https://www.miragesecurity.ai/blog/inside-p1bot-vishing-platform-weaponizing-elevenlabs), [Researchers uncover AI-powered vishing platform](https://www.helpnetsecurity.com/2026/03/11/researchers-uncover-ai-powered-vishing-platform/)
 * [New widespread EvilTokens kit: device code phishing as-a-service – Part 1, Mar 2026](https://blog.sekoia.io/new-widespread-eviltokens-kit-device-code-phishing-as-a-service-part-1/)
+* [How often are redirects used in phishing in 2026? Apr 2026](https://isc.sans.edu/diary/How often are redirects used in phishing in 2026%3F/32870) "Even though open redirect has not been listed in OWASP Top 10 for quite some time, it is clear that attackers have never stopped looking for it or using it. [...] Redirect-based phishing accounted for a little over 21 % of all analyzed messages sent out over the first 3 months of 2026 – specifically for 32 % in January, 18 % in February and 16.5 % in March."
+* [Hilariously bad scam email obviously written by AI, Jun 2026](https://blog.kamens.us/2026/06/11/hilariously-bad-scam-email-obviously-written-by-ai/), [Scam email I wrote about last week is part of an ongoing campaign](https://blog.kamens.us/2026/06/15/scam-email-i-wrote-about-last-week-is-part-of-an-ongoing-campaign/)
+* Clickfix example: <https://bsky.app/profile/olivia.science/post/3mop2qdjvdc2l>, <https://infosec.exchange/@Ffforward/116780837774853850> (Gizmodo)
+* [RNU Responds to NL Health Services Phishing Exercise Using Fake Promise of Paid Leave, Jun 2026](https://rnunl.ca/rnu-responds-to-nl-health-services-phishing-exercise-using-fake-promise-of-paid-leave/), [These workers thought they were getting an extra day off. Turns out it was just a ‘cruel’ test](https://www.ctvnews.ca/canada/article/these-workers-thought-they-were-getting-an-extra-day-off-turns-out-it-was-just-a-cruel-test/)
+* [Compromised Website Hosting ClickFix Payload Leads to NetSupport RAT Infection, Jul 2026](https://discourse.ifin.network/t/compromised-website-hosting-clickfix-payload-leads-to-netsupport-rat-infection/633)
+* [Preventing token theft, Jul 2026](https://www.codon.org.uk/~mjg59/blog/p/preventing-token-theft/), <https://datatracker.ietf.org/doc/html/draft-balfanz-tls-obc-01>, <https://datatracker.ietf.org/doc/html/draft-balfanz-tls-channelid-01>, <https://datatracker.ietf.org/doc/html/rfc8471>, <https://datatracker.ietf.org/doc/html/rfc8705>, <https://datatracker.ietf.org/doc/html/rfc9449>, <https://security.googleblog.com/2026/04/protecting-cookies-with-device-bound.html>, <https://datatracker.ietf.org/doc/draft-mw-oauth-tls-session-bound-tokens/04/>
+* [ClickFix: The Gift That Keeps On Giving, Jul 2026](https://kqlquery.com/posts/clickfix-gift-that-keeps-on-giving/)
+* [Investigating ClickFix Incidents, May 2025](https://kqlquery.com/posts/investigate-clickfix/)

@@ -49,6 +49,7 @@ User system compromise, including
 * [CERT SG IRM-7-WindowsMalwareDetection](https://github.com/certsocietegenerale/IRM/blob/main/EN/IRM-7-WindowsMalwareDetection.pdf)
 * [Malware Playbook](https://gitlab.com/syntax-ir/playbooks/-/tree/main/IRP-Malware)
 * [Malware triage with MISP](https://github.com/MISP/misp-playbooks/blob/main/misp-playbooks/pb_malware_triage.ipynb)
+* [What is Malware? A program counts as malware not because of what it can do, but because of how an attacker uses it. This view aligns with NIST's longer formulation but cuts the verbiage. May 2026](https://zeltser.com/what-is-malware)
 
 * [The Nevada's Ransomware Mystery From 2025: What Really Happened? Nov 2025](https://rohittamma.substack.com/p/the-nevadas-ransomware-mystery-from): "Quarantine removed the original file but not these persistent mechanisms"
 
@@ -63,3 +64,17 @@ Recommendation: run from share, results locally and after sent to server (SMB, [
 ```
 
 * [Forensic Artifact Collection Tool Matrix - Win, Linux, Swisscom, Dec 2020](https://github.com/swisscom/ArtifactCollectionMatrix)
+* [FINDING A NEEDLE IN A STACK OF NEEDLES An Endpoint Investigation Cheat Sheet, Mar 2026](https://www.blackhillsinfosec.com/wp-content/uploads/2026/03/TALK-1-10-am-Patterson-Cake-Needle-Hunting-01292026.pdf)
+  * <https://git.new/needles> (PowerShell one-liners)
+  * <https://git.new/nixneedles> (Linux CLI Reference)
+  * <https://git.new/malwiki> (Malware Investigations Wiki)
+  * <https://git.new/baseline> (win-mal “baseline” comparison)
+  * <https://git.new/rtworkflow> (Rapid Triage Workflow)
+
+### Logs analysis
+
+* [Event Log Explorer](https://eventlogxp.com/)
+* [Lumen - Your Browser-based EVTX Companion](https://github.com/Koifman/LUMEN)
+* [Timeline to Sentinel](https://github.com/defendable/timeline-to-sentinel)
+* [Microsoft Defender for Endpoint Proxy (Device Timeline, ...)](https://github.com/0xThiebaut/mdeproxy)
+* [Expose a lot of MDE telemetry that is not easily accessible in any searchable form](https://github.com/olafhartong/DefenderHarvester)

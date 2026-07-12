@@ -36,6 +36,9 @@ Few of many, mostly free content or partially.
 * [Weekly CTF Challenge - Antisyphon](https://www.antisyphontraining.com/ctf-challenges/)
 * [Repository for SOC analysts, queries to investigate, advanced hunting, sites for analysis, malware samples, courses to improve skills, IOC and monitoring.](https://github.com/DXC-0/SOC-Ressources)
 * [Linux Forensic Scenario, Mar 2026](https://righteousit.com/2026/03/27/linux-forensic-scenario/)
+* [Introducing the Microsoft Sentinel Training Lab. Hands-On Security Operations in Minutes, Apr 2026](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/introducing-the-microsoft-sentinel-training-lab-hands-on-security-operations-in-/4513274), <https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Microsoft-Sentinel-Training-Lab/README.md>
+* [Hands-on practice for curl Topics](https://github.com/lite-quests/curl-quests)
+* [The CTF scene is dead.  Frontier AI has broken the open CTF format. The scoreboard does not measure human skill cleanly anymore, and the old game is not coming back. May 2026](https://kabir.au/blog/the-ctf-scene-is-dead)
 
 older resources
 * [the cryptopals crypto challenges](https://cryptopals.com/)
@@ -65,6 +68,10 @@ Guide
 * <https://circl.lu/services/forensic-training-materials/>
 * [A Practical Map of the DFIR Internet: Marketplaces, FAQs, and Fire Exits, Mar 2026](https://www.dfir.training/blog/a-practical-map-of-the-dfir-internet-marketplaces-faqs-and-fire-exits)
 * [Introducing the Synapse Learning Tool, Mar 2026](https://vertex.link/blogs/learning-tool-intro/)
+* [Threat Intelligence Is Mutual Aid. The Independent Federated Intelligence Network. Because knowledge is meant to be shared.](https://ifin-intel.org/)
+* [Azure Cert Prep](https://azurecertprep.github.io/)
+* [ASTRA — AI Security Arsenal A hands-on, browser-based simulator for learning AI/ML security](https://github.com/preetideepaksoni/AI-Security-Simulator)
+* [ATT&CK Training](https://attack.mitre.org/resources/learn-more-about-attack/training/)
 
 Commercial
 * [Antisyphon training](https://www.antisyphontraining.com), [SOC Core Skills with John Strand](https://www.antisyphontraining.com/product/soc-core-skills-with-john-strand/)
@@ -80,6 +87,9 @@ Commercial
 * [Malware Unicorn Workshops](https://malwareunicorn.org/#/workshops), <https://github.com/malware-unicorn>
 * [Investigating Windows Memory, 13cubed](https://training.13cubed.com/investigating-windows-memory)
 * [CTI and DE&TH Workshop](https://paralus.co/online/cti_and_deth_workshop/)
+* [SecurityBreak](https://securitybreak.io/training)
+* Specterops [Adversary Tactics: Detection](https://specterops.io/training-old/adversary-tactics-detection/)
+* [Advance your team's detection engineering skills](https://falconforce.nl/services/training/)
 
 Periodic
 * [All the deals for InfoSec related software/tools this Black Friday](https://github.com/0x90n/InfoSec-Black-Friday)
@@ -204,6 +214,7 @@ Other data
 Beautifully formatted course materials with lectures, all free of charge.
 https://missing.csail.mit.edu
 Thanks to @jschauma@mstdn.social for the pointer.](https://mastodon.social/@jpmens/116182041068196457)
+* [K8s Hackathon](https://k8shackathon.com/)
 
 ## OT
 
@@ -218,6 +229,13 @@ Time Management
 Project Management
 
 Public speaking and leadership
+
+High impact writing
+* <https://harvardonline.harvard.edu/course/effective-writing-greater-impact>
+* <https://www.tssg.ca/high-impact-writing-skills-training/>
+* <https://www.mooc-list.com/course/high-impact-business-writing-coursera>
+* <https://www.linkedin.com/learning/writing-with-impact>
+* <https://www.macewan.ca/campus-life/news/2026/02/mastering-the-message/>
 
 ## Apprenticeship
 

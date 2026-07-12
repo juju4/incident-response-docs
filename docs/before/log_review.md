@@ -6,7 +6,7 @@ Infrastructure rules are a good based but in most cases, business context is key
 
 Example monitoring matrix: System, OS, Comment, OS Logs, Audit Policy set, OS Log Alerting, Audit Policy Verified, Application Logs, Application Log Alerting, OS log Alerting Tested, Application Log Alerting Tested
 
-## Coverage
+## Coverage
 
 ### Base
 
@@ -25,6 +25,8 @@ Example monitoring matrix: System, OS, Comment, OS Logs, Audit Policy set, OS Lo
 * Process activity (auditd, osquery, kunai, EDR...)
 * Package manager history (apt, dnf...)
 * Network state change, firewall, vpn...
+
+Ensure facily and severity settings match your requirements.
 
 ### Macos
 
@@ -93,10 +95,11 @@ Be mindful if logs are covered for corporate tools and dev tools (ex: M365 Copil
 * [Effective Daily Log Monitoring, PCI DSS](https://www.pcisecuritystandards.org/documents/Effective-Daily-Log-Monitoring-Guidance.pdf): "10.7 Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup)."
 * [Logging Cheat Sheet, OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html), [A09:2021  Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/), [A09:2025 Security Logging & Alerting Failures, OWASP Top10 2025](https://owasp.org/Top10/2025/A09_2025-Security_Logging_and_Alerting_Failures/)
 * [M-21-31 MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES, USA, Aug 2021](https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf) - Appendix C: Logging Requirements  Technical Details
+* [M-26-14 MEMORANDUM FOR THE HEADS OF EXECUTIVE DEPARTMENTS AND AGENCIES, USA, May 2026](https://www.whitehouse.gov/wp-content/uploads/2026/05/M-26-14-Ensuring-Effective-and-Efficient-Agency-Logging-and-Network-Visibility-to-Defend-Against-Evolving-Cyber-Threats.pdf), [ White House charts new course for federal agencies and cybersecurity logging A Trump administration memo published last week replaces one from its predecessor, with at least one analyst fearful of potential harmful results. May 2026](https://cyberscoop.com/white-house-federal-cybersecurity-logging-rules/) - pending publication of logging reference architecture by CISA
 * [Designing systems for investigability is an underrated discipline. Someone should write a book, think of it like thread modeling. Any new application or feature should have a review for how and what it logs for both security and debugging. Aug 2020](https://twitter.com/davehull/status/1294646265016393731)
 * [Get your logging act together, loggers! Dec 2018](https://www.hexacorn.com/blog/2018/12/05/get-your-logging-act-together-loggers/)
 * [Creating Audit Logs for Security Professionals, Jan 2023](https://medium.com/@julieasparks/creating-audit-logs-for-security-professionals-2f81b4046bce)
-* [Priority logs for SIEM ingestion: Practitioner guidance, AU, May 2025](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance), [pdf](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
+* [Priority logs for SIEM ingestion: Practitioner guidance, AU, May 2025](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring/implementing-siem-and-soar-platforms/priority-logs-for-siem-ingestion-practitioner-guidance), [pdf](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf), [Priority logs for SIEM ingestion: practitioner guidance, US, May 2025](https://media.defense.gov/2025/May/27/2003722069/-1/-1/0/PRIORITY-LOGS-FOR-SIEM-INGESTION-PRACTITIONER-GUIDANCE.PDF)
 * <https://audit-logs.tax>, <https://github.com/shellcromancer/audit-log-wall-of-shame>
 * Company's logging policy, standard, RACI and whatever applicable references
 * Environment's risk assessment and threat model
@@ -149,6 +152,9 @@ Platforms
 * [I get asked all the time which tables each Sentinel connector writes to. Surprisingly, the answer isn’t straightforward: many connectors share tables, others write to multiple tables, and—until now—there hasn’t been a single, complete list. Dec 2025](https://www.linkedin.com/posts/oshezaf_i-get-asked-all-the-time-which-tables-each-activity-7401808297906814976-9Acl), <https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Solutions%20Analyzer>
 * [Velociraptor Misuse, Pt. II: The Eye of the Storm, Dec 2025](https://www.huntress.com/blog/velociraptor-misuse-part-two-eye-of-the-storm)
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions%20Analyzer/connector-docs/connectors-index.md
+* [Log Sources Your SOC Needs for Detection, Forensics, and Hunting- MUST-HAVE, Apr 2026](https://socautomators.substack.com/p/log-sources-your-soc-needs-for-detection-78f)
+* [Introducing EvidenceForge: Synthetic security logs that don’t look (as) fake, May 2026](https://blog.talosintelligence.com/introducing-evidenceforge-synthetic-security-logs-that-dont-look-as-fake/), <https://github.com/Cisco-Talos/EvidenceForge>
+* [Mapping out your unknown: A threat hunter’s guide to Salesforce, Jun 2026](https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/), [Detecting the Klue supply chain attack in Salesforce instances, Jun 2026](https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/), [Cybercrime Breaches Klue: Salesforce Data Impacted for Many Victims, including Huntress, Jun 2026](https://www.huntress.com/blog/klue-breach-investigation)
 
 Retention
 

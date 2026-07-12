@@ -88,6 +88,8 @@ VDI
 * <https://github.com/rabobank-cdc/DeTTECT>
 * [Directory of pySigma community pipelines](https://github.com/SigmaHQ/pySigma-community-pipelines)
 * [Add Regression Tests and Simulation Links - First Batch #5719](https://github.com/SigmaHQ/sigma/pull/5719)
+* [Alerting and Detection Strategies Framework](https://github.com/palantir/alerting-detection-strategy-framework)
+* [ACRE - ATT&CK Coverage Ratio Evaluation](https://thrivingdefense.com/reference/ACRE)
 
 * [On Detection: Tactical to Functional](https://posts.specterops.io/on-detection/home): 16 posts Jul 2022-Jan 2025
 * [About Detection Engineering, Sep 2022](https://cyb3rops.medium.com/about-detection-engineering-44d39e0755f0)
@@ -183,11 +185,37 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * [“Automated detection engineering” is a nice label for a small problem. The real problem is running an entire detection program end-to-end. Mar 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_automated-detection-engineering-is-a-nice-activity-7442999323035996160-04pL) "We need a system that runs the detection program end-to-end: • Ingest what’s happening in your environment • Map it to relevant threats • Generate detections continuously • Verify coverage as things change"
 * [Databricks just entered the SIEM market.  $26 billion in funding. 14,614 employees. A sleeping beast that just woke up.](https://www.linkedin.com/posts/nikolozk_cybersectools-mcp-siem-market-overview-activity-7442871183672410112-so7m) "We track 197 SIEM products across 126 companies on CybersecTools. Databricks alone now holds 57% of all funding in the entire category."
 * [Microsoft tested if AI can replace detection engineers, Apr 2026](https://theweatherreport.ai/posts/microsoft-vibe-detection/), [AVDA: Autonomous Vibe Detection Authoring for Cybersecurity](https://arxiv.org/abs/2603.25930)
+* [If AI Becomes the User, What Happens to the SIEM? Apr 2026](https://raffy.ch/blog/2026/04/02/if-ai-becomes-the-user-what-happens-to-the-siem/)
+* **[We Automated the Easy Part. Now Fix Your Detections. Apr 2026](https://www.cybersec-automation.com/p/we-automated-the-easy-part-now-fix-your-detections)**
+* [Armed with LLMs, anyone can now build a detection, just like anyone can build a web or mobile app. Right?  Well, that's "true" but let me just add that while a lot, really a lot, of great Python or C code written by brilliant people is publicly available (OSS), the same cannot be said about detection code. Apr 2026](https://www.linkedin.com/posts/inode_genai-siem-detectionengineering-activity-7450817841035018240-tKmL)
+* [Kusto Graph Functions for Cybersecurity Investigations](https://gist.github.com/ddamenova/43696f1e7c63c66f924637e9577316ee), [I graphed the SharkBoyz chain from KC7's Castle & Sand with Lift_To_Graph: phish → host → ransom drop, and separately host → C2 domain → actor IP → successful login against the phished user.](https://xcancel.com/dianadamenovaa/status/2047338437896704012), <https://gist.github.com/ddamenova/a24f3f012012affd017d6bf712f2dd02>
+* [Every once in a while someone outside security asks me what a detection engineer actually does, and I struggle to answer in a single sentence. May 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_every-once-in-a-while-someone-outside-security-activity-7463261794325786624-ffD9) "A detection engineer working at a mid-sized company today is expected to understand cloud workloads across AWS, GCP, and Azure. Endpoint behavior across Mac, Linux, and Windows. Container internals in Docker. Cluster internals in Kubernetes. Network telemetry across firewalls, DNS, NetFlow, and packet capture. And SaaS auth and behavior across Okta, Workday, Salesforce, Slack, and the long tail of whatever else the business signed up for."
+* [Every vendor pitch right now quietly implies your detection team is about to get smaller. "We automate the work so your people can focus on higher-value tasks" is the polite version of it. I think the opposite is true, and the people actually doing the work already know it. May 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_every-vendor-pitch-right-now-quietly-implies-activity-7465778939219587072-cFRk) (image Detection engineer workload analysis)
+* [82% of SOC alerts never get a human eye on them. [...] The reality: build systems that need fewer human decisions. May 2026](https://www.linkedin.com/posts/zosa-a13164192_82-of-soc-alerts-never-get-a-human-eye-on-activity-7467198680937451520-tb_e)
+* [Anatomy of a Good Detection Rule Most detection rules in production are not good. They fire on noise, they miss real attacks, and nobody can tell you why they exist. You find them as orphaned queries with no author, no test, no description , just a severity label someone optimistically set to “High” and forgot. Jun 2026](https://medium.com/@itsmayank227/anatomy-of-a-good-detection-rule-52942aa0141d)
+  > The Checklist
+  > Before a rule ships to production, it should satisfy all of the following:
+  >     [ ] Hypothesis documented : Specific TTP, adversary objective, expected observables
+  >     [ ] Data dependency declared : Log source, event type, required configuration
+  >     [ ] MITRE ATT&CK mapped : Tactic + technique (sub-technique where applicable)
+  >     [ ] Logic is specific: Not intentionally broad, FPs filtered in the condition where possible
+  >     [ ] Known FPs listed: With documented rationale for any that are accepted rather than filtered
+  >     [ ] Blind spots documented: Explicit enumeration of what the rule won’t catch
+  >     [ ] True positive test exists: Reproducible, ideally automated
+  >     [ ] Severity is justified: Not “High” by default
+  >     [ ] Triage steps written: Specific enough for a new analyst
+  >     [ ] Status field set : experimental, test, or production
+  >     [ ] Owner assigned: Team or person responsible for maintenance
+  >     [ ] In version control: With peer review before merge
+* [Detection Chokepoints: Starting from Scratch, Jun 2026](https://playingwithpackets.com/blog/detection-chokepoints-where-to-start/) "A better way to think about it is to flip the question. Instead of asking what the attacker is using, ask what part of this they can’t change."
+* [The Event Maturity Matrix (EMM) is a comprehensive framework that provides clarity regarding the capabilities and nuances of SaaS audit logging.](https://eventmaturitymatrix.com/), <https://github.com/AppOmni-Labs/event-maturity-matrix>
+* [How do you measure detection coverage?  There's no agreed-upon way to measure this, I've seen a lot of different approaches…  ATT&CK heatmaps, spreadsheets & checklists, purple team tracking tools, custom attack scenario libraries, critical attack path mapping to crown jewels, and then there's the organizational dimension that nobody agrees on either. Do you measure by business unit? Network segment? Corporate vs. cloud vs. gov-cloud? Jul 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_how-do-you-measure-detection-coverage-theres-activity-7478810853140746240-C3UJ)
 
 ### Tools
 
 * [SysInternals Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
-* [Atomic Red Team](https://www.atomicredteam.io), https://github.com/redcanaryco/atomic-red-team
+* [Atomic Red Team](https://www.atomicredteam.io), <https://github.com/redcanaryco/atomic-red-team>
+* [The TTPForge is a Cybersecurity Framework for developing, automating, and executing attacker Tactics, Techniques, and Procedures (TTPs).](https://github.com/facebookincubator/TTPForge)
 * [detection.studio - Convert Sigma rules to SIEM queries, directly in your browser.](https://github.com/northsh/detection.studio)
 * [A comprehensive AI-powered detection engineering platform for security teams to explore MITRE ATT&CK, build SIGMA rules, and visualize attack paths.](https://github.com/karmine05/DEF3ND)
 * [AI-powered cybersecurity attack flow visualization tool using MITRE ATT&CK](https://github.com/davidljohnson/flowviz)
@@ -195,13 +223,14 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * [ADX to Sentinel - Continuous Data Pipeline](https://github.com/LaurieRhodes/ADX-to-LogAnalytics-Scanner)
 * [A cross-platform baselining, threat hunting, and attack surface analysis tool for security teams.](https://github.com/redcanaryco/surveyor)
 * [UEBA in Microsoft Sentinel: Stop Wasting Time on Behavioral Analytics, Dec 2025](https://www.itprofessor.cloud/microsoft-sentinel-ueba/) "The problem isn't UEBA. The problem is everyone treats it like a fire-and-forget feature instead of what it actually is: a data science problem that requires baseline tuning, entity context, and honest assessment of whether your data is good enough to detect anything real."
-* https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/turn-complexity-into-clarity-introducing-the-new-ueba-behaviors-layer-in-microso/4484493
-https://learn.microsoft.com/en-us/azure/sentinel/entity-behaviors-layer
+* <https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/turn-complexity-into-clarity-introducing-the-new-ueba-behaviors-layer-in-microso/4484493>
+<https://learn.microsoft.com/en-us/azure/sentinel/entity-behaviors-layer>
 * [Microsoft Sentinel Data Lake Tier: Deep Dive and Comparison, Aug 2025](https://secureazcloud.com/f/microsoftsentineldatalaketierdeepdiveandcomparison)
 * [ADX o Data Lake, Dec 2025](https://www.reddit.com/r/AzureSentinel/comments/1p35fvo/adx_o_data_lake/)
 * [Logs to ADX from all your machines via AMA, Feb 2026](https://tokesi.cloud/blogs/26_02_06_ama_changes/)
 * [Windows Event Log EPS & Storage Calculator](https://github.com/besimorhino/Get-EventEPS)
 * [Entra Protect - Threat Watch  Monitor and identify dangerous OAuth applications, permissions, and malicious user agents in your Entra ID environment](https://www.entraprotect.io/)
+* [Defender AV Real-Time Protection Impact on EDR Telemetry, Jun 2026](https://academy.bluraven.io/blog/defender-av-real-time-protection-impact-on-edr-telemetry)
 
 
 * [Carefully watch this video and witness how AI fails on detection engineering. 
@@ -218,6 +247,24 @@ There is a very slight chance that I'm completely wrong. That is:
 * [Introducing OpenTide Threat Surface: One Unified Vocabulary to Describe Where Threats Land, Mar 2026](https://blog.opentide.org/introducing-opentide-threat-surface-one-unified-vocabulary-to-describe-where-threats-land-fe491d1fa85b), <https://github.com/OpenTideHQ/CoreTide/releases/tag/2026.03.09%2Fthreat-surface>
 * [We need to talk about attack paths. Mar 2026](https://www.linkedin.com/posts/kdaskalakis_socon-attackpaths-identitysecurity-activity-7435251712543580162-X5qQ) "It's whether you've already closed the path that makes detection necessary."
 * [Building a Detection Foundation: Part 1 - The Single-Source Problem, Feb 2026](https://trustedsec.com/blog/building-a-detection-foundation-part-1-the-single-source-problem)
+* [I reviewed 79 Splunk detection searches across 9 SPL files covering 10 MITRE ATT&CK tactics.
+A lot of them wouldn’t survive a week in a real SOC.
+The logic was directionally right. The operational design wasn’t.
+The same problems showed up over and over:
+no time bucketing
+no thresholds
+no risk scoring
+exclusions matched by process name instead of full path
+That last one is especially bad. A rule that excludes falcon-sensor as a substring match instead of scoping to C:\Program Files\CrowdStrike\* is both easy to evade and easy to poison with noise. Apr 2026](https://www.linkedin.com/posts/inode_detectionengineering-splunk-blueteam-activity-7449377262694699008-ZQFw)
+* [Unlock Different Security Perspectives with Kusto Graph Functions, Apr 2026](https://kqlquery.com/posts/kql-graph-security-visualization/)
+* [The future of SOC might be case-centric decision based workflow. Apr 2026](https://www.linkedin.com/posts/gergelyrevay_the-future-of-soc-might-be-case-centric-decision-activity-7450524917357232128-Uf1w), [The Future of Detection Engineering in Security Operations](https://softwareanalyst.substack.com/p/the-future-of-detection-engineering)
+* [Are Detection-as-Code Pipelines Overrated? As agentic capabilities continue to improve, are traditional Detection-as-Code pipelines becoming overrated? Apr 2026](https://medium.com/@harrisonpomeroy/are-detection-as-code-pipelines-overrated-2fe21f80f269)
+* [Detections are Extended State Machines, May 2026](https://www.linkedin.com/posts/diegope_most-detection-engineering-is-built-around-activity-7456936503785492481-d0RI)
+* [What becoming a detection engineer ACTUALLY requires (that no one talks about), May 2026](https://www.linkedin.com/posts/adamgoss1_detectionengineering-cybersecuritycareers-activity-7458833458199482368-bKIg)
+* [How we built DetectBench: 1,000+ real-world tasks across 7 SIEMs, 4 difficulty levels and 120+ distinct log sources to test the core skills involved in detection engineering. May 2026](https://www.linkedin.com/posts/dylan-williams-a2927599_how-we-built-detectbench-1000-real-world-activity-7459980763569041409-21X8)
+* [[DxBP] Part 2 - Detection Engineering Best Practices: Performance, Readability & Maintenance, May 2026](https://kqlquery.com/posts/dxbp-part2/)
+* [Microsoft Defender XDR Custom Detection Rules: A Complete Guide & Best Practices, May 2026](https://detect.fyi/microsoft-defender-xdr-custom-detection-rules-a-complete-guide-best-practices-9faf8c837797)
+* [Building a Detection Engineering Program (The 90-Day Roadmap), Jun 2026](https://www.linkedin.com/posts/nickmitropoulos_detectionengineering-soc-cybersecurity-activity-7476288108171427841-k4ZE) "🚀 Quick win: Document your top 20 detections. Most teams can't explain what half their detections do. [...] 💡 The Most Important Thing Start small. Build momentum. Celebrate wins publicly."
 
 * [Living Off the Living Off the Land  Centralized farming resources to thrive off the land](https://lolol.farm/)
 * [LOLBAS, Living Off The Land Binaries, Scripts and Libraries](https://lolbas-project.github.io/)
@@ -231,34 +278,36 @@ There is a very slight chance that I'm completely wrong. That is:
 ### Rules
 
 Generic
-* https://github.com/SigmaHQ/sigma
-* https://www.linkedin.com/posts/activity-7316076688566607873-p2s0
-* https://rulehound.com/
-* https://github.com/sublime-security/sublime-rules
-* https://rulexplorer.io/detr/
-* https://detections-digest.rulecheck.io/
-* https://rules.emergingthreats.net/, https://www.openinfosecfoundation.org/rules/index.yaml and https://www.snort.org/downloads#rules
-* https://github.com/SEKOIA-IO/Community/tree/main/sigma_rules
-* https://blog.sekoia.io/xdr-detection-rules-at-scale/
-* https://github.com/palantir/alerting-detection-strategy-framework
-* https://github.com/BinaryDefense/ARC-Labs-Hunting-Queries
+* <https://github.com/SigmaHQ/sigma>
+* <https://www.linkedin.com/posts/activity-7316076688566607873-p2s0>
+* <https://rulehound.com/>
+* <https://github.com/sublime-security/sublime-rules>
+* <https://rulexplorer.io/detr/>
+* <https://detections-digest.rulecheck.io/>
+* <https://rules.emergingthreats.net/>, <https://www.openinfosecfoundation.org/rules/index.yaml> and <https://www.snort.org/downloads#rules>
+* <https://github.com/SEKOIA-IO/Community/tree/main/sigma_rules>
+* <https://blog.sekoia.io/xdr-detection-rules-at-scale/>
+* <https://github.com/palantir/alerting-detection-strategy-framework>
+* <https://github.com/BinaryDefense/ARC-Labs-Hunting-Queries>
 * [SOCPrime](https://socprime.com/)
 * [DetectionStream, Unify detection engineering across Sigma, Nova, and beyond](https://detectionstream.com/)
 * [SigmaHQ Quality Assurance Pipeline, Nov 2025](https://blog.sigmahq.io/sigmahq-quality-assurance-pipeline-d99eaba1760e), <https://github.com/SigmaHQ/sigma-rules-validator>, <https://github.com/NextronSystems/evtx-baseline>
 * [A pySigma wrapper to manage detection rules.](https://github.com/certeu/droid)
 * [MCP to help Defenders Detection Engineer Harder and Smarter](https://github.com/MHaggis/Security-Detections-MCP), [Detection Engineer Secrets: MCP + LLM for Scalable Detection Engineering](https://www.youtube.com/watch?v=i9_sZAp8qfI)
-* [Mapping of open-source detection rules and atomic tests. ](https://github.com/krdmnbrk/AttackRuleMap)
+* [Mapping of open-source detection rules and atomic tests.](https://github.com/krdmnbrk/AttackRuleMap)
 * [Detection Chokepoints  TTPs evolve. Chokepoints don't.](https://iimp0ster.github.io/detection-chokepoints/)
   * [Infostealer Browser Credential Theft](https://iimp0ster.github.io/detection-chokepoints/chokepoints/browser-credential-theft/)
   * [EDR Bypass Techniques](https://iimp0ster.github.io/detection-chokepoints/chokepoints/edr-bypass-techniques/)
   * [Ransomware Service Manipulation](https://iimp0ster.github.io/detection-chokepoints/chokepoints/ransomware-service-manipulation/)
   * [Web Shell Persistence](https://iimp0ster.github.io/detection-chokepoints/chokepoints/web-shells/)
   * [ClickFix Techniques](https://iimp0ster.github.io/detection-chokepoints/chokepoints/clickfix-techniques/)
-
+* <https://sigma.nasbench.dev/>
+* <https://github.com/Karib0u/rustinel-rules>
+* Splunk [Analytic Stories](https://research.splunk.com/stories/)
 
 Vendor-based
 * Elastic
-  * https://github.com/elastic/detection-rules
+  * <https://github.com/elastic/detection-rules>
   * [Elastic  Protections Artifacts](https://github.com/elastic/protections-artifacts) with rules
   * [Elastic Reference - Managing Elastic Security Detection Rules Using DaC](https://dac-reference.readthedocs.io/en/latest/)
   * [The Engineer's Guide to Elastic Detections as Code, Feb 2026](https://www.elastic.co/security-labs/detection-as-code-timeline-and-new-features)
@@ -266,14 +315,14 @@ Vendor-based
 * Grafana
   * [Automate the conversion and deployment of Sigma Rules to Grafana Alerting via GitHub Actions](https://github.com/grafana/sigma-rule-deployment)
 * Sentinel/Defender XDR
-  * https://github.com/Azure/Azure-Sentinel/blob/master/Detections/readme.md
-  * https://github.com/CyberAutomationX/SecureAzCloud-Scripts/tree/main/KQL
+  * <https://github.com/Azure/Azure-Sentinel/blob/master/Detections/readme.md>
+  * <https://github.com/CyberAutomationX/SecureAzCloud-Scripts/tree/main/KQL>
   * [Detection tuning – “Making the tuning process simple - one step at a time.”, Nov 2021](https://techcommunity.microsoft.com/blog/microsoftsentinelblog/detection-tuning-–-“making-the-tuning-process-simple---one-step-at-a-time-”/2919589)
   * [Threat detection with Atomic Red Team and Azure Sentinel, Apr 2021](https://www.remotelycurious.net/post/threatlab/)
   * [Sentinel for Purple Teaming, Oct 2024](https://medium.com/@iknowjason/sentinel-for-purple-teaming-183b7df7a2f4), [PurpleCloud - docs](https://www.purplecloud.network/), [PurpleCloud - github](https://github.com/iknowjason/PurpleCloud)
   * [Improving automated Sentinel detection validation. Oct 2024](https://medium.com/@TimGroothuis/improving-automated-sentinel-detection-validation-02f91a9f4a21), [Azure Data Explorer Kusto emulator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto-emulator-overview), <https://github.com/timtim589/KustainerValidation>
   * [Automating Microsoft Sentinel Deployment with GitHub Actions, Aug 2025](https://sentinel.blog/automating-microsoft-sentinel-deployment-with-github-actions/)
-  * https://github.com/mattnovitsch/M365/wiki
+  * <https://github.com/mattnovitsch/M365/wiki>
   * [Threat Hunting and Detection - KQL](https://github.com/Cyb3r-Monk/Threat-Hunting-and-Detection)
   * [KQL Sentinel & Defender queries](https://github.com/HybridBrothers/Hunting-Queries-Detection-Rules/tree/main)
   * [Ultimate Health Check For Microsoft Sentinel: Boost Security & Savings, Jun 2025](https://charbelnemnom.com/ultimate-health-check-for-microsoft-sentinel/)
@@ -293,10 +342,15 @@ Vendor-based
   * [A demo repository, showing how one could validate detections against an ADX emulator to catch KQL runtime errors](https://github.com/timtim589/KustainerValidation)
   * [[DxBP] Part 1 - Technical Detection Engineering Best Practices, Feb 2026](https://kqlquery.com/posts/dxbp-part1/)
   * [One of the best ways for defenders to start analyzing with graphs is to use the logs they already know. Every log has multiple entities, relations, and properties in its columns. Or as I say, every table has a graph waiting to be born. Mar 2026](https://www.linkedin.com/posts/johnjlambert_security-data-is-inherently-graph-shaped-activity-7440032425310691328-QQyG), [Kusto Graph Functions for Cybersecurity Investigations](https://gist.github.com/ddamenova/43696f1e7c63c66f924637e9577316ee)
+  * [A Microsoft Sentinel toolkit for generating and ingesting **realistic sample data** into Log Analytics tables via the Azure Monitor Logs Ingestion API. Supports both single-table ingestion and **multi-table attack scenarios** that simulate coordinated threat activity across correlated tables](https://github.com/javiersoriano/sentinel-logseeder) (CL table only
+  * [IRQL - Incident Response Query Language, May 2026](https://gist.github.com/ddamenova/a24f3f012012affd017d6bf712f2dd02)
+  * [How BlueVoyant's ASIM-First Strategy Simplifies Threat Detection in Microsoft Sentinel, Jun 2026](https://www.bluevoyant.com/blog/asim-first-threat-detection-microsoft-sentinel)
+  * [Analytics Rule Tuning - Microsoft Sentinel\n---\nA single pane to find noisy rules, measure detection quality, reduce false positives and prove tuning impact](https://github.com/davidalonsod/Dalonso-Security-Repo/blob/main/Workbooks/Workbook-RuleTuning.json)
+  * [Get started with creating ASIM parsers using GitHub Copilot](https://learn.microsoft.com/en-us/azure/sentinel/normalization-create-parsers-ai-agent), <https://www.linkedin.com/posts/oshezaf_microsoftsentinel-asim-detectionengineering-share-7480053977074765824-_GEf/>
 * Splunk
-  * https://github.com/splunk/security_content
+  * <https://github.com/splunk/security_content>
 * Wazuh
-  * https://github.com/socfortress/Wazuh-Rules
+  * <https://github.com/socfortress/Wazuh-Rules>
   * [Convert Sigma rules to Wazuh rules](https://github.com/theflakes/sigma_to_wazuh), [StoW - Sigma to Wazuh rule converter in GO](https://github.com/theflakes/StoW)
 * Multiples
   * [Initial thoughts on @detectionsai.bsky.social have been pretty positive. Great platform for sharing detection and analytic content across a multiple of tools and languages (Sigma, KQL, Splunk, Yara, etc..)](https://bsky.app/profile/jhuntinfosec.com/post/3lwpbrmu7nc2h)

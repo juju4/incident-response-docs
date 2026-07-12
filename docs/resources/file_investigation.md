@@ -67,3 +67,6 @@ Whatever is relevant in your context
 * [Malware Delivered via Windows Installer Files, Feb 2018](https://isc.sans.edu/diary/Malware+Delivered+via+Windows+Installer+Files/23349)
 * [Base64 Patterns - Learning Aid](https://gist.github.com/Neo23x0/6af876ee72b51676c82a2db8d2cd3639)
 * [A simple script to read the contents of a zip/tar/folder and extract metadata](https://github.com/stark4n6/Arc2Lite)
+* [BSimVis is a tool to analyze similarities across a collection of binaries, based on Ghidra analyzers and the BSim (Behavioral Similarity) plugin. It provides an API and Web interface to upload large quantities of decompiled binaries and BSim feature vectors to a Kvrocks database for similarity analysis, function diffing, and family clustering.](https://github.com/MISP/bsimvis)
+* [Evil MSI Background: BASE64 Statistical Analysis, Jun 2026](https://isc.sans.edu/diary/Evil MSI Background%3A BASE64 Statistical Analysis/33072)
+

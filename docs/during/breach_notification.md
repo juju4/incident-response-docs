@@ -136,3 +136,4 @@ Conduent hid its breach notice with "noindex" code, so you won't see the page in
 This is genuinely a more expensive payout than the $5-$10 Americans typically get for their breaches. 
 https://www.odido.nl/veiligheid](https://bsky.app/profile/campuscodi.risky.biz/post/3mfmiqse4oc2g)
 * [Stryker filed an 8-K with the SEC saying no indication of malware on their environment - yet Palo-Alto's DFIR statement says they have removed malware from Stryker's environment.](https://cyberplace.social/@GossiTheDog/116286593885678911)
+* [Delinea used similar language in a 2024 security incident, where they hid the details behind a support paywall - my prior thread: https://cyberplace.social/@GossiTheDog/112268610356999105](https://cyberplace.social/@GossiTheDog/116784468212525334)

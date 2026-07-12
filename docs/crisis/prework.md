@@ -19,3 +19,4 @@ A biannual cadence for crisis simulations provides sufficient time for preparati
 * US [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages)
 * [Exercise in a Box - UK NCSC](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview)
 * [Plateforme de simulation de crise inspirée de l’exercice massifié REMPAR25 de l’ANSSI - FR](https://github.com/JMousqueton/murail)
+* [GHOSTS (General Human-Oriented Synthetic Teammates and Systems) is a realistic user simulation framework for cyber experimentation, simulation, training, and exercise](https://github.com/cmu-sei/GHOSTS)

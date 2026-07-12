@@ -14,10 +14,11 @@ Identity/Credentials compromised is common for home user but for enterprise, it 
   * Main access, alternate (application password, oauth...)
   * Forwarding message rules
   * Privileged account? (Cloud roles & permissions)
+  * Activities
   * Confirm if malicious
   * Check impact and blast radius
   * If Azure SSO: check SigninLogs, AuditLogs, EDR timeline, UnifiedAuditLog, mailbox MailItemsAccessed
-  * If Side activities: Chat, File sharing, Consent O365 apps, other platforms (CRM, HR, Finance)...
+  * If Side activities: Mail, Chat, File sharing, Consent O365 apps, other platforms (CRM, HR, Finance)...
 * Do backup of evidence, especially if legal actions are planned
 * Reset all access
   * Password, certificates, ssh key
@@ -34,7 +35,9 @@ Identity/Credentials compromised is common for home user but for enterprise, it 
 * Review compromission state
   * Owner and usage
   * Privileged account? (Cloud roles & permissions)
+  * Use of Active Directory gMSA (group Managed Service Accounts)?
   * Secrets, Certificates
+  * Activities
   * Confirm if malicious
   * Check impact and blast radius
 * Preserve Evidence
@@ -64,6 +67,7 @@ Tools
 * [Octo Tempest: Hybrid identity compromise recovery, Jun 2024](https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/octo-tempest-hybrid-identity-compromise-recovery/4166783) (Cloud eviction workflow) "We begin with the cloud eviction process. If any actor takes control of the identity plane in Microsoft Entra ID, a set of steps should be followed to hit reset and take back administrative control of the environment. Here are some tactical measures employed by the Microsoft Incident Response team to ensure the security of the cloud identity plane: [...] On-premises eviction"
 * [Detecting and mitigating Active Directory compromises - ASD AU, Sep 2024](https://www.cyber.gov.au/business-government/detecting-responding-to-threats/detecting-and-mitigating-active-directory-compromises)
 * [Remediation of active directory tier 0 - ANSSI, Apr 2025](https://messervices.cyber.gouv.fr/guides/en-cyber-attacks-and-remediation-remediation-active-directory-tier-0)
+* [Common security incident investigation areas - Github](https://docs.github.com/en/code-security/reference/security-incident-response/investigation-areas): Exposed or compromised credentials, Unauthorized access and account compromise, Data exfiltration, Malicious code and workflow changes
 
 * Reset passwords and sessions/cookies
   * https://www.newswire.com/news/new-report-from-flare-highlights-significant-costs-and-industry-impact-22553863
@@ -95,3 +99,4 @@ Non-Human identities
   * Attack Paths
 * [When we announced Agent ID at Ignite, it as not just a marketing fad, it is a fundamental shift in how we do access for AI actors. If you register an agent with Entra and it authenticates with Entra then every token, every sign in log will indicate this is an agent (whether it's acting autonomously or on behalf of user). Mar 2026](https://www.linkedin.com/posts/tarekdawoud_token-claims-reference-for-agent-ids-microsoft-activity-7442430544245661696-9Zmy), [Token claims reference for agents](https://learn.microsoft.com/en-us/entra/agent-id/identity-platform/agent-token-claims)
 * <https://github.com/davidalonsod/Dalonso-Security-Repo/tree/main/Use%20Cases%20Threat%20Hunting/Non-Human_Identities_Detections>
+* [How Storm-2949 turned a compromised identity into a cloud-wide breach, May 2016](https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/)

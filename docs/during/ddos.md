@@ -54,6 +54,7 @@ For DNS and NTP, security conscious companies can limit corresponding traffic to
 * [Checklist To Prepare Yourself In Advance of a DDoS Attack, Mar 2013](https://www.whitehatsec.com/blog/checklist-to-prepare-yourself-in-advance-of-a-ddos-attack/)
 * [BCP38](http://www.bcp38.info/index.php/Main_Page)
 * [Not all attacks are equal: understanding and preventing DoS in web applications, Sep 2020](https://r2c.dev/blog/2020/understanding-and-preventing-dos-in-web-apps/)
+* [Understanding DDoS Scrubbing in BGP: Five Leading Scrubbers, Apr 2026](https://labs.ripe.net/author/shyam-krishna-khadka/understanding-ddos-scrubbing-in-bgp-five-leading-scrubbers/)
 
 * [Maximizing Firewall Availability, Team Cymru](http://www.cymru.com/gillsr/documents/maximizing-firewall-availability.htm)
 * [Unwanted Traffic RemovalService (UTRS), Team Cymru](https://team-cymru.com/community-services/utrs/)

@@ -1,5 +1,4 @@
-
-Base analysis of an email
+# Base analysis of an email
 
 !!! warning "Operations Security aka Opsec ?"
     Please be careful on **Opsec** and dont upload confidential files on Internet.
@@ -19,10 +18,10 @@ This suppose you have the complete raw email including headers, either as full t
 * [Unfurl](https://dfir.blog/unfurl/)
 
 * Online screenshots
-    * https://www.browserstack.com/screenshots
+  * <https://www.browserstack.com/screenshots>
+  * <https://lookyloo.circl.lu/capture>
 
-
-### File
+### File attachments
 
 See [File Investigation](/resources/file_investigation.md)
 
@@ -32,7 +31,6 @@ See [File Investigation](/resources/file_investigation.md)
 * [EML analyzer](https://github.com/ninoseki/eml_analyzer)
 * [E-Mail Visual Studio code extension](https://marketplace.visualstudio.com/items?itemName=leighlondon.eml)
 * [Email Header Analyzer, Mxtoolbox](https://mxtoolbox.com/EmailHeaders.aspx) <!> OPSEC
+* [EML Analyzer](https://analyzer.sublime.security/)
 
 ## References
-
-
