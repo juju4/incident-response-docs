@@ -123,7 +123,7 @@ Online Forums/chats
 * [Discord ReconInfosec](http://reconis.co/discord)
 * [Discord Defcon](https://discord.gg/defcon)
 * [Discord @OTR_Community](https://discord.gg/UYQyv4YQmR)
-* [Discord TrustedSec](https://discord.gg/trustedsec) 
+* [Discord TrustedSec](https://discord.gg/trustedsec)
 * [Discord AntiSyphon](https://discord.gg/antisyphon)
 * [Microsoft SecurityCommunity](https://aka.ms/SecurityCommunity)
 * [Infosec Jupyterthon!](https://infosecjupyterthon.com/)

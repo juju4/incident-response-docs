@@ -19,7 +19,7 @@ Within PagerDuty, you can add your crisis “material impact levels” using the
 
 ![Set and define priorities that make sense for your organization](../assets/img/crisis/05_priorities.png)
 
-Once you’ve defined your priorities, you can begin to leverage PagerDuty to automate parts of your crisis response through integrations and [incident workflows](https://support.pagerduty.com/docs/incident-workflows). You can integrate with Slack, Teams or Zoom for creating communications channels. You can auto-publish from templates to post on internal status pages. You can auto-initiate stakeholder alerts or [subscriptions](https://support.pagerduty.com/docs/communicate-with-stakeholders#add-subscribers-at-incident-creation), etc. 
+Once you’ve defined your priorities, you can begin to leverage PagerDuty to automate parts of your crisis response through integrations and [incident workflows](https://support.pagerduty.com/docs/incident-workflows). You can integrate with Slack, Teams or Zoom for creating communications channels. You can auto-publish from templates to post on internal status pages. You can auto-initiate stakeholder alerts or [subscriptions](https://support.pagerduty.com/docs/communicate-with-stakeholders#add-subscribers-at-incident-creation), etc.
 
 ![Use incident workflows to streamline response.](../assets/img/crisis/06_incidentworkflows.png)
 
@@ -27,7 +27,7 @@ In a crisis situation, time savings are everything. Decreasing the mean time to 
 
 ## Crisis Declaration
 
-Does your crisis response team operate the same in a crisis as they do in normal business situations? Your answer should be no. Operating in a “crisis mode” should be distinctive because all actions and decisions are amplified, the tempo is quicker, the need for timely decisions is critical, the complexity of the problems are greater, the risks are higher, etc. 
+Does your crisis response team operate the same in a crisis as they do in normal business situations? Your answer should be no. Operating in a “crisis mode” should be distinctive because all actions and decisions are amplified, the tempo is quicker, the need for timely decisions is critical, the complexity of the problems are greater, the risks are higher, etc.
 
 The Crisis Team Leader needs to clearly and definitively signal that the modes of thinking and processing have shifted. What better way to signal that shift than through a PagerDuty alert? The incident priority feature is an easy way to make that declaration to the necessary stakeholders in a not so public way. Declaring the response as over is also important in transitioning to normal or new ways of doing things, which can be completed by [resolving the alert](https://support.pagerduty.com/docs/alerts#resolve-alerts) created on your crisis service(s) or posting to an internal status page.
 

@@ -15,7 +15,7 @@ Preparation is key and should be handle at all levels: public application and sy
 Today's volumetric attack can saturated almost any company Internet link.
 
 * Assess situation
-    * which system is impacted 
+    * which system is impacted
     * is it an attack? no special press release, events? any application, system, network change?
     * what kind of attack
     * what automated countermeasures did

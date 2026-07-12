@@ -45,7 +45,7 @@ Our followup-processes, how we make sure we don't repeat mistakes, and are alway
 * [Effective Postmortems](after/effective_post_mortems.md) - _A guide for writing effective postmortems._
 * [Incidents metrics](after/metrics.md)
 
-## Crisis Response 
+## Crisis Response
 
 Incident response is about more than dealing with technical incidents. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
 

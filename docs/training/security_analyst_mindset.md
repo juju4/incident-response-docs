@@ -112,8 +112,8 @@ Examples
 * [Staying ahead of the constant flow of intelligence data isn’t about collecting more, it’s about connecting the right signals faster.
 Ryann Hallback (reign) shows how analysts cut through noise, link critical data, and move investigations forward with confidence. https://www.youtube.com/watch?v=84oGqEL7ITQ](https://bsky.app/profile/vertexproject.bsky.social/post/3mfrtqc3brk2j)
 * [Does AI have a role in security? Perhaps. Is it going to replace DF analysts? ...](https://www.linkedin.com/posts/harlan-carvey-86a8694b_does-ai-have-a-role-in-security-perhaps-activity-7433152986064785409-xTbw)
-> Consider how you, as a DF analyst, currently conduct your analysis. 
-> Is it goal-based? 
+> Consider how you, as a DF analyst, currently conduct your analysis.
+> Is it goal-based?
 > Do you have your goals documented at the top of your case notes? (I do)
 > Is your tool usage intentional, and derived from your goals, and based on deep knowledge and understanding of the data, as well as the tool itself?
 > Do you recognize & document potential gaps in data, pivot based on findings, and apply lessons learned from previous analysis by operationalizing those lessons?

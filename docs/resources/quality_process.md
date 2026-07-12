@@ -33,33 +33,33 @@ Auto check/lint (regular frequency, closure)
 
 ## References
 
-* [How do you measure #SOC quality? 
+* [How do you measure #SOC quality?
 🤔
-1. ISO 2859-1 (#AQL) to determine sample size 
+1. ISO 2859-1 (#AQL) to determine sample size
 2. #Python #Jupyter notebook to perform random selection
-3. Check sheet to spot defects 
+3. Check sheet to spot defects
 4. Process runs every 24 hrs
 5. (Digestible) #Metrics to improve
 How'd we get there? Story in /thread, Apr 2020](https://twitter.com/jhencinski/status/1254465280367083521)
-* [If you have a #SOC #QC program be super transparent about the trend. 
-We wrote a #Slack bot that sends the #QC trend to the team each day. We talk about it. We plan. We adjust. 
-QC legend: 
-- 
+* [If you have a #SOC #QC program be super transparent about the trend.
+We wrote a #Slack bot that sends the #QC trend to the team each day. We talk about it. We plan. We adjust.
+QC legend:
+-
 🔴
- failed   
-- 
+ failed
+-
 🟢
  passed
-- 
+-
 ⚫
  missed
 Visualize. Review. Plan. Improve. Repeat. Jun 2020](https://twitter.com/jhencinski/status/1277656033901588481)
-* [Let's talk process control charts for a hot second. 
+* [Let's talk process control charts for a hot second.
 
-We use a control chart to answer "is alert management in a state of control?" 
+We use a control chart to answer "is alert management in a state of control?"
 
-Steps: 
-- Detect last alert daily mean change w/ change point 
+Steps:
+- Detect last alert daily mean change w/ change point
 - Extract residuals using loess
 - Plot residuals in control chart
 

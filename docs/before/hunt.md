@@ -96,7 +96,7 @@ To complement with latest news/threat
 > - TTP (Tactics Techniques or Procedures) or IOA (Indicator of Attack) based (you will find many attack chains have crossover. Having some good detection will pay itself off in future)
 > - Feed into Preventative controls (it is fairly common to find potential hardening/actions to take post a hunt)
 > - Feed into new detection rules (fidelity test)
-> - Not just be limited to a threat hunting team, SOC analysts should get involved too (remember they are the first on the scene to alerts) 
+> - Not just be limited to a threat hunting team, SOC analysts should get involved too (remember they are the first on the scene to alerts)
 > - Not get too caught up in Attribution of attackers, Attackers can "share" TTPs (I have already proved attribution can be spoofed in an earlier post, using TTPs casts your net wider already)
 > - Work with other technical teams to understand what normal business operations are to sift out BAU from logs.
 * [Add Punycode to your Threat Hunting Routine. Punycode patterns in DNS queries make excellent hunting opportunities. Jan 2026](https://isc.sans.edu/diary/Add%20Punycode%20to%20your%20Threat%20Hunting%20Routine/32640)

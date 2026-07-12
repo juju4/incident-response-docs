@@ -29,7 +29,7 @@ There are no additional steps after an incident is resolved. However, the IC may
 
 1. Collect all `TODO` items and add them to the postmortem.
 
-### Steps for Subject Matter Experts 
+### Steps for Subject Matter Experts
 
 1. Add any notes you think are relevant to the postmortem.
 

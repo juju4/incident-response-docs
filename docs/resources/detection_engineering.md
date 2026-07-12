@@ -233,10 +233,10 @@ https://detect.fyi/do-you-know-your-detection-surface-8981289b0d25), https://git
 * [Defender AV Real-Time Protection Impact on EDR Telemetry, Jun 2026](https://academy.bluraven.io/blog/defender-av-real-time-protection-impact-on-edr-telemetry)
 
 
-* [Carefully watch this video and witness how AI fails on detection engineering. 
-1. The agent gets asked for finding encoded PowerShell commands but it returns a query that finds ALL PowerShell process executions without any filtering instead of only encoded commands. 
+* [Carefully watch this video and witness how AI fails on detection engineering.
+1. The agent gets asked for finding encoded PowerShell commands but it returns a query that finds ALL PowerShell process executions without any filtering instead of only encoded commands.
 
-2. The agent then gets asked for filtering only admin users. This means any user with admin privileges. However, the agent just adds a filter on the username: "WHERE USER = 'admin'". 
+2. The agent then gets asked for filtering only admin users. This means any user with admin privileges. However, the agent just adds a filter on the username: "WHERE USER = 'admin'".
 
 How would you to spot these mistakes without having knowledge and skill? Are you going to let AI open the doors for attackers to breach your network?
 

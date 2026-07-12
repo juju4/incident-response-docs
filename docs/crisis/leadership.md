@@ -7,11 +7,11 @@ description: Your organization's crisis response plan requires strong leadership
 Effective crisis management requires leadership. Crisis Leadership underlines how your corporate leaders apply your organization’s values to all stages of a crisis.
 
 ## Why is Crisis Leadership important for your organization
-With every crisis, there is danger and opportunity. The right kind of leadership is vital in the critical moments of your company’s history. The right kind of crisis leadership is values-driven and maintains the balancing act between carefully and thoughtfully responding to what went wrong and deliberately capturing mindshare or new business based on the effectiveness of your response. 
+With every crisis, there is danger and opportunity. The right kind of leadership is vital in the critical moments of your company’s history. The right kind of crisis leadership is values-driven and maintains the balancing act between carefully and thoughtfully responding to what went wrong and deliberately capturing mindshare or new business based on the effectiveness of your response.
 
 When your company’s values are at the forefront, your stakeholder communications and public statements remain consistent. Your audience can always tell when you’re backpedaling from established viewpoints or bandwagoning. You avoid compounding the situation by being consistent. No two crises are alike just as no two organizations are alike. Crisis Leadership centers on you—not others—telling your constituents your organization’s story from one crisis to the next.
 
-## Considerations for Crisis Leaders 
+## Considerations for Crisis Leaders
 
 The unpredictable and fluid nature of a crisis requires situational awareness. Being aware of what you know and don't know is crucial. Continually monitoring the situation, predicting statuses and being prepared to roll with the changing environment makes your company adept at crisis response and provides your team with purpose, i.e., everyone is in sync and working towards the same goal.
 
@@ -73,7 +73,7 @@ There’s no one size fits all and you may not need all of these roles in your E
 
 ## Crisis Team Leaders
 
-It’s important to put a face and single voice to a crisis. A Crisis Team Leader is the individual responsible for leading the organization through a crisis having overall responsibility based on their area(s) of expertise. They’re similar to an Incident Commander for a crisis situation. However, a Crisis Team Leader may function more as an Area Commander if there are multiple Incident Commanders to oversee in a complex situation. 
+It’s important to put a face and single voice to a crisis. A Crisis Team Leader is the individual responsible for leading the organization through a crisis having overall responsibility based on their area(s) of expertise. They’re similar to an Incident Commander for a crisis situation. However, a Crisis Team Leader may function more as an Area Commander if there are multiple Incident Commanders to oversee in a complex situation.
 
 Once you’ve built your handful of scenarios, assigning members of your organization as the team leader along with their backup is the next step. See the below table as an example:
 

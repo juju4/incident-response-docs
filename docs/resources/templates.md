@@ -29,7 +29,7 @@ Each of those can have variant depending on audience: security stakeholders, exe
 
 ### Vulnerability alert
 
-Subject: 
+Subject:
 Internal Rating
 CVSS (https://www.first.org/cvss/calculator/4.0)
 EPSS (ex: https://www.cvedetails.com/epss/epss-score-history.html?delta=110; https://github.com/theowni/EPSS-Calculator; [Handling the CVE Flood With EPSS, Apr 2026](https://isc.sans.edu/diary/Handling the CVE Flood With EPSS/32914))
@@ -73,13 +73,13 @@ text message, phone call or similar depending on your environment
 * [Mandiant APT1, Feb 2013](https://www.mandiant.com/resources/apt1-exposing-one-of-chinas-cyber-espionage-units)
 * [Incident Response Fundamentals  Communication, Sean Mason, Sep 2017](https://blogs.cisco.com/security/incident-response-fundamentals-communication)
 * [Ransomware attack on City of Pensacola, Executive Summary, Jan 2020](https://www.cityofpensacola.com/DocumentCenter/View/18879/Deloitte-Executive-Summary-PDF?bidId=)
-* [When we spot #redteam we report: 
-- Exec summary 
+* [When we spot #redteam we report:
+- Exec summary
 - Key findings (how'd they get in, what'd they do?)
 - Timeline of events (1st alert, remediation)
 - ATT&CK tactics & details
 - Popped accounts, hosts, NBIs/HBIs
-- How to kick 'em out 
+- How to kick 'em out
 - How to improve
 Any 🔑 items missing? Jun 2020](https://twitter.com/jhencinski/status/1278017846732378113)
 * [Forensic reports in a nutshell... May 2021 - xkcd](https://twitter.com/XRY_mike/status/1391358750670344192)

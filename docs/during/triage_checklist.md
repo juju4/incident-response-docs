@@ -16,7 +16,7 @@ Reminder to adapt to context.
 * Did you list what you have done so far and what could be done next?
   * Logs query
   * Evidence collection (local logs, forensics artefact, disk snapshot...)
-* Do you need help? 
+* Do you need help?
   * If yes, review with peer or escalate.
 * Does it need to be escalated now? to L2, L3 or management.
 * Did you review SOP? Which ones?

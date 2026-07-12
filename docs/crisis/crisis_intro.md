@@ -8,7 +8,7 @@ hero: assets/img/headers/iStock-1097331490-3992x2242-e4f3f2d.png
 
 A critical partner in your supply chain just went down. An earthquake just hit your main operations hub. Breaking news about your organization just hit social media. A crisis can happen at any time. Are you ready for it? The way you handle your worst day will leave lasting impressions about your brand and its perceived value in the eyes of your current and potential customers.
 
-Bad news first. There's always another crisis or existential threat on the horizon. If you don’t have an established Crisis Response process and team in place, you’re running a high risk of failure. If you do have a process and team, you should be continuously iterating and improving your leadership, plans and practices to guard against mistakes that can cause irreparable damage to your brand. 
+Bad news first. There's always another crisis or existential threat on the horizon. If you don’t have an established Crisis Response process and team in place, you’re running a high risk of failure. If you do have a process and team, you should be continuously iterating and improving your leadership, plans and practices to guard against mistakes that can cause irreparable damage to your brand.
 
 The good news is that this guide is built to bring your Crisis Response Management Operations up to speed using best practices, and leveraging PagerDuty’s Operations Cloud.
 

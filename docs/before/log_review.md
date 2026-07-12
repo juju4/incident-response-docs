@@ -129,7 +129,7 @@ Platforms
   * [Configure Microsoft Entra diagnostic settings for activity logs](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/howto-configure-diagnostic-settings)
   * [Configure Unified Sensor to support advanced identity detections (Preview)](https://learn.microsoft.com/en-us/defender-for-identity/deploy/prerequisites-sensor-version-3#configure-unified-sensor-to-support-advanced-identity-detections-preview) - MDI
   * [MICROSOFT EXPANDED CLOUD LOGS IMPLEMENTATION PLAYBOOK, CISA, Jan 2025](https://www.cisa.gov/sites/default/files/2025-01/microsoft-expanded-cloud-logs-implementation-playbook-508c.pdf)
-  * [Microsoft Sentinel Platform: Audit Logs and Where to Find Them, Dec 2025](https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/microsoft-sentinel-platform-audit-logs-and-where-to-find-them/4481838) `CloudAppEvents` table 
+  * [Microsoft Sentinel Platform: Audit Logs and Where to Find Them, Dec 2025](https://techcommunity.microsoft.com/blog/MicrosoftSentinelBlog/microsoft-sentinel-platform-audit-logs-and-where-to-find-them/4481838) `CloudAppEvents` table
 * Saas Workday
   * [Workday REST services directory: activityLogging](https://community.workday.com/sites/default/files/file-hosting/restapi/index.html#privacy/v1/get-/activityLogging)
   * [Workday User Activity Logs - Datadog](https://docs.datadoghq.com/integrations/workday/)

@@ -112,7 +112,7 @@ https://www.privacylaws.com/Documents/data_breach_conference.pdf
 5. Who will review and approve the report?
 6. How will you submit the report?
 7. How will you ensure all of this is done within the required time frame?
-And......how will you reconcile differing requirements to meet them all? 
+And......how will you reconcile differing requirements to meet them all?
 https://www.linkedin.com/posts/shari-gribbin-%F0%9F%87%BA%F0%9F%87%A6-%F0%9F%8C%BB-33311b17_senate-introduces-legislation-requiring-24-activity-6851252992763559936-MmuZ/
 
 * [SEC Adopts Rules on Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure by Public Companies, Jul 2023](https://www.sec.gov/news/press-release/2023-139): 4 days notification after incident is determined material, aka can impact on investors decision (cyber breach, operations impact...), [DtSR Episode 568 - Breaches Cyber Insurance White Castle and the SEC , Sep 2023](https://dtsr.buzzsprout.com/2153215/13574513-dtsr-episode-568-breaches-cyber-insurance-white-castle-and-the-sec)
@@ -133,7 +133,7 @@ https://www.linkedin.com/posts/shari-gribbin-%F0%9F%87%BA%F0%9F%87%A6-%F0%9F%8C%
 * [Conduent's handling of its data breach has been truly shit, refusing to say how many people are affected, or how the breach occurred.
 Conduent hid its breach notice with "noindex" code, so you won't see the page in search results. The breach notice doesn't even *mention* a breach! https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/](https://mastodon.social/@zackwhittaker/116126037459971093), [I have a thread on Mastodon for the Conduent breach. They wouldn’t admit what happened, then tried to hide their own disclosure.](https://cyberplace.social/@GossiTheDog/113863427876764186)
 * [Dutch ISP Odido is giving customers affected by its data breach an F-Secure voucher to use the antivirus for free for two years.
-This is genuinely a more expensive payout than the $5-$10 Americans typically get for their breaches. 
+This is genuinely a more expensive payout than the $5-$10 Americans typically get for their breaches.
 https://www.odido.nl/veiligheid](https://bsky.app/profile/campuscodi.risky.biz/post/3mfmiqse4oc2g)
 * [Stryker filed an 8-K with the SEC saying no indication of malware on their environment - yet Palo-Alto's DFIR statement says they have removed malware from Stryker's environment.](https://cyberplace.social/@GossiTheDog/116286593885678911)
 * [Delinea used similar language in a 2024 security incident, where they hid the details behind a support paywall - my prior thread: https://cyberplace.social/@GossiTheDog/112268610356999105](https://cyberplace.social/@GossiTheDog/116784468212525334)
